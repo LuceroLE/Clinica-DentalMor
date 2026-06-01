@@ -1,4 +1,4 @@
-id_presupuesto;nombre_presupuesto;id_paciente;estado_presupuesto;motivo_del_rechazo;fecha_inicio;Estado;Tarifa;Vencimiento;¿Enviado?;cobro_total;cobro_total_IVA;;;;;;;;;;;;;;
+id_presupuesto;nombre_presupuesto;id_paciente;estado_presupuesto;motivo_del_rechazo;fecha_inicio;Estado;Tarifa;Vencimiento;Â¿Enviado?;cobro_total;cobro_total_IVA;;;;;;;;;;;;;;
 24;PRESUPUESTO DE ORTODONCIA CON ALINEADORES;00113;accepted;-;24/2/2026;aceptado;TARIFAS 2026;24/8/2026;No;2.380,00;2.380,00;;;;;;;;;;;;;;
 23;;00001;pending;-;24/2/2026;pendiente;TARIFAS 2026;24/8/2026;No;50,00;50,00;;;;;;;;;;;;;;
 22;PRESUPUESTO DE ORTODONCIA CON ALINEADORES;00031;pending;-;24/2/2026;pendiente;TARIFAS 2026;24/8/2026;No;3.570,00;3.570,00;;;;;;;;;;;;;;
