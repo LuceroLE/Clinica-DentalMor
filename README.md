@@ -1,6 +1,6 @@
 Análisis de Rendimiento Operativo y Financiero: Clínica Dental (Q1 2026)
 Objetivo del Proyecto
-Evaluación del primer cuatrimestre de apertura de la clínica para identificar cuellos de botella operativos, medir la receptividad comercial de los pacientes y optimizar el flujo de caja. El fin último es transformar datos de gestión en decisiones estratégicas que aceleren el crecimiento del negocio.
+Evaluación  de la clínica para identificar cuellos de botella operativos, medir la receptividad comercial de los pacientes y optimizar el flujo de caja. El fin último es transformar datos de gestión en decisiones estratégicas que aceleren el crecimiento del negocio.
 
 Pilares del Análisis y KPIs Desarrollados
 1. Mix de Facturación y Rentabilidad de Tratamientos
