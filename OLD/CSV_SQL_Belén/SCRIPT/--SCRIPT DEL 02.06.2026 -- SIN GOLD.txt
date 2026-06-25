@@ -1,0 +1,484 @@
+--SCRIPT DEL 02.06.2026 -- SIN GOLD. COMPROBADOS CARGA DE CSVs Y CARGA EN POWER BI.
+===================================================================================
+
+--  BLOQUE 0 · LIMPIEZA PREVIA (borrar todo lo existente)
+-- ================================================================================
+---1. Tablas silver
+DROP TABLE IF EXISTS tratamientos_silver CASCADE;
+DROP TABLE IF EXISTS facturas_silver  CASCADE;
+DROP TABLE IF EXISTS cobros_silver CASCADE;
+DROP TABLE IF EXISTS presupuestos_silver CASCADE;
+DROP TABLE IF EXISTS profesionales_silver CASCADE;
+DROP TABLE IF EXISTS citas_silver CASCADE;
+DROP TABLE IF EXISTS pacientes_silver CASCADE;
+
+-- 2. Tabla de hechos
+DROP TABLE IF EXISTS fact_ventas CASCADE;
+
+-- 3. Dimensiones
+DROP TABLE IF EXISTS dim_pacientes CASCADE;
+DROP TABLE IF EXISTS dim_profesionales CASCADE;
+DROP TABLE IF EXISTS dim_tratamientos CASCADE;
+DROP TABLE IF EXISTS dim_tiempo CASCADE;
+
+-- 4. Vistas
+DROP VIEW IF EXISTS view_kpi_citas;
+DROP VIEW IF EXISTS view_kpi_evolucion_facturacion ;
+DROP VIEW IF EXISTS view_kpi_pacientes;
+DROP VIEW IF EXISTS view_kpi_presupuestos;
+DROP VIEW IF EXISTS view_kpi_tiempo_facturacion;
+DROP VIEW IF EXISTS view_kpi_ventas_por_tratamiento ;
+
+============================================================
+--  BLOQUE 1. TABLAS SILVER.
+-- ============================================================
+CREATE TABLE tratamientos_silver (
+	id_registro_interno BIGSERIAL PRIMARY KEY,
+    id_tratamiento VARCHAR(50), 
+    nombre_tratamiento VARCHAR(100) NOT NULL,
+    id_paciente VARCHAR(50) NOT NULL,
+    dientes VARCHAR(50),
+    fecha_inicio TIMESTAMP NOT NULL,
+    fecha_fin TIMESTAMP,
+    nombre_profesional VARCHAR(50),
+    estado_tratamiento VARCHAR(50),
+    CONSTRAINT chk_estado_trat CHECK (LOWER(estado_tratamiento) IN (
+        'cancelado','en curso', 'en observacion', 'finalizado', 'nuevo', 'previsto', 'previo'
+    ))
+);
+
+CREATE TABLE facturas_silver (
+    id_factura VARCHAR(50) , -- Cambiado de BIGSERIAL a VARCHAR para aceptar "2026-00094"
+    id_paciente VARCHAR(50) NOT NULL,    -- Si tus IDs de paciente tienen ceros a la izquierda (00044), mejor VARCHAR
+    nif VARCHAR(20),
+    calle VARCHAR(200),
+    localidad VARCHAR(100),
+    cp VARCHAR(15),
+    pais VARCHAR(50),
+    fecha_factura DATE NOT NULL,
+    id_tratamiento VARCHAR(50),          
+    nombre_tratamiento VARCHAR(100),
+    total DECIMAL(12, 2),
+    metodo_pago VARCHAR(50),
+    CONSTRAINT chk_metodo_pago CHECK (LOWER(metodo_pago) IN (
+        'efectivo', 'tarjeta','transferencia','-')
+        )
+);
+
+CREATE TABLE cobros_silver (
+    id_cobro VARCHAR(50) PRIMARY KEY,
+    fecha_cobro TIMESTAMP,
+    id_paciente VARCHAR(50) NOT NULL,
+    id_tratamiento  VARCHAR(50),
+    nombre_tratamiento VARCHAR(100),
+    nombre_profesional VARCHAR(50),
+    pago_completo VARCHAR(2), 
+    pago_pendiente DECIMAL(12, 2),
+    total_cobro DECIMAL(12, 2),
+    metodo_pago VARCHAR(50),
+     CONSTRAINT chk_metodo_pago CHECK (LOWER(metodo_pago ) IN (
+        'efectivo', 'tarjeta','transferencia'
+    ))
+);
+
+CREATE TABLE presupuestos_silver (
+    -- Usamos VARCHAR si tus IDs no son números puros
+    id_presupuesto VARCHAR(50) PRIMARY KEY, 
+    id_paciente VARCHAR(50) NOT NULL,
+    estado VARCHAR(20), 
+    CONSTRAINT chk_estado CHECK (LOWER(estado) IN ('aceptado', 'pendiente', 'rechazado', 'enviado')),
+    motivo_rechazo TEXT,
+    fecha_inicio TIMESTAMP,
+    fecha_vencimiento DATE,
+    enviado VARCHAR(2),
+    CONSTRAINT chk_pres_env CHECK (LOWER(enviado) IN (
+        'si', 'no')
+    ),
+    total DECIMAL(12, 2)
+);
+
+CREATE TABLE citas_silver (
+	id_cita VARCHAR(10) PRIMARY KEY,
+	fecha_cita date ,
+    hora_inicio TIME,
+    hora_fin TIME ,
+    estado_cita VARCHAR(20),
+    CONSTRAINT chk_estado_cita CHECK (LOWER(estado_cita) IN ('sala de espera',
+    	'gabinete','confirmada', 'sin confirmar', 'anulada', 'reprogramar', 'cancelada','finalizada')),
+    id_paciente VARCHAR(50) NOT NULL,
+    telefono BIGINT,
+    nombre_profesional VARCHAR(50),
+    nombre_tratamiento VARCHAR(100),
+    tipo_de_cita VARCHAR(50),
+    observaciones TEXT
+);
+
+CREATE TABLE profesionales_silver (
+    id_profesional BIGINT,
+    nombre_profesional VARCHAR(50),
+    especialidad VARCHAR(20)
+  );
+
+
+CREATE TABLE pacientes_silver (
+    id_paciente BIGINT PRIMARY KEY,           
+    fecha_nacimiento DATE,                
+    edad INT,                             
+    calle VARCHAR(200),
+    localidad VARCHAR(100) ,
+    cp VARCHAR(15) ,
+    pais VARCHAR(50) ,
+    telefono BIGINT ,                      
+    sexo VARCHAR(10) ,
+    fecha_alta DATE 
+);
+==================================================
+-- BLOQUE 2. DIMENSIONES
+==================================================
+-- Dimensión Pacientes
+CREATE TABLE dim_pacientes (
+    paciente_key SERIAL PRIMARY KEY, -- Surrogate Key para el DW
+    id_paciente_origen BIGINT,      -- ID original para trazabilidad
+    edad INT,
+    localidad VARCHAR(100),
+    pais VARCHAR(50),
+    sexo VARCHAR(10),
+    fecha_alta DATE
+);
+
+-- Dimensión Profesionales
+CREATE TABLE dim_profesionales (
+    profesional_key SERIAL PRIMARY KEY,
+    id_profesional_origen BIGINT,
+    nombre_profesional VARCHAR(50),
+    especialidad VARCHAR(20)
+);
+
+-- Dimensión Tratamientos
+CREATE TABLE dim_tratamientos (
+    tratamiento_key SERIAL PRIMARY KEY,
+    id_tratamiento_origen VARCHAR(50),
+    nombre_tratamiento VARCHAR(100)
+);
+
+-- Dimensión Tiempo (Crucial para análisis temporal)
+CREATE TABLE dim_tiempo (
+    fecha_key DATE PRIMARY KEY,
+    anio INT,
+    mes INT,
+    dia INT,
+    trimestre INT,
+    dia_semana VARCHAR(15)
+);
+-- ============================================================
+--  BLOQUE 3 · TABLA DE HECHOS (única) e INSERTs
+-- ============================================================
+
+CREATE TABLE fact_ventas (
+    evento_key SERIAL PRIMARY KEY,
+    -- Dimensiones (FKs)
+    fecha_key DATE REFERENCES dim_tiempo(fecha_key),
+    paciente_key INT REFERENCES dim_pacientes(paciente_key),
+    profesional_key INT REFERENCES dim_profesionales(profesional_key),
+    tratamiento_key INT REFERENCES dim_tratamientos(tratamiento_key),
+    
+    -- Métricas (Hechos)
+    monto_facturado DECIMAL(12, 2),
+    monto_cobrado DECIMAL(12, 2),
+    monto_pendiente DECIMAL(12, 2),
+    duracion_cita_minutos INT,
+    
+    -- Atributos de soporte para el hecho
+    metodo_pago VARCHAR(50),
+    estado_tratamiento VARCHAR(50)
+);
+
+-- Insertamos datos en las tablas----
+--1. Dimensión pacientes
+INSERT INTO dim_pacientes (
+    id_paciente_origen, 
+    edad, 
+    localidad, 
+    pais, 
+    sexo, 
+    fecha_alta
+)
+SELECT DISTINCT
+    id_paciente,            -- Mapeo del ID original
+    edad,                   -- Edad estática guardada en silver
+    localidad,              -- Localidad del paciente
+    pais,                   -- País del paciente
+    sexo,                   -- Sexo
+    fecha_alta              -- Fecha de alta en el sistema
+FROM pacientes_silver
+WHERE NOT EXISTS (
+    SELECT 1 
+    FROM dim_pacientes 
+    WHERE dim_pacientes.id_paciente_origen = pacientes_silver.id_paciente
+);
+
+--2. Dimensión profesionales
+
+INSERT INTO dim_profesionales (
+    id_profesional_origen, 
+    nombre_profesional, 
+    especialidad
+)
+SELECT DISTINCT
+    id_profesional,           -- ID original del profesional
+    TRIM(nombre_profesional), -- Limpiamos espacios innecesarios
+    especialidad
+FROM profesionales_silver
+WHERE NOT EXISTS (
+    SELECT 1 
+    FROM dim_profesionales 
+    WHERE dim_profesionales.id_profesional_origen = profesionales_silver.id_profesional
+);
+
+--3. Dimension tratamientos
+
+INSERT INTO dim_tratamientos (
+    id_tratamiento_origen, 
+    nombre_tratamiento
+)
+SELECT DISTINCT
+    id_tratamiento,           -- ID original
+    TRIM(nombre_tratamiento)  -- Nombre limpio
+FROM tratamientos_silver
+WHERE NOT EXISTS (
+    SELECT 1 
+    FROM dim_tratamientos 
+    WHERE dim_tratamientos.id_tratamiento_origen = tratamientos_silver.id_tratamiento
+);
+--4. Dimensión tiempo
+INSERT INTO dim_tiempo (fecha_key, anio, mes, dia, trimestre)
+SELECT 
+    d::date,
+    EXTRACT(YEAR FROM d)::int,
+    EXTRACT(MONTH FROM d)::int,
+    EXTRACT(DAY FROM d)::int,
+    EXTRACT(QUARTER FROM d)::int
+FROM generate_series('2026-01-01'::date, '2026-12-31'::date, '1 day'::interval) d
+WHERE NOT EXISTS (SELECT 1 FROM dim_tiempo WHERE fecha_key = d::date);
+
+-- 5. Tabla de hechos ---
+
+INSERT INTO fact_ventas (
+    fecha_key,
+    paciente_key,
+    profesional_key,
+    tratamiento_key,
+    monto_facturado,
+    monto_cobrado,
+    monto_pendiente,
+    duracion_cita_minutos,
+    metodo_pago,
+    estado_tratamiento
+)
+SELECT 
+    f.fecha_factura AS fecha_key,
+    p.paciente_key,
+    pr.profesional_key,
+    t.tratamiento_key,
+    f.total AS monto_facturado,
+    COALESCE(c.total_cobro, 0) AS monto_cobrado,
+    (f.total - COALESCE(c.total_cobro, 0)) AS monto_pendiente,
+    -- Calculamos la duración en minutos
+    EXTRACT(EPOCH FROM (cit.hora_fin - cit.hora_inicio))/60 AS duracion_cita_minutos,
+    c.metodo_pago,
+    cit.estado_cita AS estado_tratamiento
+FROM facturas_silver f
+-- Unimos dimensiones
+LEFT JOIN dim_pacientes p ON f.id_paciente::BIGINT = p.id_paciente_origen
+LEFT JOIN dim_tratamientos t ON LOWER(TRIM(f.nombre_tratamiento)) = LOWER(TRIM(t.nombre_tratamiento))
+-- Unimos con citas usando paciente Y tratamiento para mayor precisión
+LEFT JOIN citas_silver cit ON f.id_paciente = cit.id_paciente 
+                           AND LOWER(TRIM(f.nombre_tratamiento)) = LOWER(TRIM(cit.nombre_tratamiento))
+-- Unimos profesional y cobros
+LEFT JOIN dim_profesionales pr ON LOWER(TRIM(cit.nombre_profesional)) = LOWER(TRIM(pr.nombre_profesional))
+LEFT JOIN cobros_silver c ON f.id_paciente = c.id_paciente AND f.id_tratamiento = c.id_tratamiento;
+
+
+-- ============================================================
+--  BLOQUE 4 · VISTAS PARA KPIs
+-- ============================================================
+-- Bloque 1: Evolución de facturación
+
+CREATE VIEW view_kpi_evolucion_facturacion AS
+SELECT 
+    t.anio,
+    t.mes,
+    SUM(f.monto_facturado) AS total_facturado,
+    COUNT(f.evento_key) AS numero_facturas,
+    AVG(f.monto_facturado) AS ticket_promedio
+FROM fact_ventas f
+JOIN dim_tiempo t ON f.fecha_key = t.fecha_key
+GROUP BY t.anio, t.mes
+ORDER BY t.anio DESC, t.mes DESC;
+
+-- ------------------------------------------------------------
+-- Bloque 2: Tratamientos
+CREATE VIEW view_kpi_ventas_por_tratamiento AS
+SELECT 
+    dt.nombre_tratamiento,
+    COUNT(f.evento_key) AS total_servicios_realizados,
+    SUM(f.monto_facturado) AS ingresos_totales,
+    AVG(f.monto_facturado) AS precio_promedio_tratamiento,
+    SUM(f.monto_cobrado) AS cobros_reales
+FROM fact_ventas f
+JOIN dim_tratamientos dt ON f.tratamiento_key = dt.tratamiento_key
+GROUP BY dt.nombre_tratamiento
+ORDER BY ingresos_totales DESC;
+
+-- ------------------------------------------------------------
+-- Bloque 3: Presupuestos (desde presupuestos_gold directamente)
+CREATE VIEW view_kpi_presupuestos AS
+SELECT 
+    estado,
+    COUNT(id_presupuesto) AS total_presupuestos,
+    SUM(total) AS valor_total_monetario,
+    ROUND(AVG(total), 2) AS valor_promedio_presupuesto,
+    -- Calculamos el porcentaje de cada estado sobre el total para visibilidad rápida
+    ROUND(COUNT(id_presupuesto) * 100.0 / SUM(COUNT(id_presupuesto)) OVER (), 2) AS porcentaje_distribucion
+FROM presupuestos_silver
+GROUP BY estado
+ORDER BY valor_total_monetario DESC;
+-- ------------------------------------------------------------
+-- Bloque 4: Estado de citas
+
+CREATE VIEW view_kpi_citas AS
+SELECT 
+    estado_cita,
+    COUNT(id_cita) AS total_citas,
+    -- Calculamos el porcentaje de cada estado sobre el total de citas
+    ROUND(COUNT(id_cita) * 100.0 / SUM(COUNT(id_cita)) OVER (), 2) AS porcentaje_distribucion,
+    -- Contamos cuántas citas tienen observaciones para medir la calidad del registro
+    COUNT(observaciones) AS citas_con_observaciones,
+    -- Calculamos la ocupación media diaria (basado en fechas únicas)
+    ROUND(COUNT(id_cita)::numeric / NULLIF(COUNT(DISTINCT fecha_cita), 0), 2) AS citas_promedio_por_dia
+FROM citas_silver
+GROUP BY estado_cita
+ORDER BY total_citas DESC;
+
+-- ------------------------------------------------------------
+-- Bloque 5: Pacientes nuevos (desde citas_gold directamente)
+CREATE OR REPLACE VIEW view_kpi_pacientes AS
+WITH estadisticas_anuales AS (
+    -- Primero calculamos lo que necesitamos por año
+    SELECT 
+        EXTRACT(YEAR FROM fecha_alta) AS anio_alta,
+        localidad,
+        sexo,
+        COUNT(id_paciente) AS total_pacientes,
+        ROUND(AVG(EXTRACT(YEAR FROM AGE(CURRENT_DATE, fecha_nacimiento))), 1) AS edad_promedio_actual
+    FROM pacientes_silver
+    GROUP BY EXTRACT(YEAR FROM fecha_alta), localidad, sexo
+)
+SELECT 
+    *,
+    -- Ahora sumamos los totales por año usando una función de ventana sobre el resultado ya agrupado
+    SUM(total_pacientes) OVER(PARTITION BY anio_alta) AS total_pacientes_en_el_anio
+FROM estadisticas_anuales
+ORDER BY anio_alta DESC, total_pacientes DESC;
+
+-- ------------------------------------------------------------
+-- Bloque 6: Días hasta facturación (desde facturas_gold directamente)
+CREATE OR REPLACE VIEW view_kpi_tiempo_facturacion AS
+SELECT 
+    c.id_paciente,
+    c.nombre_tratamiento,
+    c.fecha_cita,
+    f.fecha_factura,
+    -- Calculamos la diferencia en días
+    (f.fecha_factura - c.fecha_cita) AS dias_hasta_facturacion,
+    -- Promedio de días para ese tratamiento específico
+    AVG(f.fecha_factura - c.fecha_cita) OVER(PARTITION BY c.nombre_tratamiento) AS promedio_dias_por_tratamiento
+FROM citas_silver c
+JOIN facturas_silver f ON c.id_paciente = f.id_paciente 
+    AND c.nombre_tratamiento = f.nombre_tratamiento
+WHERE f.fecha_factura >= c.fecha_cita;
+
+============================================================
+--  BLOQUE 7 · CONSULTAS DE ANÁLISIS (KPIs) ¿Por qué aquí?
+-- ============================================================
+--1 - FACTURACIÓN Y TENDENCIAS----
+-- Facturación Total
+SELECT SUM(monto_facturado) AS total_ingresos FROM fact_ventas;
+
+-- Facturación por mes
+SELECT t.anio, t.mes, SUM(f.monto_facturado) AS total_mes
+FROM fact_ventas f
+JOIN dim_tiempo t ON f.fecha_key = t.fecha_key
+GROUP BY t.anio, t.mes ORDER BY t.anio DESC, t.mes DESC;
+
+-- Mejores meses (Ordenados por facturación)
+SELECT t.anio, t.mes, SUM(f.monto_facturado) AS total
+FROM fact_ventas f
+JOIN dim_tiempo t ON f.fecha_key = t.fecha_key
+GROUP BY t.anio, t.mes ORDER BY total DESC;
+
+-- 2. PACIENTES------
+
+-- Top 5 pacientes por ingreso generado
+SELECT p.id_paciente_origen, SUM(f.monto_facturado) AS total_gastado
+FROM fact_ventas f
+JOIN dim_pacientes p ON f.paciente_key = p.paciente_key
+GROUP BY p.id_paciente_origen ORDER BY total_gastado DESC LIMIT 5;
+
+-- Pacientes nuevos por mes (Basado en fecha_alta)
+SELECT EXTRACT(YEAR FROM fecha_alta) AS anio, EXTRACT(MONTH FROM fecha_alta) AS mes, 
+       COUNT(id_paciente) AS nuevos_pacientes
+FROM pacientes_silver GROUP BY 1, 2 ORDER BY 1 DESC, 2 DESC;
+
+-- Pacientes recurrentes (Top 5 por número de cobros)
+SELECT p.id_paciente_origen, COUNT(c.id_cobro) AS num_cobros
+FROM cobros_silver c
+JOIN dim_pacientes p ON c.id_paciente = p.id_paciente_origen::VARCHAR
+GROUP BY p.id_paciente_origen ORDER BY num_cobros DESC LIMIT 5;
+
+--3. TRATAMIENTOS Y TICKETS---
+
+-- Tratamientos más vendidos
+SELECT dt.nombre_tratamiento, COUNT(*) AS cantidad_vendida
+FROM fact_ventas f
+JOIN dim_tratamientos dt ON f.tratamiento_key = dt.tratamiento_key
+GROUP BY 1 ORDER BY 2 DESC;
+
+-- Ticket medio por tratamiento
+SELECT dt.nombre_tratamiento, AVG(f.monto_facturado) AS ticket_promedio
+FROM fact_ventas f
+JOIN dim_tratamientos dt ON f.tratamiento_key = dt.tratamiento_key
+GROUP BY 1;
+--4. PROFESIONALES Y CITAS ---
+
+-- Facturación por profesional !! Me da error.
+SELECT pr.nombre_profesional, SUM(f.monto_facturado) AS total_facturado
+FROM fact_ventas f
+JOIN dim_profesionales pr ON f.profesional_key = pr.profesional_key
+GROUP BY 1 ORDER BY 2 DESC;
+
+
+-- Ingreso medio por paciente
+SELECT AVG(total_por_paciente) AS promedio_ingreso_paciente FROM (
+    SELECT SUM(monto_facturado) AS total_por_paciente 
+    FROM fact_ventas GROUP BY paciente_key
+) AS subquery;
+
+-- Ticket medio por cita
+SELECT AVG(monto_facturado) AS ticket_medio_cita FROM fact_ventas;
+
+--5. OPERATIVOS--
+
+-- % Estado cita
+SELECT estado_cita, COUNT(*) * 100.0 / SUM(COUNT(*)) OVER() AS porcentaje
+FROM citas_silver GROUP BY estado_cita;
+
+-- Días entre tratamiento y facturación
+SELECT AVG(f.fecha_factura - c.fecha_cita) AS dias_promedio
+FROM citas_silver c
+JOIN facturas_silver f ON c.id_paciente = f.id_paciente 
+    AND c.nombre_tratamiento = f.nombre_tratamiento;
+
+-- Facturación por método de pago
+SELECT metodo_pago, SUM(total_cobro) AS total
+FROM cobros_silver GROUP BY metodo_pago;

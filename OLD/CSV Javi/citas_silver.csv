@@ -1,0 +1,425 @@
+﻿cita;hora_fin;estado;paciente;teléfono;profesional;gabinete;tratamiento/s;tipo_de_cita;observaciones;fecha
+2026-10-05 - 18:30;19:00:00;sin confirmar;00152;637876522;dra. cristina moreno;-;REVISIÓN;-;-;05/10/2026
+2026-10-05 - 17:00;17:30:00;sin confirmar;00112;692168577;dra. cristina moreno;-;REVISIÓN;-;-;05/10/2026
+2026-10-05 - 12:30;12:45:00;sin confirmar;00153;692721793;dra. cristina moreno;-;REVISIÓN;-;-;05/10/2026
+2026-10-02 - 09:00;9:30:00;sin confirmar;00163;634823400;dra. cristina moreno;-;REVISIÓN;-;-;02/10/2026
+2026-09-28 - 12:30;12:45:00;sin confirmar;00110;658911179;dra. cristina moreno;-;REVISIÓN, HIGIENE DENTAL;-;-;28/09/2026
+2026-09-28 - 12:00;12:30:00;sin confirmar;00110;658911179;alicia gonzález moreno;-;HIGIENE DENTAL;-;-;28/09/2026
+2026-09-21 - 16:00;16:15:00;sin confirmar;00027;649151125;alicia gonzález moreno;-;-;REVISIÓN ;-;21/09/2026
+2026-09-14 - 16:00;16:15:00;sin confirmar;00129;609777003;dra. cristina moreno;-;-;REVISIÓN ;-;14/09/2026
+2026-09-08 - 18:30;19:00:00;sin confirmar;00114;607407832;dra. cristina moreno;-;-;REVISIÓN ;rev ret;08/09/2026
+2026-09-07 - 18:15;18:45:00;sin confirmar;00158;647111827;alicia gonzález moreno;-;HIGIENE DENTAL;-;-;07/09/2026
+2026-09-07 - 18:00;18:15:00;sin confirmar;00158;647111827;dra. cristina moreno;-;REVISIÓN;-;-;07/09/2026
+2026-09-07 - 17:30;18:00:00;sin confirmar;00060;609642197;dra. cristina moreno;-;-;REVISIÓN ;rev ret;07/09/2026
+2026-09-07 - 17:00;17:30:00;sin confirmar;00046;669582870;dra. cristina moreno;-;-;-;-;07/09/2026
+2026-08-10 - 18:30;18:45:00;sin confirmar;00128;646207118;dra. cristina moreno;-;-;REVISIÓN ;REV RET;10/08/2026
+2026-08-10 - 16:00;16:30:00;sin confirmar;00082;607407833;dra. cristina moreno;-;-;REVISIÓN ;rev ret y carillas;10/08/2026
+2026-08-03 - 11:30;12:00:00;sin confirmar;00117;681165752;dra. cristina moreno;-;-;-;rev ret;03/08/2026
+2026-06-23 - 16:30;16:59:00;sin confirmar;00035;51461046;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;-;-;23/06/2026
+2026-06-15 - 16:30;16:45:00;sin confirmar;00111;601273410;dra. cristina moreno;-;-;REVISIÓN ;rev ret y valorar hacer ret fija abajo;15/06/2026
+2026-06-15 - 16:00;16:30:00;sin confirmar;00111;601273410;alicia gonzález moreno;-;-;HIGIENE;-;15/06/2026
+2026-06-02 - 17:45;18:00:00;sin confirmar;00063;609127439;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;-;-;02/06/2026
+2026-06-01 - 19:00;19:30:00;sin confirmar;00032;600950847;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;01/06/2026
+2026-05-19 - 17:00;17:30:00;sin confirmar;00018;610458803;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;19/05/2026
+2026-05-12 - 18:30;18:45:00;sin confirmar;00036;649573743;dra. cristina moreno;-;-;-;-;12/05/2026
+2026-05-12 - 18:00;18:30:00;sin confirmar;00009;625461704;dra. cristina moreno;-;-;-;-;12/05/2026
+2026-05-12 - 17:30;18:00:00;sin confirmar;00019;679752879;dra. cristina moreno;-;-;-;-;12/05/2026
+2026-05-12 - 17:00;17:15:00;sin confirmar;00067;689050268;dra. cristina moreno;-;-;-;-;12/05/2026
+2026-05-12 - 16:00;16:30:00;sin confirmar;00052;676150659;dra. cristina moreno;-;-;-;-;12/05/2026
+2026-05-12 - 11:15;11:45:00;sin confirmar;00125;69967999;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;12/05/2026
+2026-05-12 - 11:00;11:15:00;sin confirmar;00125;69967999;dra. cristina moreno;-;-;REVISIÓN ;-;12/05/2026
+2026-05-11 - 17:30;18:00:00;sin confirmar;00061;626091681;dra. cristina moreno;-;REVISIÓN;-;-;11/05/2026
+2026-05-11 - 16:00;16:15:00;sin confirmar;00130;679770329;dra. cristina moreno;-;-;-;rev OM;11/05/2026
+2026-05-08 - 10:00;10:30:00;sin confirmar;00041;680876601;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;-;08/05/2026
+2026-05-05 - 19:15;19:45:00;sin confirmar;00021;669340896;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;revi metalicos;05/05/2026
+2026-05-05 - 18:30;19:00:00;sin confirmar;00050;651738221;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;05/05/2026
+2026-05-05 - 15:30;16:00:00;sin confirmar;00104;696793806;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;05/05/2026
+2026-05-04 - 18:30;19:00:00;sin confirmar;00031;651663790;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;-;04/05/2026
+2026-05-04 - 16:30;17:00:00;sin confirmar;00028;617387518;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;04/05/2026
+2026-05-04 - 12:00;12:30:00;sin confirmar;00026;699291158;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;colcoar nuevos alineadores*** mirar que lleguen antes de confirmarle la cita a ella;04/05/2026
+2026-05-04 - 11:30;12:00:00;sin confirmar;00033;629608351;dra. cristina moreno;-;-;-;-;04/05/2026
+2026-04-30 - 13:30;14:00:00;sin confirmar;00026;699291158;alicia gonzález moreno;-;ORTODONCIA CON ALINEADORES FULL;-;retirar todos los ataches;30/04/2026
+2026-04-28 - 18:30;19:00:00;sin confirmar;00034;620751543;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;28/04/2026
+2026-04-28 - 18:00;18:30:00;sin confirmar;00010;667462548;dra. cristina moreno;-;-;REVISIÓN ;revi ;28/04/2026
+2026-04-27 - 19:30;20:00:00;sin confirmar;00108;649355436;dra. cristina moreno;-;-;REVISIÓN ;-;27/04/2026
+2026-04-27 - 12:00;12:15:00;sin confirmar;00159;687936581;dra. cristina moreno;-;REVISIÓN;-;rev ret;27/04/2026
+2026-04-27 - 11:00;11:30:00;sin confirmar;00038;652034661;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;Revisión invisa;27/04/2026
+2026-04-21 - 19:00;19:30:00;sin confirmar;00151;645809800;dra. cristina moreno;-;-;-;le hicimos una exo temporal, ver si ha recambiado alguna mas;21/04/2026
+2026-04-21 - 18:30;19:00:00;sin confirmar;00011;645809800;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;21/04/2026
+2026-04-21 - 18:00;18:15:00;sin confirmar;00141;696837806;dra. cristina moreno;-;REVISIÓN;-;REV BLANQ;21/04/2026
+2026-04-21 - 17:30;18:00:00;sin confirmar;00175;650 18 91 26;dra. cristina moreno;-;-;REVISIÓN ;Revi general. Llama ella para coger cita, solo puede venir por la tarde;21/04/2026
+2026-04-21 - 16:30;17:00:00;sin confirmar;00069;656819989;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;21/04/2026
+2026-04-21 - 16:00;16:30:00;sin confirmar;00075;693652758;dra. cristina moreno;-;REVISIÓN;-;-;21/04/2026
+2026-04-20 - 19:15;19:45:00;sin confirmar;00085;605131529;dra. cristina moreno;-;REVISIÓN;-;-;20/04/2026
+2026-04-20 - 18:45;19:15:00;sin confirmar;00047;605131529;dra. cristina moreno;-;OBTURACION EN DIENTE TEMPORAL;-;-;20/04/2026
+2026-04-20 - 18:30;18:45:00;sin confirmar;00173;648012147;dra. cristina moreno;-;REVISIÓN;-;-;20/04/2026
+2026-04-20 - 18:00;18:30:00;sin confirmar;00173;648012147;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;20/04/2026
+2026-04-20 - 17:30;18:00:00;sin confirmar;00148;601114305;dra. cristina moreno;-;RECONSTRUCCIÓN (46);-;-;20/04/2026
+2026-04-20 - 17:00;17:15:00;sin confirmar;00039;660538723;dra. cristina moreno;-;REVISIÓN;-;-;20/04/2026
+2026-04-20 - 16:15;16:45:00;sin confirmar;00044;689057608;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;REVI ALINEADORES;20/04/2026
+2026-04-20 - 16:00;16:15:00;sin confirmar;00064;627534664;dra. cristina moreno;-;RASPADO Y ALISADO RADICULAR UNA PIEZA;-;-;20/04/2026
+2026-04-20 - 15:30;16:00:00;sin confirmar;00064;627534664;alicia gonzález moreno;-;RASPADO Y ALISADO RADICULAR UNA PIEZA, HIGIENE DENTAL;-;-;20/04/2026
+2026-04-20 - 12:00;12:40:00;sin confirmar;00140;653661907;dra. cristina moreno;-;OBTURACION SIMPLE, OBTURACION SIMPLE (46);-;-;20/04/2026
+2026-04-20 - 11:00;11:30:00;confirmada;00172;-;dra. cristina moreno;-;-;HIGIENE;revision e higiene amigo de Cristina;20/04/2026
+2026-04-17 - 10:00;10:15:00;sin confirmar;00177;699168866;dra. cristina moreno;-;REVISIÓN, HIGIENE DENTAL;-;REV RET;17/04/2026
+2026-04-17 - 09:30;10:00:00;sin confirmar;00177;699168866;alicia gonzález moreno;-;HIGIENE DENTAL;-;-;17/04/2026
+2026-04-14 - 19:00;19:30:00;sin confirmar;00164;-;dra. cristina moreno;-;REVISIÓN;-;rev ret;14/04/2026
+2026-04-14 - 18:30;19:00:00;sin confirmar;00051;663624547;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;14/04/2026
+2026-04-14 - 18:00;18:15:00;sin confirmar;00137;676883632;dra. cristina moreno;-;REVISIÓN;-;REV RET;14/04/2026
+2026-04-14 - 17:30;18:00:00;sin confirmar;00156;686340715;dra. cristina moreno;-;REVISIÓN;-;rev ret;14/04/2026
+2026-04-14 - 17:15;17:30:00;sin confirmar;00058;636986482;dra. cristina moreno;-;REVISIÓN;-;REV RET;14/04/2026
+2026-04-14 - 17:00;17:15:00;sin confirmar;00057;636986482;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;-;-;14/04/2026
+2026-04-14 - 16:30;17:00:00;sin confirmar;00056;636986482;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;14/04/2026
+2026-04-14 - 16:00;16:30:00;sin confirmar;00115;619537299;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;rev OF;14/04/2026
+2026-04-14 - 11:30;11:45:00;sin confirmar;00139;630942372;dra. cristina moreno;-;REVISIÓN;-;-;14/04/2026
+2026-04-13 - 19:15;19:30:00;confirmada;00070;620431235;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;13/04/2026
+2026-04-13 - 18:00;19:00:00;sin confirmar;00144;647298496;dra. cristina moreno;-;CARILLA DE COMPOSITE (12);OBTURACIÓN;CARILLA 12;13/04/2026
+2026-04-13 - 17:30;18:00:00;confirmada;00174;625379674;dra. cristina moreno;-;REVISIÓN;-;REV RET;13/04/2026
+2026-04-13 - 17:00;17:30:00;confirmada;00132;695692686;dra. cristina moreno;-;PRIMERA VISITA ;-;-;13/04/2026
+2026-04-13 - 16:45;17:00:00;confirmada;00124;694428160;dra. cristina moreno;-;REVISIÓN;-;Rev ret. Hacer férula de descarga???;13/04/2026
+2026-04-13 - 16:30;16:45:00;sin confirmar;00065;628664091;dra. cristina moreno;-;REVISIÓN;-;-;13/04/2026
+2026-04-13 - 15:45;16:15:00;confirmada;00071;696218201;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES- UNA ARCADA;-;-;13/04/2026
+2026-04-13 - 12:00;12:30:00;confirmada;00176;647621067;dra. cristina moreno;-;REVISIÓN;-;rev ret, con algo de la retención fija despegado;13/04/2026
+2026-04-13 - 11:45;12:00:00;confirmada;00178;615587444;dra. cristina moreno;-;REVISIÓN;-;-;13/04/2026
+2026-04-13 - 11:30;11:45:00;confirmada;00113;615587444;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES LITE;-;-;13/04/2026
+2026-04-10 - 10:00;10:30:00;finalizada;00041;680876601;alicia gonzález moreno;-;ORTODONCIA CON ALINEADORES FULL;-;"DAR ALINEADOR N 4, 5 Y 6. SEGUIMOS CAMBIO CADA 10 DIAS
+HAY QUE HACER IPR EN ESA CITA: 14-15 DE 0.3; 11-21 DE 0.2; 33-34 DE 0.4";10/04/2026
+2026-04-07 - 19:00;19:15:00;confirmada;00148;601114305;dra. cristina moreno;-;-;-;-;07/04/2026
+2026-04-07 - 18:30;19:00:00;finalizada;00144;647298496;dra. cristina moreno;-;OBTURACION COMPUESTA;-;-;07/04/2026
+2026-04-07 - 18:00;18:30:00;sala de espera;00140;653661907;dra. cristina moreno;-;OBTURACION SIMPLE (16);-;-;07/04/2026
+2026-04-07 - 17:45;18:00:00;finalizada;00063;609127439;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;REVISIÓN ;rev OM;07/04/2026
+2026-04-07 - 17:00;17:30:00;finalizada;00119;646333581;dra. cristina moreno;-;-;-;-;07/04/2026
+2026-04-07 - 16:30;16:59:00;sala de espera;00035;51461046;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;REVISIÓN ;rev OM;07/04/2026
+2026-04-07 - 12:00;13:00:00;cancelada;00142;650244976;dra. cristina moreno;-;OBTURACION SIMPLE (46-45,35-37);-;-;07/04/2026
+2026-04-07 - 11:00;12:00:00;finalizada;00031;651663790;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;firmar consentimiento;07/04/2026
+2026-04-06 - 19:30;20:00:00;confirmada;00160;-;dra. cristina moreno;-;-;REVISIÓN ;revi;06/04/2026
+2026-04-06 - 19:10;19:40:00;finalizada;00152;637876522;alicia gonzález moreno;-;HIGIENE DENTAL;-;-;06/04/2026
+2026-04-06 - 19:00;19:30:00;confirmada;00032;600950847;dra. cristina moreno;-;-;REVISIÓN ;rev metálicos;06/04/2026
+2026-04-06 - 18:30;19:15:00;confirmada;00152;637876522;dra. cristina moreno;-;OBTURACION COMPUESTA (26o);-;-;06/04/2026
+2026-04-06 - 18:00;18:45:00;confirmada;00148;601114305;dra. cristina moreno;-;-;-;TERMINAR ENDO;06/04/2026
+2026-04-06 - 17:45;18:00:00;finalizada;00066;689050268;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;06/04/2026
+2026-04-06 - 17:30;17:45:00;finalizada;00067;689050268;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;Entregar el 4 y comienzo de elasticos;06/04/2026
+2026-04-06 - 17:00;17:30:00;confirmada;00136;606437989;dra. cristina moreno;-;-;-;rev retracción de encía, se lo ve peor;06/04/2026
+2026-04-06 - 16:30;17:00:00;finalizada;00028;617387518;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;rev OF;06/04/2026
+2026-04-06 - 16:00;16:30:00;finalizada;00071;696218201;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES- UNA ARCADA;REVISIÓN ;Ultimos alineadores. Quitar ataches y Ret ling ?????;06/04/2026
+2026-04-06 - 13:30;13:45:00;finalizada;00171;601277962;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;Conocido de Javi, en tto de Bk en otro pais, quiere presupuesto;06/04/2026
+2026-04-06 - 12:45;13:30:00;finalizada;00153;692721793;dra. cristina moreno;-;OBTURACION COMPUESTA (17);-;obt 17 y 46o;06/04/2026
+2026-04-06 - 12:00;12:45:00;finalizada;00026;699291158;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;retirada de ataches? escanear para ref + fotos;06/04/2026
+2026-04-06 - 11:30;12:00:00;finalizada;00048;606038130;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;Hacer ret ling inf?????;06/04/2026
+2026-04-06 - 11:00;11:30:00;finalizada;00033;629608351;dra. cristina moreno;-;-;REVISIÓN ;rev of;06/04/2026
+2026-04-01 - 17:00;17:30:00;sin confirmar;00170;635108272;alicia gonzález moreno;-;HIGIENE DENTAL;-;-;01/04/2026
+2026-04-01 - 16:30;17:00:00;sin confirmar;00165;659745423;alicia gonzález moreno;-;REVISIÓN;-;-;01/04/2026
+2026-03-31 - 18:00;18:30:00;confirmada;00158;647111827;dra. cristina moreno;-;REVISIÓN;-;rev ret;31/03/2026
+2026-03-31 - 17:30;18:00:00;sala de espera;00163;634823400;dra. cristina moreno;-;REVISIÓN;HIGIENE;Amigo Cristina, rev y limpieza. Pedir fecha nacimiento dirección y DNI****** ;31/03/2026
+2026-03-31 - 17:00;17:45:00;finalizada;00121;653856219;dra. cristina moreno;-;OBTURACION COMPUESTA (15);-;-;31/03/2026
+2026-03-31 - 16:00;17:00:00;finalizada;00118;617881379;dra. cristina moreno;-;RETENEDOR FIJO, RECONSTRUCCIÓN ESTÉTICA (22m);-;-;31/03/2026
+2026-03-31 - 13:45;14:00:00;finalizada;00168;-;dra. cristina moreno;-;REVISIÓN;-;-;31/03/2026
+2026-03-31 - 13:15;13:45:00;finalizada;00153;692721793;dra. cristina moreno;-;OBTURACION COMPUESTA (17);REVISIÓN ;-;31/03/2026
+2026-03-31 - 12:30;13:00:00;finalizada;00018;610458803;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;31/03/2026
+2026-03-31 - 12:00;12:30:00;finalizada;00162;686228764;dra. cristina moreno;-;-;-;Rev de ret con una obt caída;31/03/2026
+2026-03-31 - 11:30;12:00:00;finalizada;00139;630942372;dra. cristina moreno;-;REVISIÓN;-;-;31/03/2026
+2026-03-31 - 11:00;11:30:00;finalizada;00019;679752879;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;rev OF;31/03/2026
+2026-03-30 - 18:00;19:00:00;finalizada;00148;601114305;dra. cristina moreno;-;ENDODONCIA MULTIRRADICULAR (46);-;endodoncia con Ali 46;30/03/2026
+2026-03-30 - 17:30;18:00:00;finalizada;00140;653661907;dra. cristina moreno;-;OBTURACION SIMPLE;OBTURACIÓN;-;30/03/2026
+2026-03-30 - 17:15;17:30:00;no vino;00155;653661907;dra. cristina moreno;-;REVISIÓN;-;-;30/03/2026
+2026-03-30 - 17:00;17:15:00;finalizada;00140;653661907;alicia gonzález moreno;-;-;HIGIENE;limpieza perio sup;30/03/2026
+2026-03-30 - 16:30;17:00:00;finalizada;00147;637597895;dra. cristina moreno;-;REVISIÓN;-;"Rev ret. 
+Pedir DNI, teléfono y correo";30/03/2026
+2026-03-30 - 16:00;16:30:00;finalizada;00065;628664091;dra. cristina moreno;-;REVISIÓN;-;-;30/03/2026
+2026-03-30 - 15:30;16:00:00;finalizada;00165;659745423;dra. cristina moreno;-;REVISIÓN;-;REV RET, ROTO ESSIX INF, IMPRESION;30/03/2026
+2026-03-30 - 13:00;13:15:00;finalizada;00166;601158566;dra. cristina moreno;-;REVISIÓN;-;-;30/03/2026
+2026-03-30 - 12:30;13:00:00;finalizada;00009;625461704;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;30/03/2026
+2026-03-30 - 11:30;12:00:00;finalizada;00050;651738221;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;Revi metalicos;30/03/2026
+2026-03-25 - 16:00;16:30:00;confirmada;00112;692168577;alicia gonzález moreno;-;-;-;hacer ret ling;25/03/2026
+2026-03-24 - 19:15;19:45:00;sala de espera;00021;669340896;dra. cristina moreno;-;REVISIÓN;-;-;24/03/2026
+2026-03-24 - 18:30;19:00:00;finalizada;00034;620751543;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;rev OF;24/03/2026
+2026-03-24 - 18:00;18:30:00;finalizada;00010;667462548;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;REVISIÓN ;rev OM;24/03/2026
+2026-03-24 - 17:00;17:30:00;finalizada;00146;608519908;dra. cristina moreno;-;REVISIÓN;-;-;24/03/2026
+2026-03-24 - 16:30;17:00:00;finalizada;00146;608519908;alicia gonzález moreno;-;HIGIENE DENTAL;-;-;24/03/2026
+2026-03-24 - 16:00;16:30:00;finalizada;00052;676150659;dra. cristina moreno;-;-;REVISIÓN ;REV INV;24/03/2026
+2026-03-24 - 15:30;16:30:00;finalizada;00104;696793806;dra. cristina moreno;-;OBTURACION SIMPLE (44), OBTURACION SIMPLE (46), OBTURACION SIMPLE (26);OBTURACIÓN;-;24/03/2026
+2026-03-24 - 13:45;14:30:00;finalizada;00153;692721793;dra. cristina moreno;-;HIGIENE DENTAL;REVISIÓN ;REVISION CARIES;24/03/2026
+2026-03-24 - 13:15;13:45:00;finalizada;00153;692721793;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;24/03/2026
+2026-03-24 - 12:00;12:45:00;finalizada;00020;691496248;dra. cristina moreno;-;-;-;revisar reco, sigue con molestias y hablar del tto de INVISA;24/03/2026
+2026-03-23 - 19:00;19:30:00;confirmada;00032;600950847;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;Revi ortodoncia ;23/03/2026
+2026-03-23 - 18:15;18:30:00;confirmada;00124;694428160;dra. cristina moreno;-;REVISIÓN;-;Rev ret;23/03/2026
+2026-03-23 - 17:45;18:14:00;confirmada;00047;605131529;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;REVISIÓN ;Revi ortodoncia ;23/03/2026
+2026-03-23 - 17:30;17:45:00;confirmada;00061;626091681;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;23/03/2026
+2026-03-23 - 17:15;17:30:00;confirmada;00144;647298496;dra. cristina moreno;-;-;REVISIÓN ;rev ret, quiere hacer carilla;23/03/2026
+2026-03-23 - 17:00;17:15:00;confirmada;00144;647298496;alicia gonzález moreno;-;HIGIENE DENTAL;-;-;23/03/2026
+2026-03-23 - 16:30;17:00:00;finalizada;00064;627534664;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;Rev ret. Quiere hacer una carilla;23/03/2026
+2026-03-23 - 16:00;16:30:00;finalizada;00075;693652758;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;rev inv;23/03/2026
+2026-03-23 - 15:30;15:45:00;sala de espera;00143;678870742;dra. cristina moreno;-;REVISIÓN;-;-;23/03/2026
+2026-03-23 - 12:30;13:15:00;finalizada;00113;615587444;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES LITE;-;colocar ataches y alineadores;23/03/2026
+2026-03-23 - 12:00;12:30:00;confirmada;00148;601114305;dra. cristina moreno;-;REVISIÓN;-;Rev conservadora;23/03/2026
+2026-03-23 - 11:30;12:00:00;finalizada;00077;625998816;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;23/03/2026
+2026-03-20 - 13:30;14:15:00;finalizada;00152;637876522;dra. cristina moreno;-;OBTURACION COMPUESTA (26o);-;Paciente de orto en ret. Acude con una obtutación caida;20/03/2026
+2026-03-20 - 11:30;12:00:00;finalizada;00154;626924900;dra. cristina moreno;-;-;-;-;20/03/2026
+2026-03-20 - 11:00;11:30:00;finalizada;00145;+34 717 12 08 52;dra. cristina moreno;-;-;-;amigo de Cristina, Revision;20/03/2026
+2026-03-20 - 10:10;10:25:00;finalizada;00141;696837806;dra. cristina moreno;-;-;-;-;20/03/2026
+2026-03-20 - 09:30;10:00:00;confirmada;00048;606038130;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;Hacer ret ling?????;20/03/2026
+2026-03-19 - 18:00;18:30:00;confirmada;00134;633783842;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;LP;19/03/2026
+2026-03-18 - 17:00;17:30:00;finalizada;00149;681217465;alicia gonzález moreno;-;REVISIÓN;-;DESPEGADA RET FIJA;18/03/2026
+2026-03-18 - 16:00;16:15:00;finalizada;00139;630942372;alicia gonzález moreno;-;-;-;Pulir essix, le roza;18/03/2026
+2026-03-17 - 19:00;19:15:00;finalizada;00151;645809800;dra. cristina moreno;-;-;-;-;17/03/2026
+2026-03-17 - 18:45;19:00:00;confirmada;00019;679752879;alicia gonzález moreno;-;-;-;caido bk;17/03/2026
+2026-03-17 - 18:30;18:45:00;sala de espera;00011;645809800;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;17/03/2026
+2026-03-17 - 18:00;18:30:00;confirmada;00051;663624547;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;-;17/03/2026
+2026-03-17 - 17:30;18:00:00;confirmada;00112;692168577;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;revisar essix y despegada ret;17/03/2026
+2026-03-17 - 17:30;18:00:00;finalizada;00140;653661907;alicia gonzález moreno;-;-;HIGIENE;-;17/03/2026
+2026-03-17 - 17:00;17:30:00;finalizada;00140;653661907;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;-;17/03/2026
+2026-03-17 - 16:00;16:30:00;confirmada;00135;636088238;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;17/03/2026
+2026-03-17 - 13:00;13:30:00;finalizada;00142;650244976;dra. cristina moreno;-;REVISIÓN;-;-;17/03/2026
+2026-03-17 - 12:30;13:00:00;finalizada;00110;658911179;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;17/03/2026
+2026-03-17 - 12:00;12:30:00;finalizada;00110;658911179;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;17/03/2026
+2026-03-17 - 11:30;12:00:00;finalizada;00141;696837806;dra. cristina moreno;-;REVISIÓN;-;-;17/03/2026
+2026-03-16 - 17:45;18:30:00;confirmada;00067;689050268;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;colocar ataches + ipr;16/03/2026
+2026-03-16 - 17:00;17:45:00;finalizada;00039;660538723;dra. cristina moreno;-;CORONA DE ZIRCONIO (15);OBTURACIÓN;col corona 15+ reco;16/03/2026
+2026-03-16 - 16:30;17:00:00;confirmada;00130;679770329;dra. cristina moreno;-;-;REVISIÓN ;"Rev OM, con presupuesto sin cerrar, paga mensualidades de 70;00 €";16/03/2026
+2026-03-16 - 16:00;16:30:00;finalizada;00129;609777003;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;rev ret ,pedir DNI;16/03/2026
+2026-03-16 - 15:30;16:00:00;no vino;00059;677039195;dra. cristina moreno;-;-;REVISIÓN ;rev OM;16/03/2026
+2026-03-16 - 12:00;12:30:00;finalizada;00139;630942372;dra. cristina moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;-;-;16/03/2026
+2026-03-16 - 11:30;12:00:00;finalizada;00143;678870742;dra. cristina moreno;-;REVISIÓN;-;-;16/03/2026
+2026-03-11 - 17:00;17:15:00;finalizada;00139;630942372;dra. cristina moreno;-;-;-;IMP ESSIX INF;11/03/2026
+2026-03-10 - 19:00;19:30:00;no vino;00021;669340896;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;REVISION OF;10/03/2026
+2026-03-10 - 18:30;19:00:00;confirmada;00137;676883632;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;10/03/2026
+2026-03-10 - 17:30;18:15:00;finalizada;00015;699843185;dra. cristina moreno;-;-;OBTURACIÓN;hacer aletas y reco?;10/03/2026
+2026-03-10 - 17:00;17:30:00;no vino;00132;695692686;dra. cristina moreno;-;PRIMERA VISITA ;REVISIÓN ;1ª visita para orto, hija de antigua paciente;10/03/2026
+2026-03-10 - 16:30;17:00:00;finalizada;00056;636986482;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;rev OF;10/03/2026
+2026-03-10 - 16:00;16:30:00;finalizada;00115;619537299;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;rev OF;10/03/2026
+2026-03-10 - 15:30;16:15:00;finalizada;00104;696793806;dra. cristina moreno;-;-;OBTURACIÓN;-;10/03/2026
+2026-03-09 - 19:15;19:45:00;finalizada;00084;653661907;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;rev OF;09/03/2026
+2026-03-09 - 18:30;19:15:00;confirmada;00139;630942372;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;Rev ret. Quiere cambiar ret fijo inf;09/03/2026
+2026-03-09 - 18:00;18:30:00;confirmada;00134;633783842;dra. cristina moreno;-;REVISIÓN;-;REV RET;09/03/2026
+2026-03-09 - 17:15;18:00:00;confirmada;00044;689057608;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;-;-;09/03/2026
+2026-03-09 - 16:45;17:15:00;confirmada;00018;610458803;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;-;REV OF. 20x20??;09/03/2026
+2026-03-09 - 16:30;16:45:00;confirmada;00065;628664091;dra. cristina moreno;-;-;REVISIÓN ;REV RET;09/03/2026
+2026-03-09 - 11:30;12:00:00;finalizada;00133;601367891;dra. cristina moreno;-;-;REVISIÓN ;rev ret y ver para hacer blanqueamiento;09/03/2026
+2026-03-09 - 11:00;11:30:00;finalizada;00125;69967999;dra. cristina moreno;-;-;REVISIÓN ;rev ret;09/03/2026
+2026-03-06 - 13:00;13:30:00;finalizada;00138;696218201;dra. cristina moreno;-;-;REVISIÓN ;Despegado ret fijo inf;06/03/2026
+2026-03-06 - 12:30;12:45:00;finalizada;00096;638703587;dra. cristina moreno;-;-;REVISIÓN ;rev blanq;06/03/2026
+2026-03-06 - 11:30;12:00:00;finalizada;00136;606437989;dra. cristina moreno;-;-;REVISIÓN ;-;06/03/2026
+2026-03-06 - 11:00;11:30:00;finalizada;00136;606437989;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;Pedir correo;06/03/2026
+2026-03-06 - 10:00;10:45:00;finalizada;00041;680876601;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;COL REFINAMIENTO INVISA CON ATTACHMENT;06/03/2026
+2026-03-06 - 09:30;10:00:00;finalizada;00073;685406891;dra. cristina moreno;-;-;-;Caido atache;06/03/2026
+2026-03-05 - 18:00;18:30:00;finalizada;00019;679752879;alicia gonzález moreno;-;-;-;despegado braket;05/03/2026
+2026-03-05 - 17:00;17:15:00;finalizada;00009;625461704;alicia gonzález moreno;-;-;-;despegado brak;05/03/2026
+2026-03-03 - 18:30;19:00:00;finalizada;00114;607407832;dra. cristina moreno;-;-;OBTURACIÓN;reco 26;03/03/2026
+2026-03-03 - 17:45;18:30:00;finalizada;00073;685406891;dra. cristina moreno;-;-;REVISIÓN ;rev blanq;03/03/2026
+2026-03-03 - 17:15;17:45:00;sala de espera;00035;51461046;dra. cristina moreno;-;-;REVISIÓN ;REV OM;03/03/2026
+2026-03-03 - 17:00;17:29:00;finalizada;00063;609127439;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;REVISIÓN ;REV OM;03/03/2026
+2026-03-03 - 16:45;17:00:00;confirmada;00019;679752879;alicia gonzález moreno;-;-;REVISIÓN ;despegado brak;03/03/2026
+2026-03-03 - 16:30;16:45:00;finalizada;00071;696218201;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES- UNA ARCADA;-;colocar el n5;03/03/2026
+2026-03-03 - 15:45;16:30:00;finalizada;00104;696793806;dra. cristina moreno;-;-;REVISIÓN ;COL ESSIX +  2 RECOS ;03/03/2026
+2026-03-03 - 12:30;12:45:00;finalizada;00067;689050268;dra. cristina moreno;-;-;REVISIÓN ;comentar presupuesto;03/03/2026
+2026-03-03 - 12:15;12:45:00;finalizada;00120;626340562;alicia gonzález moreno;-;-;HIGIENE;-;03/03/2026
+2026-03-03 - 12:00;12:15:00;finalizada;00120;626340562;dra. cristina moreno;-;-;REVISIÓN ;COL ESSIX comentar PANO;03/03/2026
+2026-03-02 - 19:00;19:15:00;confirmada;00117;681165752;alicia gonzález moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;REVISIÓN ;Entregar Essix;02/03/2026
+2026-03-02 - 18:45;19:15:00;confirmada;00031;651663790;dra. cristina moreno;-;-;REVISIÓN ;VER SIMULACION. Comentar estudio;02/03/2026
+2026-03-02 - 18:00;18:45:00;finalizada;00039;660538723;dra. cristina moreno;-;OBTURACION COMPUESTA (23d);OBTURACIÓN;-;02/03/2026
+2026-03-02 - 17:30;18:00:00;finalizada;00046;669582870;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;02/03/2026
+2026-03-02 - 17:00;17:30:00;finalizada;00060;609642197;dra. cristina moreno;-;-;REVISIÓN ;col essix sin coste;02/03/2026
+2026-03-02 - 16:30;17:00:00;finalizada;00028;617387518;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;rev OF;02/03/2026
+2026-03-02 - 14:00;14:30:00;finalizada;00082;607407833;dra. cristina moreno;-;-;REVISIÓN ;Revi essix y retocar recos ;02/03/2026
+2026-03-02 - 12:00;12:30:00;finalizada;00111;601273410;dra. cristina moreno;-;-;REVISIÓN ;REV RET;02/03/2026
+2026-03-02 - 11:30;12:00:00;finalizada;00113;615587444;alicia gonzález moreno;-;-;HIGIENE;-;02/03/2026
+2026-03-02 - 11:00;11:30:00;finalizada;00033;629608351;dra. cristina moreno;-;-;REVISIÓN ;quitar puntos y rev OF;02/03/2026
+2026-02-27 - 12:00;12:30:00;finalizada;00044;689057608;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;-;27/02/2026
+2026-02-27 - 11:00;11:30:00;finalizada;00128;646207118;dra. cristina moreno;-;HIGIENE DENTAL;REVISIÓN ;REV RET;27/02/2026
+2026-02-27 - 10:30;11:00:00;finalizada;00027;649151125;dra. cristina moreno;-;RETENEDOR FIJO;-;HIGIENE PREVIA;27/02/2026
+2026-02-27 - 10:00;10:30:00;finalizada;00027;649151125;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;"HIGIENE + FIJA INFERIOR
+recordar traer aparatos**";27/02/2026
+2026-02-27 - 09:30;10:00:00;finalizada;00048;606038130;dra. cristina moreno;-;-;REVISIÓN ;Colocar essix sup para blanqueamiento e inferior activado;27/02/2026
+2026-02-25 - 18:30;19:00:00;sin confirmar;00021;669340896;alicia gonzález moreno;-;-;REVISIÓN ;despegado;25/02/2026
+2026-02-25 - 18:00;18:30:00;finalizada;00009;625461704;alicia gonzález moreno;-;-;REVISIÓN ;Despegado braket;25/02/2026
+2026-02-24 - 19:45;20:00:00;confirmada;00082;607407833;dra. cristina moreno;-;-;REVISIÓN ;COL ESSIX SUP INF;24/02/2026
+2026-02-24 - 19:15;19:45:00;confirmada;00114;607407832;alicia gonzález moreno;-;-;HIGIENE;-;24/02/2026
+2026-02-24 - 19:00;19:15:00;confirmada;00114;607407832;dra. cristina moreno;-;-;REVISIÓN ;-;24/02/2026
+2026-02-24 - 18:50;19:05:00;confirmada;00051;663624547;alicia gonzález moreno;-;-;REVISIÓN ;despegado tubo;24/02/2026
+2026-02-24 - 18:30;18:45:00;sin confirmar;00050;651738221;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;rev OF;24/02/2026
+2026-02-24 - 18:00;18:30:00;confirmada;00009;625461704;dra. cristina moreno;-;-;REVISIÓN ;despegado braket;24/02/2026
+2026-02-24 - 16:30;17:00:00;confirmada;00067;689050268;dra. cristina moreno;-;-;MEDIDAS PARA ESTUDIO;-;24/02/2026
+2026-02-24 - 16:00;16:30:00;sala de espera;00113;615587444;dra. cristina moreno;-;-;REVISIÓN ;COMENTAR ESTUDIO;24/02/2026
+2026-02-24 - 12:15;12:45:00;confirmada;00120;626340562;dra. cristina moreno;-;-;REVISIÓN ;ROTO ESSIX;24/02/2026
+2026-02-24 - 11:00;11:50:00;finalizada;00121;653856219;dra. cristina moreno;-;-;OBTURACIÓN;DOS RECOS ENDODONCIADAS;24/02/2026
+2026-02-23 - 19:30;19:45:00;finalizada;00108;649355436;dra. cristina moreno;-;PRIMERA VISITA ;REVISIÓN ;rev ret;23/02/2026
+2026-02-23 - 19:15;19:45:00;confirmada;00032;600950847;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;-;23/02/2026
+2026-02-23 - 19:00;19:15:00;confirmada;00085;605131529;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;rev ret;23/02/2026
+2026-02-23 - 18:45;19:00:00;confirmada;00047;605131529;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;REVISIÓN ;rev om;23/02/2026
+2026-02-23 - 18:15;18:45:00;sala de espera;00038;652034661;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;rev inv;23/02/2026
+2026-02-23 - 18:00;18:15:00;sala de espera;00117;681165752;dra. cristina moreno;-;-;REVISIÓN ;rev ret;23/02/2026
+2026-02-23 - 17:30;18:00:00;finalizada;00060;609642197;dra. cristina moreno;-;-;REVISIÓN ;REV RET. QUIERE INFORMACION SOBRE RECORTE DE ENCIAS;23/02/2026
+2026-02-23 - 17:00;17:30:00;sala de espera;00075;693652758;dra. cristina moreno;-;-;REVISIÓN ;COL REFINAMIENTO INVISA;23/02/2026
+2026-02-23 - 16:00;17:00:00;sala de espera;00039;660538723;dra. cristina moreno;-;-;OBTURACIÓN;obt o corona;23/02/2026
+2026-02-23 - 15:45;16:15:00;sala de espera;00104;696793806;dra. cristina moreno;-;-;REVISIÓN ;REV RET;23/02/2026
+2026-02-23 - 13:30;14:00:00;finalizada;00100;675552042;dra. cristina moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;REVISIÓN ;col essix sup;23/02/2026
+2026-02-23 - 13:30;13:45:00;confirmada;00126;611153252;dra. cristina moreno;-;REVISIÓN;-;-;23/02/2026
+2026-02-23 - 13:00;13:15:00;confirmada;00122;660780742;dra. cristina moreno;-;REVISIÓN;-;rota reco incisivo;23/02/2026
+2026-02-23 - 12:30;13:00:00;confirmada;00042;608871960;dra. cristina moreno;-;-;REVISIÓN ;col  placa Hawley reparada;23/02/2026
+2026-02-23 - 12:00;13:00:00;finalizada;00004;653812211;dra. cristina moreno;-;BLANQUEAMIENTO CLINICO (18);BLANQUEAMIENTO;-;23/02/2026
+2026-02-23 - 11:00;12:00:00;finalizada;00033;629608351;dra. cristina moreno;-;EXTRACCIÓN DE CORDAL SEMI-INCLUIDO (48);EXTRACCION;Exo cordal;23/02/2026
+2026-02-20 - 14:30;15:00:00;finalizada;00081;636508602;dra. cristina moreno;-;OBTURACION COMPUESTA (26d);OBTURACIÓN;RECO 26;20/02/2026
+2026-02-20 - 13:00;13:30:00;confirmada;00119;646333581;dra. cristina moreno;-;-;REVISIÓN ;REV RET;20/02/2026
+2026-02-20 - 12:30;13:00:00;finalizada;00096;638703587;dra. cristina moreno;-;EXTRA BLANQUEAMIENTO HOME ;BLANQUEAMIENTO;-;20/02/2026
+2026-02-20 - 12:15;12:30:00;finalizada;00105;629352076;dra. cristina moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;REVISIÓN ;col essix sup;20/02/2026
+2026-02-20 - 12:00;12:15:00;finalizada;00112;692168577;dra. cristina moreno;-;-;REVISIÓN ;col essix sup;20/02/2026
+2026-02-20 - 11:30;12:00:00;confirmada;00118;617881379;dra. cristina moreno;-;-;REVISIÓN ;REV RET;20/02/2026
+2026-02-20 - 09:30;10:30:00;finalizada;00082;607407833;dra. cristina moreno;-;CARILLA DE COMPOSITE (12,22);REVISIÓN ;quitar ret sup y carillas composite 12 y 22;20/02/2026
+2026-02-19 - 18:15;19:00:00;confirmada;00106;6158878718;alicia gonzález moreno;-;-;HIGIENE;QUITAR RET + HIG;19/02/2026
+2026-02-17 - 19:15;19:45:00;finalizada;00031;651663790;dra. cristina moreno;-;-;REVISIÓN ;ESCANEADO;17/02/2026
+2026-02-17 - 19:00;19:15:00;finalizada;00100;675552042;dra. cristina moreno;-;-;REVISIÓN ;roto essix;17/02/2026
+2026-02-17 - 18:30;19:00:00;finalizada;00034;620751543;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ; REV OF;17/02/2026
+2026-02-17 - 18:00;18:30:00;finalizada;00106;6158878718;dra. cristina moreno;-;-;REVISIÓN ;RETENEDOR FIJO;17/02/2026
+2026-02-17 - 17:30;18:15:00;finalizada;00020;691496248;dra. cristina moreno;-;-;REVISIÓN ;molestias reco (rehacer??);17/02/2026
+2026-02-17 - 17:00;17:30:00;finalizada;00109;609890287;dra. cristina moreno;-;-;MEDIDAS PARA ESTUDIO;ESCANEADO Y FOTOS;17/02/2026
+2026-02-17 - 16:30;17:00:00;finalizada;00021;669340896;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;17/02/2026
+2026-02-17 - 16:00;16:30:00;finalizada;00115;619537299;dra. cristina moreno;-;-;REVISIÓN ;rev OF con canino de leche y hecha exo de 23 incluido;17/02/2026
+2026-02-17 - 13:45;14:15:00;finalizada;00056;636986482;dra. cristina moreno;-;-;REVISIÓN ;DESPEGADOS BRAQUETS;17/02/2026
+2026-02-17 - 13:15;13:30:00;finalizada;00112;692168577;alicia gonzález moreno;-;-;REVISIÓN ;ROTOS ESSIX;17/02/2026
+2026-02-17 - 13:00;13:15:00;finalizada;00019;679752879;dra. cristina moreno;-;-;REVISIÓN ;DESPEGADO TUBO;17/02/2026
+2026-02-17 - 12:30;13:00:00;finalizada;00018;610458803;dra. cristina moreno;-;-;REVISIÓN ;despegados brakets;17/02/2026
+2026-02-17 - 12:00;12:30:00;finalizada;00090;643198876;dra. cristina moreno;-;HIGIENE DENTAL;HIGIENE;limpieza;17/02/2026
+2026-02-16 - 19:00;19:15:00;finalizada;00106;6158878718;dra. cristina moreno;-;-;REVISIÓN ;1ª visita para orto;16/02/2026
+2026-02-16 - 18:30;19:00:00;finalizada;00103;629608351;dra. cristina moreno;-;PRIMERA VISITA ;REVISIÓN ;1ª visita con caries diagnosticadas por Adeslas (madre de Lara Rdguez;16/02/2026
+2026-02-16 - 17:45;18:30:00;finalizada;00033;629608351;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;OBTURACIÓN;rev OF+ reco ver si las exos de 8s se pueden hacer en SCS;16/02/2026
+2026-02-16 - 17:30;17:45:00;finalizada;00055;611416006;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;16/02/2026
+2026-02-16 - 17:30;18:00:00;finalizada;00011;645809800;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;16/02/2026
+2026-02-16 - 17:00;17:30:00;finalizada;00102;616459601;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;16/02/2026
+2026-02-16 - 16:30;17:00:00;finalizada;00102;616459601;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;16/02/2026
+2026-02-16 - 16:00;16:30:00;finalizada;00026;699291158;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;REV INV;16/02/2026
+2026-02-16 - 13:00;13:30:00;finalizada;00067;689050268;dra. cristina moreno;-;-;REVISIÓN ;molestias essix inf;16/02/2026
+2026-02-16 - 12:30;13:00:00;finalizada;00059;677039195;dra. cristina moreno;-;-;REVISIÓN ;REV OM. PACIENTE AMIGO DE SUSANA SIN PRESUPUESTO;16/02/2026
+2026-02-16 - 12:00;12:30:00;finalizada;00105;629352076;dra. cristina moreno;-;-;REVISIÓN ;ROTO ESSIX;16/02/2026
+2026-02-16 - 11:30;12:00:00;finalizada;00082;607407833;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;16/02/2026
+2026-02-16 - 11:00;11:29:00;finalizada;00113;615587444;dra. cristina moreno;-;ESTUDIO DE ORTODONCIA;-;1ºVISITA ORTO;16/02/2026
+2026-02-13 - 11:00;11:15:00;finalizada;00042;608871960;alicia gonzález moreno;-;-;REVISIÓN ;AJUSTAR RET;13/02/2026
+2026-02-10 - 19:30;19:45:00;finalizada;00073;685406891;dra. cristina moreno;-;EXTRA BLANQUEAMIENTO HOME ;BLANQUEAMIENTO;-;10/02/2026
+2026-02-10 - 19:00;19:30:00;finalizada;00051;663624547;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;rev OF;10/02/2026
+2026-02-10 - 18:45;19:00:00;finalizada;00099;-;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;Hablar invisa;10/02/2026
+2026-02-10 - 18:00;18:45:00;finalizada;00009;625461704;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;10/02/2026
+2026-02-10 - 17:30;18:00:00;finalizada;00079;679403050;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;10/02/2026
+2026-02-10 - 17:00;18:15:00;finalizada;00079;679403050;dra. cristina moreno;-;HIGIENE DENTAL, OBTURACION COMPUESTA (24m, 25d);OBTURACIÓN;-;10/02/2026
+2026-02-10 - 16:30;16:45:00;finalizada;00083;629964185;dra. cristina moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;REVISIÓN ;entegar essix superior;10/02/2026
+2026-02-10 - 16:00;16:30:00;no vino;00062;669823835;dra. cristina moreno;-;-;REVISIÓN ;REV RET. NO ESTA CONTENTA CON EL RESULTADO FINAL, VEN LOS DIENTES EN ABANICO;10/02/2026
+2026-02-10 - 12:15;13:00:00;finalizada;00007;660114673;dra. cristina moreno;-;OBTURACION COMPUESTA (14d);-;-;10/02/2026
+2026-02-10 - 11:00;12:00:00;finalizada;00004;653812211;alicia gonzález moreno;-;-;BLANQUEAMIENTO;-;10/02/2026
+2026-02-09 - 18:30;19:00:00;confirmada;00031;651663790;alicia gonzález moreno;-;-;MEDIDAS PARA ESTUDIO;IMP EST + FOTOS;09/02/2026
+2026-02-09 - 16:15;16:30:00;finalizada;00019;679752879;dra. cristina moreno;-;-;REVISIÓN ;clavado arco;09/02/2026
+2026-02-09 - 16:00;16:15:00;finalizada;00096;638703587;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;09/02/2026
+2026-02-09 - 11:30;11:45:00;finalizada;00095;659958450;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;rev ret;09/02/2026
+2026-02-09 - 11:00;11:30:00;finalizada;00095;659958450;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;09/02/2026
+2026-02-06 - 12:00;12:45:00;finalizada;00007;660114673;dra. cristina moreno;-;-;OBTURACIÓN;RECOS+ COL ESSIX;06/02/2026
+2026-02-06 - 11:30;11:45:00;confirmada;00094;684118919;dra. cristina moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;-;col essix sup;06/02/2026
+2026-02-06 - 11:00;11:30:00;confirmada;00098;646691934;dra. cristina moreno;-;-;OBTURACIÓN;Fracturada muela;06/02/2026
+2026-02-06 - 10:30;10:45:00;finalizada;00042;608871960;dra. cristina moreno;-;REPARACIÓN APARATO ORTODONCIA;REVISIÓN ;ajustar OM, lo nota ;06/02/2026
+2026-02-06 - 10:00;10:15:00;finalizada;00004;653812211;dra. cristina moreno;-;REVISIÓN;-;rev blanq 21;06/02/2026
+2026-02-06 - 10:00;10:30:00;finalizada;00072;675410360;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;06/02/2026
+2026-02-04 - 16:00;16:45:00;sin confirmar;00073;685406891;alicia gonzález moreno;-;-;REVISIÓN ;IMP INV QUITAR ATACHES ;04/02/2026
+2026-02-03 - 18:30;18:45:00;finalizada;00086;6087784364;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;03/02/2026
+2026-02-03 - 18:00;18:30:00;confirmada;00037;696148297;dra. cristina moreno;-;OBTURACION COMPUESTA (26m);OBTURACIÓN;obt 26m;03/02/2026
+2026-02-03 - 17:30;18:00:00;confirmada;00037;696148297;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;03/02/2026
+2026-02-03 - 17:00;17:30:00;finalizada;00083;629964185;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REVISION DE RET CON MOLESTIAS ATM;03/02/2026
+2026-02-03 - 16:30;17:00:00;finalizada;00056;636986482;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;03/02/2026
+2026-02-03 - 16:30;17:00:00;finalizada;00057;636986482;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;REVISIÓN ;REV OM;03/02/2026
+2026-02-03 - 16:15;16:30:00;finalizada;00094;684118919;dra. cristina moreno;-;-;REVISIÓN ;REV RET;03/02/2026
+2026-02-03 - 16:00;16:15:00;finalizada;00089;696126322;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;rev ret;03/02/2026
+2026-02-03 - 15:30;16:00:00;cancelada;00090;643198876;dra. cristina moreno;-;HIGIENE DENTAL;HIGIENE;-;03/02/2026
+2026-02-03 - 15:00;15:30:00;finalizada;00020;691496248;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;Llama para ver como continuar tratamiento Invisa y por dolor en la reco del 26;03/02/2026
+2026-02-02 - 18:45;19:30:00;cancelada;00039;660538723;dra. cristina moreno;-;-;OBTURACIÓN;-;02/02/2026
+2026-02-02 - 18:00;18:30:00;finalizada;00029;686559351;dra. cristina moreno;-;OBTURACION COMPUESTA (26d);OBTURACIÓN;reco 26;02/02/2026
+2026-02-02 - 17:30;18:00:00;finalizada;00054;686198126;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;02/02/2026
+2026-02-02 - 17:15;17:30:00;finalizada;00093;601123342;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;-;02/02/2026
+2026-02-02 - 17:00;17:30:00;cancelada;00053;686198126;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;02/02/2026
+2026-02-02 - 17:00;17:15:00;confirmada;00054;686198126;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET. VER PANO;02/02/2026
+2026-02-02 - 16:30;17:00:00;confirmada;00018;610458803;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;DESPEGADO TUBO;02/02/2026
+2026-02-02 - 16:00;16:30:00;finalizada;00052;676150659;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;REV INV;02/02/2026
+2026-02-02 - 13:00;13:30:00;finalizada;00092;690823347;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;02/02/2026
+2026-02-02 - 12:15;12:45:00;finalizada;00091;678865202;dra. cristina moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;REVISIÓN ;COL ESSIX SUP;02/02/2026
+2026-02-02 - 11:30;12:15:00;finalizada;00045;667976742;dra. cristina moreno;-;OBTURACION COMPUESTA (24d);OBTURACIÓN;reco 24 ;02/02/2026
+2026-02-02 - 11:00;11:30:00;finalizada;00045;667976742;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;02/02/2026
+2026-01-30 - 13:00;13:15:00;finalizada;00081;636508602;dra. cristina moreno;-;-;REVISIÓN ;COL ESSIX INF;30/01/2026
+2026-01-30 - 12:00;12:15:00;finalizada;00090;643198876;dra. cristina moreno;-;REVISIÓN;-;Retracción encía 43;30/01/2026
+2026-01-30 - 11:30;11:45:00;finalizada;00087;-;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;-;30/01/2026
+2026-01-30 - 11:00;11:20:00;finalizada;00091;678865202;dra. cristina moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;REVISIÓN ;ROTO ESSIX SUP;30/01/2026
+2026-01-30 - 10:15;10:45:00;confirmada;00041;680876601;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;30/01/2026
+2026-01-30 - 09:00;9:30:00;finalizada;00046;669582870;dra. cristina moreno;-;-;REVISIÓN ;COLOCAR ESSIX SUP-INF + FOTOS;30/01/2026
+2026-01-28 - 17:00;17:30:00;confirmada;00019;679752879;alicia gonzález moreno;-;-;-;"se le ha despegado un bk inferior
+(ha pasado mala noche le he dicho a la madre que puede darle ibuprofeno o paracetamol, pero que los primeros dias es normal)";28/01/2026
+2026-01-28 - 16:30;17:00:00;sin confirmar;00076;669129211;alicia gonzález moreno;-;-;HIGIENE;-;28/01/2026
+2026-01-27 - 19:30;19:45:00;confirmada;00021;669340896;alicia gonzález moreno;-;-;REVISIÓN ;despegado aparato;27/01/2026
+2026-01-27 - 19:00;19:30:00;finalizada;00084;653661907;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF ( solo tiene cementado sup de 14 a 24);27/01/2026
+2026-01-27 - 18:30;19:00:00;finalizada;00050;651738221;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;27/01/2026
+2026-01-27 - 18:00;18:30:00;finalizada;00079;679403050;dra. cristina moreno;-;-;REVISIÓN ;REV RET. REVISAR CHIMENEA DE IMPLANTE;27/01/2026
+2026-01-27 - 17:00;17:45:00;finalizada;00019;679752879;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;COLOCAR OF;27/01/2026
+2026-01-27 - 16:45;17:00:00;finalizada;00051;663624547;dra. cristina moreno;-;-;-;Salido arco;27/01/2026
+2026-01-27 - 16:30;16:45:00;finalizada;00049;699009916;dra. cristina moreno;-;-;REVISIÓN ;rev ret;27/01/2026
+2026-01-27 - 16:15;16:30:00;finalizada;00002;646862645;dra. cristina moreno;-;-;REVISIÓN ;col essix  sup e inf;27/01/2026
+2026-01-27 - 15:35;15:50:00;confirmada;00025;646447627;dra. cristina moreno;-;-;REVISIÓN ;REV BLANQ;27/01/2026
+2026-01-27 - 13:00;13:15:00;finalizada;00081;636508602;alicia gonzález moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;REVISIÓN ;IMPRESION ROTO ESSIX INF;27/01/2026
+2026-01-26 - 19:15;19:45:00;finalizada;00032;600950847;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;-;26/01/2026
+2026-01-26 - 19:00;19:15:00;finalizada;00047;605131529;dra. cristina moreno;-;-;REVISIÓN ;REV OM;26/01/2026
+2026-01-26 - 18:30;18:59:00;finalizada;00010;667462548;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;REVISIÓN ;REV OM;26/01/2026
+2026-01-26 - 18:00;18:30:00;finalizada;00076;669129211;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV CARIES;26/01/2026
+2026-01-26 - 17:30;18:00:00;finalizada;00046;669582870;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;ULTIMO ALINEADOR DE INV, POSIBLE HIG O RET LING;26/01/2026
+2026-01-26 - 17:00;17:30:00;finalizada;00073;685406891;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;REV INV.  Está con últimos alineadores. Arriba quiere cambiar carilla de 22, abajo se valoró en su día terminar espacio de molar con OF;26/01/2026
+2026-01-26 - 16:30;17:00:00;sin confirmar;00078;653915152;dra. cristina moreno;-;-;OBTURACIÓN;OBTURACION 14D;26/01/2026
+2026-01-26 - 16:00;16:30:00;finalizada;00045;667976742;dra. cristina moreno;-;-;REVISIÓN ;REV RET;26/01/2026
+2026-01-23 - 13:00;13:30:00;finalizada;00044;689057608;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;REVISION INV ;23/01/2026
+2026-01-23 - 12:00;12:45:00;finalizada;00007;660114673;dra. cristina moreno;-;-;OBTURACIÓN;Obturación;23/01/2026
+2026-01-23 - 11:15;11:45:00;finalizada;00080;636443858;dra. cristina moreno;-;-;REVISIÓN ;LLevó ortodoncia y quiere una nueva valoración ;23/01/2026
+2026-01-23 - 11:00;11:15:00;cancelada;00008;942270188;dra. cristina moreno;-;REVISIÓN;OBTURACIÓN;cancela nos llamara otro dia;23/01/2026
+2026-01-23 - 10:30;11:00:00;finalizada;00005;647486772;dra. cristina moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;REVISIÓN ;COL ESSIX SUP;23/01/2026
+2026-01-23 - 10:30;11:00:00;finalizada;00042;608871960;dra. cristina moreno;-;-;REVISIÓN ;Colocar placa hawley reparada (AV);23/01/2026
+2026-01-23 - 10:00;10:30:00;finalizada;00041;680876601;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;-;23/01/2026
+2026-01-23 - 09:30;10:00:00;finalizada;00048;606038130;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;"Tiene férula de descarga arriba y último alineador abajo. Quiere hacer blanqueamiento al terminar por lo que habrá que hacer essix sup, el producto ya lo tiene.
+Vive en Madrid, por ajustar agendas";23/01/2026
+2026-01-21 - 19:15;19:30:00;confirmada;00021;669340896;alicia gonzález moreno;-;-;REVISIÓN ;despegado tubo;21/01/2026
+2026-01-21 - 17:00;17:30:00;confirmada;00040;601371429;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;21/01/2026
+2026-01-20 - 19:30;19:45:00;finalizada;00021;669340896;alicia gonzález moreno;-;-;REVISIÓN ;molestias arco;20/01/2026
+2026-01-20 - 19:00;19:30:00;finalizada;00051;663624547;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;20/01/2026
+2026-01-20 - 18:00;18:30:00;finalizada;00033;629608351;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;20/01/2026
+2026-01-20 - 17:30;18:00:00;confirmada;00039;660538723;dra. cristina moreno;-;-;REVISIÓN ;Paciente de conservadora, posible muela rota;20/01/2026
+2026-01-20 - 17:00;17:30:00;confirmada;00039;660538723;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;Paciente de conservadora para HIG y rev posible muela rota;20/01/2026
+2026-01-20 - 16:30;16:45:00;finalizada;00002;646862645;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;20/01/2026
+2026-01-20 - 16:00;16:15:00;finalizada;00075;693652758;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;Ha perdido el retenedor inferior;20/01/2026
+2026-01-20 - 15:30;15:45:00;sin confirmar;00003;600277141;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET. POSIBLE FERULA DE DESCARGA;20/01/2026
+2026-01-20 - 12:30;13:00:00;confirmada;00034;620751543;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;20/01/2026
+2026-01-20 - 12:00;12:30:00;finalizada;00043;630146128;dra. cristina moreno;-;RETENEDOR FIJO;REVISIÓN ;rota ret fija inf;20/01/2026
+2026-01-19 - 19:00;19:30:00;cancelada;00032;600950847;dra. cristina moreno;-;-;REVISIÓN ;REV OF;19/01/2026
+2026-01-19 - 19:00;19:45:00;sin confirmar;00031;651663790;dra. cristina moreno;-;OBTURACION COMPUESTA;-;reco 16m VER PANO;19/01/2026
+2026-01-19 - 18:45;19:14:00;finalizada;00035;51461046;dra. cristina moreno;-;ORTODONCIA INTERCEPTIVA;REVISIÓN ;COLOCAR OM reparado;19/01/2026
+2026-01-19 - 18:30;19:00:00;finalizada;00038;652034661;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;REV INV;19/01/2026
+2026-01-19 - 18:29;18:44:00;finalizada;00031;651663790;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;HIG+ RECO 16M;19/01/2026
+2026-01-19 - 18:15;18:45:00;finalizada;00071;696218201;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES- UNA ARCADA;REVISIÓN ;REFINAMIENTO INV. COL ATACHE EN 13;19/01/2026
+2026-01-19 - 18:00;18:15:00;cancelada;00030;665335693;dra. cristina moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX;REVISIÓN ;REV RET. Anula la cita por enfermedad, llamará;19/01/2026
+2026-01-19 - 17:30;17:45:00;finalizada;00029;686559351;dra. cristina moreno;-;-;REVISIÓN ;HIG+ REV RET;19/01/2026
+2026-01-19 - 17:00;17:30:00;finalizada;00028;617387518;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;19/01/2026
+2026-01-19 - 17:00;17:15:00;finalizada;00015;699843185;dra. cristina moreno;-;-;REVISIÓN ;colocar essix sup;19/01/2026
+2026-01-19 - 16:30;16:45:00;finalizada;00037;696148297;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REVISIÓN DE RET;19/01/2026
+2026-01-19 - 16:15;16:30:00;finalizada;00027;649151125;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV RET;19/01/2026
+2026-01-19 - 15:30;16:00:00;finalizada;00025;646447627;dra. cristina moreno;-;OBTURACION COMPUESTA (37om);OBTURACIÓN;RECO 37 M;19/01/2026
+2026-01-19 - 14:00;14:30:00;finalizada;00026;699291158;dra. cristina moreno;-;ORTODONCIA CON ALINEADORES FULL;REVISIÓN ;REV INV;19/01/2026
+2026-01-19 - 13:30;13:45:00;finalizada;00074;942056179;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;MOLESTIAS CON RETENEDOR;19/01/2026
+2026-01-16 - 11:00;11:30:00;sin confirmar;00043;630146128;alicia gonzález moreno;-;RETENEDOR FIJO;REVISIÓN ;molestias en el ret fijo;16/01/2026
+2026-01-14 - 17:30;18:30:00;finalizada;00024;651663790;alicia gonzález moreno;-;HIGIENE DENTAL;-;-;14/01/2026
+2026-01-14 - 17:00;17:15:00;finalizada;00023;651663790;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;14/01/2026
+2026-01-13 - 18:30;19:00:00;finalizada;00021;669340896;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF;13/01/2026
+2026-01-13 - 18:00;18:30:00;finalizada;00020;691496248;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;REV INV Y CARIES;13/01/2026
+2026-01-13 - 17:00;17:45:00;finalizada;00018;610458803;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REV OF,COLOCAR INF????;13/01/2026
+2026-01-13 - 17:00;17:45:00;finalizada;00019;679752879;dra. cristina moreno;-;OBTURACION COMPUESTA (26o);OBTURACIÓN;-;13/01/2026
+2026-01-13 - 16:00;16:30:00;finalizada;00014;630581093;alicia gonzález moreno;-;HIGIENE DENTAL;HIGIENE;-;13/01/2026
+2026-01-13 - 16:00;16:45:00;finalizada;00013;630581093;dra. cristina moreno;-;OBTURACION COMPUESTA (24d,25om);-;-;13/01/2026
+2026-01-13 - 11:00;11:45:00;finalizada;00022;-;dra. cristina moreno;-;-;-;-;13/01/2026
+2026-01-12 - 18:45;19:15:00;finalizada;00011;645809800;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;REVISION OF;12/01/2026
+2026-01-12 - 18:45;19:15:00;confirmada;00017;605358412;dra. cristina moreno;-;PRIMERA VISITA ;REVISIÓN ;1V ORTODONCIA;12/01/2026
+2026-01-12 - 18:30;18:45:00;finalizada;00035;51461046;dra. cristina moreno;-;-;REVISIÓN ;ROTO OM;12/01/2026
+2026-01-12 - 18:00;18:30:00;finalizada;00009;625461704;dra. cristina moreno;-;ORTODONCIA CON APARATOLOGÍA FIJA - BRACKETS;REVISIÓN ;COLOCAR OF;12/01/2026
+2026-01-12 - 17:00;17:30:00;finalizada;00012;635063615;alicia gonzález moreno;-;RETENEDOR REMOVIBLE TIPO ESSIX, HIGIENE DENTAL;HIGIENE;colocar s-v + HIGIENE;12/01/2026
+2026-01-12 - 16:00;17:00:00;finalizada;00015;699843185;dra. cristina moreno;-;OBTURACION COMPUESTA (12m);OBTURACIÓN;QUITAR APARATOS RECO 12 Y RET LING 2+2;12/01/2026
+2026-01-09 - 12:45;13:00:00;finalizada;00008;942270188;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;REV FERULA;09/01/2026
+2026-01-09 - 12:00;12:15:00;finalizada;00007;660114673;alicia gonzález moreno;-;-;HIGIENE;REVISIÓN + HIG;09/01/2026
+2026-01-09 - 11:00;11:15:00;finalizada;00005;647486772;dra. cristina moreno;-;REVISIÓN;REVISIÓN ;-;09/01/2026
+2026-01-09 - 11:00;11:15:00;finalizada;00006;687023374;alicia gonzález moreno;-;-;HIGIENE;REVISIÓN CONSERVADORA E HIGIENE;09/01/2026
+2026-01-09 - 10:00;10:15:00;finalizada;00004;653812211;dra. cristina moreno;-;-;REVISIÓN ;-;09/01/2026
+2026-01-07 - 10:00;10:30:00;confirmada;00001;635156729;dra. cristina moreno;-;HIGIENE DENTAL;REVISIÓN ;-;07/01/2026
+2026-01-02 - 10:45;11:00:00;sin confirmar;00003;600277141;alicia gonzález moreno;-;-;REVISIÓN ;-;02/01/2026

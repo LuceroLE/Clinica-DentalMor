@@ -1,0 +1,247 @@
+DROP TABLE IF EXISTS tratamientos_silver CASCADE;
+
+CREATE TABLE tratamientos_silver (
+    -- Creamos una clave primaria nueva que se autogenera para cada fila
+    id_registro_interno BIGSERIAL PRIMARY KEY, 
+    id_tratamiento VARCHAR(50), -- Ahora puede repetirse (001, 001, 001...)
+    nombre_tratamiento VARCHAR(150) NOT NULL,
+    nro_dientes INTEGER,
+    fecha_inicio TIMESTAMP NOT NULL,
+    fecha_fin TIMESTAMP,
+    profesional VARCHAR(150),
+    estado_tratamiento VARCHAR(50),
+    CONSTRAINT chk_estado_trat CHECK (LOWER(estado_tratamiento) IN (
+        'en curso', 'finalizado', 'nuevo', 'previsto', 'cancelado', 'previo', 'pendiente'
+    ))
+);
+
+
+CREATE TABLE facturas_silver (
+    id_factura VARCHAR(50) PRIMARY KEY, -- Cambiado de BIGSERIAL a VARCHAR para aceptar "2026-00094"
+    fecha_factura TIMESTAMP NOT NULL,
+    id_paciente VARCHAR(50) NOT NULL,    -- Si tus IDs de paciente tienen ceros a la izquierda (00044), mejor VARCHAR
+    NIF VARCHAR(20),
+    localidad VARCHAR(100),
+    CP VARCHAR(15),
+    pais VARCHAR(50),
+    id_tratamiento VARCHAR(50),          -- Cambiado a VARCHAR por si los IDs son como "021"
+    nombre_tratamiento VARCHAR(150),
+    profesional VARCHAR(150),            -- Para aceptar "Dra. Cristina Moreno"
+    metodo_de_pago VARCHAR(50),
+    importe DECIMAL(12, 2),
+    importe_IVA DECIMAL(12, 2)
+);
+
+CREATE TABLE cobros_silver (
+    id_cobro BIGSERIAL PRIMARY KEY,
+    fecha_cobro TIMESTAMP,
+    id_paciente BIGINT,
+    cobro_tratamiento DECIMAL(12, 2),
+    metodo_de_pago VARCHAR(50),
+    id_tratamiento BIGINT,
+    nombre_tratamiento VARCHAR(150),
+    pago_pendiente DECIMAL(12, 2),
+    profesional VARCHAR(100), -- CAMBIADO: De BIGINT a VARCHAR para aceptar nombres
+    total_cobro DECIMAL(12, 2)
+);
+
+CREATE TABLE presupuesto_silver (
+    -- Usamos VARCHAR si tus IDs no son números puros
+    id_presupuesto VARCHAR(50) PRIMARY KEY, 
+    nombre_presupuesto VARCHAR(150),
+    id_paciente VARCHAR(50) NOT NULL,
+    fecha_inicio TIMESTAMP,
+    estado_presupuesto VARCHAR(50), 
+    CONSTRAINT chk_estado_presupuesto CHECK (LOWER(estado_presupuesto) IN ('aceptado', 'pendiente', 'rechazado', 'enviado')),
+    motivo_del_rechazo TEXT,
+    tarifa VARCHAR(50),
+    vencimiento DATE,
+    -- En dbeaver, si el Excel dice "Sí/No", cámbialo a VARCHAR o asegúrate que sea 1/0 para BOOLEAN
+    enviado VARCHAR(20), 
+    cobro_total DECIMAL(12, 2),
+    cobro_total_IVA DECIMAL(12, 2)
+);
+
+-- Conectar Hechos con Pacientes
+ALTER TABLE fact_dental_global 
+ADD CONSTRAINT fk_fact_paciente FOREIGN KEY (id_paciente) REFERENCES dim_paciente(id_paciente);
+
+-- Conectar Hechos con Tratamientos
+ALTER TABLE fact_dental_global 
+ADD CONSTRAINT fk_fact_tratamiento FOREIGN KEY (id_tratamiento) REFERENCES dim_tratamiento(id_tratamiento);
+
+-- Conectar Hechos con Profesionales
+ALTER TABLE fact_dental_global 
+ADD CONSTRAINT fk_fact_profesional FOREIGN KEY (nombre_profesional) REFERENCES dim_profesional(nombre_profesional);
+
+-- Conectar Hechos con Tiempo
+ALTER TABLE fact_dental_global 
+ADD CONSTRAINT fk_fact_tiempo FOREIGN KEY (fecha_evento) REFERENCES dim_tiempo(fecha);
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+DROP TABLE IF EXISTS fact_dental_global CASCADE;
+
+CREATE TABLE fact_dental_global (
+    -- Clave primaria propia de la tabla de hechos
+    id_hecho BIGSERIAL PRIMARY KEY,
+    
+    -- Dimensiones (Claves de referencia)
+    fecha_evento DATE NOT NULL,
+    id_paciente VARCHAR(50),
+    id_tratamiento VARCHAR(50),
+    id_profesional VARCHAR(8),
+    
+    -- Métricas de Facturación (Silver: facturas_silver)
+    id_factura_ref VARCHAR(50),
+    importe_facturado DECIMAL(12, 2) DEFAULT 0,
+    iva_facturado DECIMAL(12, 2) DEFAULT 0,
+    
+    -- Métricas de Cobros (Silver: cobros_silver)
+    id_cobro_ref BIGINT,
+    importe_cobrado DECIMAL(12, 2) DEFAULT 0,
+    pago_pendiente_actual DECIMAL(12, 2) DEFAULT 0,
+    metodo_pago VARCHAR(50),
+    
+    -- Métricas de Presupuestos (Silver: presupuesto_silver)
+    id_presupuesto_ref VARCHAR(50),
+    monto_presupuestado DECIMAL(12, 2) DEFAULT 0,
+    estado_presupuesto VARCHAR(50), -- aceptado, rechazado, pendiente
+    es_enviado VARCHAR(20),
+    
+    -- Metadata
+    tipo_registro VARCHAR(50) -- 'Factura', 'Cobro', 'Presupuesto'
+);
+
+
+----DIMENSIONES-------
+drop table if exists dim_paciente,dim_tratamiento,dim_profesional , dim_tiempo ;
+
+CREATE TABLE dim_paciente (
+    id_paciente VARCHAR(50) PRIMARY KEY, -- Clave natural del Excel
+    nif VARCHAR(20),
+    localidad VARCHAR(100),
+    cp VARCHAR(15),
+    pais VARCHAR(50)
+);
+
+CREATE TABLE dim_tratamiento (
+    id_tratamiento VARCHAR(50) PRIMARY KEY, -- El código (001, 025...)
+    nombre_tratamiento VARCHAR(150) NOT NULL
+);
+
+
+CREATE TABLE dim_profesional (
+    id_profesional VARCHAR(8) PRIMARY KEY, -- Aumentado de 8 a 100
+    nombre_profesional VARCHAR(150),         -- Aumentado de 30 a 150
+    especialidad VARCHAR(100)                -- Aumentado de 15 a 100
+);
+
+--mes en texto, semana
+CREATE TABLE dim_tiempo (
+    fecha DATE PRIMARY KEY,
+    dia INTEGER,
+    semana INTEGER,
+    mes INTEGER,
+    anio INTEGER,
+    trimestre INTEGER,
+    cuatrimestre INTEGER,
+    dia_semana_texto VARCHAR(20), -- 'Lunes', 'Martes'...
+    mes_texto VARCHAR(10)
+);
+
+--dim_citas id_cita, dni_paciente, id_profesional, fecha_cita
+CREATE TABLE dim_citas (
+    id_cita VARCHAR(50) PRIMARY KEY,
+    id_paciente VARCHAR(50), 
+    id_profesional VARCHAR(100),
+    id_tratamiento VARCHAR(50),
+    fecha_cita DATE,
+    estado_cita VARCHAR(50),
+    CONSTRAINT fk_cita_paciente FOREIGN KEY (id_paciente) REFERENCES dim_paciente(id_paciente),
+    CONSTRAINT fk_cita_profesional FOREIGN KEY (id_profesional) REFERENCES dim_profesional(id_profesional),
+    CONSTRAINT fk_cita_tratamiento FOREIGN KEY (id_tratamiento) REFERENCES dim_tratamiento(id_tratamiento)
+);
+---------------------------------------------------------------------------------------------------------------
+INSERT INTO dim_paciente (id_paciente, nif, localidad, cp, pais)
+SELECT DISTINCT id_paciente, nif, localidad, cp, pais 
+FROM facturas_silver
+ON CONFLICT (id_paciente) DO NOTHING;
+
+INSERT INTO dim_paciente (id_paciente)
+SELECT DISTINCT id_paciente 
+FROM presupuesto_silver
+ON CONFLICT (id_paciente) DO NOTHING;
+
+INSERT INTO dim_tratamiento (id_tratamiento, nombre_tratamiento)
+SELECT DISTINCT id_tratamiento, nombre_tratamiento 
+FROM tratamientos_silver
+WHERE id_tratamiento IS NOT NULL
+ON CONFLICT (id_tratamiento) DO NOTHING;
+
+INSERT INTO dim_tratamiento (id_tratamiento, nombre_tratamiento)
+SELECT DISTINCT id_tratamiento, nombre_tratamiento 
+FROM facturas_silver
+WHERE id_tratamiento IS NOT NULL
+ON CONFLICT (id_tratamiento) DO NOTHING;
+
+
+INSERT INTO dim_profesional (id_profesional)
+SELECT DISTINCT profesional FROM tratamientos_silver WHERE profesional IS NOT NULL
+UNION
+SELECT DISTINCT profesional FROM facturas_silver WHERE profesional IS NOT NULL
+UNION 
+SELECT DISTINCT profesional FROM cobros_silver WHERE profesional IS NOT NULL
+ON CONFLICT (id_profesional) DO NOTHING;
+
+
+INSERT INTO dim_tiempo (fecha, dia, mes, anio, trimestre, dia_semana_texto)
+SELECT DISTINCT 
+    d::date,
+    EXTRACT(DAY FROM d),
+    EXTRACT(MONTH FROM d),
+    EXTRACT(YEAR FROM d),
+    EXTRACT(QUARTER FROM d),
+    TO_CHAR(d, 'TMDay') -- Devuelve el día en texto (Lunes, Martes...)
+FROM (
+    SELECT fecha_inicio AS d FROM tratamientos_silver
+    UNION
+    SELECT fecha_factura FROM facturas_silver
+    UNION
+    SELECT fecha_cobro FROM cobros_silver
+    UNION
+    SELECT fecha_inicio FROM presupuesto_silver
+) AS fechas
+WHERE d IS NOT NULL
+ON CONFLICT (fecha) DO NOTHING;
+
+INSERT INTO dim_citas (id_cita, id_paciente, id_profesional, id_tratamiento, fecha_cita, estado_cita)
+SELECT id_cita, id_paciente, profesional, id_tratamiento, fecha_cita::date, estado
+FROM citas_silver
+ON CONFLICT (id_cita) DO NOTHING;
+
+--------------------------------Conexion modelo estrella-----------------------------------------------------
+
+-- Conectar con Pacientes
+ALTER TABLE fact_dental_global
+ADD CONSTRAINT fk_fact_paciente
+FOREIGN KEY (id_paciente) REFERENCES dim_paciente(id_paciente);
+
+-- Conectar con Tratamientos
+ALTER TABLE fact_dental_global
+ADD CONSTRAINT fk_fact_tratamiento
+FOREIGN KEY (id_tratamiento) REFERENCES dim_tratamiento(id_tratamiento);
+
+-- Conectar con Profesionales 
+-- (Asegúrate de que el nombre de la columna en la Fact coincida con la Dim)
+ALTER TABLE fact_dental_global
+ADD CONSTRAINT fk_fact_profesional
+FOREIGN KEY (nombre_profesional) REFERENCES dim_profesional(id_profesional);
+
+-- Conectar con Tiempo
+ALTER TABLE fact_dental_global
+ADD CONSTRAINT fk_fact_tiempo
+FOREIGN KEY (fecha_evento) REFERENCES dim_tiempo(fecha);

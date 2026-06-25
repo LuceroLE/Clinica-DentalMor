@@ -1,0 +1,67 @@
+1. Crear el repositorio en GitHub
+
+Entra en GitHub
+New repository
+Nombre del proyecto
+Public o Private
+
+cd Clinica-DentalMor
+git status
+
+2. Clonar el repositorio (cada integrante)
+En la terminal:
+git clone https://github.com/BLOPRUI/curso-git/clase-git
+/Clinica-DentalMor.git
+cd NOMBRE_REPO
+javipeerez10/clase-git
+BLOPRUI/curso-git
+
+3. Añadir a los compañeros (solo el dueño)
+Repo → Settings
+Collaborators
+Add people (los otros dos)
+
+4. Crear una rama para cada persona
+Cada uno trabaja en su rama, no en main.
+git checkout -b nombre-rama
+
+git checkout -b frontend
+git checkout -b backend
+git checkout -b bbdd
+
+5. Trabajar y guardar cambios
+Cuando hagas cambios:
+git status
+git add .
+git commit -m "Descripción clara del cambio"
+
+6. Subir tu rama a GitHub
+La primera vez:
+git push -u origin nombre-rama
+
+Luego solo:
+git push
+
+7. Mantener tu rama actualizada
+Antes de trabajar:
+git checkout main
+git pull
+git checkout nombre-rama
+git merge main
+
+8. Unir el trabajo al proyecto
+En GitHub:
+Pull Request
+De tu rama → main
+Review
+Merge
+
+
+LO QUE MAS SE UTILIZA:
+git status
+git pull
+git add .
+git commit -m "mensaje"
+git push
+git branch
+git checkout rama

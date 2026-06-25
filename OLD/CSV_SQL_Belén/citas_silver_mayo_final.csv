@@ -1,0 +1,586 @@
+id_cita,fecha_cita,hora_inicio,hora_fin,estado_cita,id_paciente,telefono,nombre_profesional,nombre_tratamiento,tipo_de_cita,observaciones
+578,2026-11-23,16:30:00,16:45:00,sin confirmar,00115,619537299,Dra. Cristina Moreno,REVISION,,
+577,2026-11-10,16:15:00,16:30:00,sin confirmar,00179,670611704,Dra. Cristina Moreno,REVISION,,REV RET
+576,2026-11-10,16:00:00,16:15:00,sin confirmar,00181,670611704,Dra. Cristina Moreno,REVISION,,REV RET
+575,2026-11-10,11:10:00,11:25:00,sin confirmar,00125,69967999,Dra. Cristina Moreno,,,
+574,2026-11-09,19:00:00,19:45:00,sin confirmar,00202,609434713,Dra. Cristina Moreno,,OBTURACION,Obturacion de 26
+573,2026-11-09,18:30:00,18:45:00,sin confirmar,00023,651663790,Dra. Cristina Moreno,,,revision
+572,2026-11-09,18:00:00,18:15:00,sin confirmar,00148,601114305,Dra. Cristina Moreno,REVISION,,
+571,2026-11-09,16:30:00,16:45:00,sin confirmar,00124,694428160,Dra. Cristina Moreno,REVISION,,
+570,2026-11-06,12:00:00,12:15:00,sin confirmar,00075,693652758,Dra. Cristina Moreno,REVISION,,rev ret revisar si necesita HIG
+569,2026-11-03,15:30:00,15:45:00,sin confirmar,00104,696793806,Dra. Cristina Moreno,REVISION,,
+568,2026-10-20,12:00:00,12:15:00,sin confirmar,00142,650244976,Dra. Cristina Moreno,,,
+567,2026-10-13,16:00:00,16:15:00,sin confirmar,00164,669773262,Dra. Cristina Moreno,,,
+566,2026-10-06,18:15:00,18:45:00,sin confirmar,00175,650 18 91 26,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+565,2026-10-06,18:00:00,18:15:00,sin confirmar,00175,650 18 91 26,Dra. Cristina Moreno,REVISION,,
+564,2026-10-06,16:30:00,16:45:00,sin confirmar,00069,656819989,Dra. Cristina Moreno,REVISION,,
+563,2026-10-05,18:30:00,19:00:00,sin confirmar,00152,637876522,Dra. Cristina Moreno,REVISION,,
+562,2026-10-05,17:00:00,17:30:00,sin confirmar,00112,692168577,Dra. Cristina Moreno,REVISION,,
+561,2026-10-05,12:30:00,12:45:00,sin confirmar,00153,692721793,Dra. Cristina Moreno,REVISION,,
+560,2026-10-02,9:00:00,9:30:00,sin confirmar,00163,634823400,Dra. Cristina Moreno,REVISION,,
+559,2026-09-28,12:30:00,12:45:00,sin confirmar,00110,658911179,Dra. Cristina Moreno,"REVISION, HIGIENE DENTAL",,
+558,2026-09-28,12:00:00,12:30:00,sin confirmar,00110,658911179,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+557,2026-09-21,16:00:00,16:15:00,sin confirmar,00027,649151125,Alicia Gonzalez Moreno,,REVISION,
+556,2026-09-14,16:00:00,16:15:00,sin confirmar,00129,609777003,Dra. Cristina Moreno,,REVISION,
+555,2026-09-08,18:30:00,19:00:00,sin confirmar,00114,607407832,Dra. Cristina Moreno,,REVISION,rev ret
+554,2026-09-07,18:15:00,18:45:00,sin confirmar,00158,647111827,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+553,2026-09-07,18:00:00,18:15:00,sin confirmar,00158,647111827,Dra. Cristina Moreno,REVISION,,
+552,2026-09-07,17:30:00,18:00:00,sin confirmar,00060,609642197,Dra. Cristina Moreno,,REVISION,rev ret
+551,2026-09-07,17:00:00,17:30:00,sin confirmar,00046,669582870,Dra. Cristina Moreno,,,
+550,2026-09-04,11:30:00,11:45:00,sin confirmar,00184,690950960,Dra. Cristina Moreno,,,rev ret
+549,2026-08-10,18:30:00,18:45:00,sin confirmar,00128,646207118,Dra. Cristina Moreno,REVISION,,REV RET
+548,2026-08-10,16:00:00,16:15:00,sin confirmar,00082,607407833,Dra. Cristina Moreno,REVISION,,rev ret y carillas
+547,2026-08-04,12:00:00,12:15:00,sin confirmar,00159,687936581,Dra. Cristina Moreno,REVISION,,Tiene IMQ para la HIG
+546,2026-08-03,11:30:00,11:45:00,sin confirmar,00117,681165752,Dra. Cristina Moreno,REVISION,,rev ret
+545,2026-07-07,17:00:00,17:30:00,sin confirmar,00130,679770329,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,,revisar aparato
+544,2026-07-06,16:30:00,17:00:00,sin confirmar,00067,689050268,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+543,2026-06-29,17:30:00,17:45:00,sin confirmar,00061,626091681,Dra. Cristina Moreno,REVISION,,REV RET
+542,2026-06-29,16:45:00,17:30:00,sin confirmar,00109,609890287,Dra. Cristina Moreno,,,N6 Y IPR
+541,2026-06-26,10:00:00,10:30:00,sin confirmar,00041,680876601,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+540,2026-06-23,16:30:00,16:59:00,sin confirmar,00035,51461046,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,,
+539,2026-06-23,16:00:00,16:30:00,sin confirmar,00026,699291158,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+538,2026-06-23,11:00:00,11:15:00,sin confirmar,00050,651738221,Dra. Cristina Moreno,,,
+537,2026-06-22,19:15:00,19:45:00,sin confirmar,00021,669340896,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+536,2026-06-22,19:00:00,19:15:00,sin confirmar,00191,629888603,Dra. Cristina Moreno,REVISION,,Rev Ferula
+535,2026-06-22,18:30:00,18:45:00,sin confirmar,00057,636986482,Dra. Cristina Moreno,,,
+534,2026-06-22,18:00:00,18:30:00,sin confirmar,00056,636986482,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+533,2026-06-22,17:00:00,17:30:00,sin confirmar,00219,603448650,Dra. Cristina Moreno,REVISION,,"REVISION Y LIMPIEZA, CONOCIDO CRISTINA"
+532,2026-06-22,16:30:00,16:45:00,sin confirmar,00218,685564231,Dra. Cristina Moreno,REVISION,,REV RET
+531,2026-06-22,16:15:00,16:30:00,sin confirmar,00144,647298496,Dra. Cristina Moreno,REVISION,,Rev ferula
+530,2026-06-15,16:30:00,16:45:00,sin confirmar,00111,601273410,Dra. Cristina Moreno,,REVISION,rev ret y valorar hacer ret fija abajo
+529,2026-06-15,16:00:00,16:30:00,sin confirmar,00111,601273410,Alicia Gonzalez Moreno,,HIGIENE,
+528,2026-06-05,11:00:00,11:15:00,sin confirmar,00033,629608351,Dra. Cristina Moreno,,,
+527,2026-06-04,16:00:00,17:00:00,sin confirmar,00206,686893204,Alicia Gonzalez Moreno,"HIGIENE DENTAL, EXTRA BLANQUEAMIENTO HOME , RETENEDOR REMOVIBLE TIPO ESSIX",,hacer foto de sonrisa y foto de frente con los retenedores puestos
+526,2026-06-03,17:30:00,18:00:00,sin confirmar,00205,669034678,Dra. Cristina Moreno,HIGIENE DENTAL,,
+525,2026-06-02,19:00:00,19:30:00,sin confirmar,00100,675552042,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+524,2026-06-02,19:00:00,19:15:00,sin confirmar,00137,676883632,Dra. Cristina Moreno,,,entrega de essix
+523,2026-06-02,18:00:00,19:00:00,sin confirmar,00034,620751543,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,POSIBLE RETIRADA DE BK
+522,2026-06-02,17:45:00,18:00:00,sin confirmar,00063,609127439,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,,
+521,2026-06-02,17:30:00,18:00:00,sin confirmar,00019,679752879,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+520,2026-06-02,17:15:00,17:30:00,sin confirmar,00018,610458803,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+519,2026-06-02,17:00:00,17:15:00,sin confirmar,00036,649573743,Dra. Cristina Moreno,REVISION,,REV RET
+518,2026-06-02,16:30:00,17:00:00,sin confirmar,00009,625461704,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+517,2026-06-02,15:00:00,16:00:00,sin confirmar,00109,609890287,Dra. Cristina Moreno,TRATAMIENTO CON ACIDO HIALURONICO,,HIALURONICO
+516,2026-06-02,12:30:00,13:45:00,sin confirmar,00011,645809800,Dra. Cristina Moreno,,,quitar brakets  ret ling  imp
+515,2026-06-01,19:00:00,19:30:00,sin confirmar,00032,600950847,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+514,2026-06-01,18:45:00,19:14:00,sin confirmar,00047,605131529,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,,
+513,2026-06-01,18:30:00,19:00:00,sin confirmar,00031,651663790,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+512,2026-06-01,18:15:00,18:30:00,sin confirmar,00108,649355436,Dra. Cristina Moreno,REVISION,,
+511,2026-06-01,18:00:00,18:15:00,sin confirmar,00051,663624547,Dra. Cristina Moreno,,,
+510,2026-06-01,17:30:00,17:45:00,sin confirmar,00213,654229822,Dra. Cristina Moreno,,,rev blanq
+509,2026-06-01,17:30:00,18:00:00,sin confirmar,00217,671833061,Dra. Cristina Moreno,PRIMERA VISITA,,1a visita para orto. Pareja de Raul Corral
+508,2026-06-01,16:30:00,17:30:00,sin confirmar,00010,667462548,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,,cementar brackets
+507,2026-06-01,16:30:00,16:45:00,sin confirmar,00028,617387518,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+506,2026-06-01,16:15:00,16:30:00,sin confirmar,00010,667462548,Alicia Gonzalez Moreno,HIGIENE DENTAL,,cementar brack
+505,2026-06-01,16:00:00,16:15:00,sin confirmar,00065,628664091,Dra. Cristina Moreno,REVISION,,rev ret
+504,2026-06-01,11:00:00,11:30:00,sin confirmar,00113,615587444,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES LITE,,
+503,2026-05-29,14:15:00,14:30:00,sin confirmar,00211,689050268,Dra. Cristina Moreno,REVISION,,Rev blanq
+502,2026-05-29,13:15:00,13:30:00,sin confirmar,00162,686228764,Dra. Cristina Moreno,REVISION,,Rev blanq
+501,2026-05-29,13:00:00,13:15:00,sin confirmar,00214,633128389,Dra. Cristina Moreno,REVISION,,"Pide cita para rev de caries, es paciente de conservadora, llevo ORTO en otro sitio"
+500,2026-05-29,12:30:00,13:00:00,sin confirmar,00201,695692686,Dra. Cristina Moreno,RETENEDOR FIJO,,Caida una reco del incisivo
+499,2026-05-29,12:00:00,12:30:00,sin confirmar,00038,652034661,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,acaba alineadores . escaneado para ref seguramente
+498,2026-05-27,18:30:00,18:45:00,sin confirmar,00011,645809800,Alicia Gonzalez Moreno,,,caido gancho gomas
+497,2026-05-26,19:00:00,19:30:00,sala de espera,00050,651738221,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+496,2026-05-26,18:30:00,18:45:00,confirmada,00137,676883632,Dra. Cristina Moreno,REVISION,,
+495,2026-05-26,18:00:00,18:20:00,confirmada,00206,686893204,Dra. Cristina Moreno,REVISION,,REV RET
+494,2026-05-26,17:45:00,18:00:00,finalizada,00205,669034678,Dra. Cristina Moreno,REVISION,,Pareja de Pablo Cantero con un canino incluido
+493,2026-05-26,17:30:00,17:45:00,finalizada,00204,676605383,Dra. Cristina Moreno,REVISION,,rev ret
+492,2026-05-26,17:00:00,17:30:00,finalizada,00204,676605383,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+491,2026-05-26,16:30:00,17:00:00,confirmada,00056,636986482,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+490,2026-05-26,16:15:00,16:30:00,sala de espera,00220,692155404,Dra. Cristina Moreno,REVISION,,
+489,2026-05-26,15:45:00,16:15:00,gabinete,00216,692155404,Dra. Cristina Moreno,PRIMERA VISITA,,1o VISITA RECO
+488,2026-05-26,15:30:00,15:45:00,confirmada,00044,689057608,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+487,2026-05-22,14:00:00,15:00:00,finalizada,00109,609890287,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES LITE,,COMIENZO
+486,2026-05-22,13:30:00,13:45:00,finalizada,00115,619537299,Dra. Cristina Moreno,,,col essix
+485,2026-05-22,12:30:00,13:00:00,finalizada,00197,629333592,Dra. Cristina Moreno,OBTURACION SIMPLE (26),,
+484,2026-05-19,19:00:00,19:30:00,finalizada,00191,629888603,Dra. Cristina Moreno,FERULA DE DESCARGA,,col essix ferula
+483,2026-05-19,18:30:00,19:00:00,sala de espera,00011,645809800,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,
+482,2026-05-19,18:00:00,18:30:00,gabinete,00215,65F99871D24,Dra. Cristina Moreno,,,
+481,2026-05-19,16:30:00,17:30:00,finalizada,00132,695692686,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,Cementar brakets
+480,2026-05-19,16:00:00,16:30:00,finalizada,00071,696218201,Dra. Cristina Moreno,,,despegada ret
+479,2026-05-19,16:00:00,16:15:00,finalizada,00052,676150659,Dra. Cristina Moreno,,,
+478,2026-05-19,13:00:00,13:30:00,finalizada,00212,942269297,Dra. Cristina Moreno,,,1a visita enviada por Lamberto
+477,2026-05-19,11:30:00,12:15:00,finalizada,00141,696837806,Dra. Cristina Moreno,OBTURACION SIMPLE (36),,
+476,2026-05-18,19:15:00,19:30:00,finalizada,00023,651663790,Dra. Cristina Moreno,,,ver PANO
+475,2026-05-18,19:00:00,19:15:00,finalizada,00031,651663790,Dra. Cristina Moreno,,,caido atache
+474,2026-05-18,17:30:00,19:00:00,finalizada,00115,619537299,Dra. Cristina Moreno,"CARILLA DE COMPOSITE, ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS",,QUITAR APARATOS RET LING Y CARiLLA COMPOSITE 13
+473,2026-05-18,17:15:00,17:30:00,finalizada,00213,654229822,Dra. Cristina Moreno,,,
+472,2026-05-18,17:00:00,17:15:00,finalizada,00019,679752879,Alicia Gonzalez Moreno,,,caida ligadura metalica
+471,2026-05-18,16:45:00,17:00:00,cancelada,00064,627534664,Dra. Cristina Moreno,EXTRACCION SIMPLE (47),,
+470,2026-05-18,16:30:00,16:45:00,finalizada,00124,694428160,Dra. Cristina Moreno,REVISION,,Rev ferula
+469,2026-05-18,16:30:00,16:45:00,finalizada,00032,600950847,Dra. Cristina Moreno,,,Viene la madre a pedir cita xq le ve la boca muy torcida y la aleta del QH se le baja todo el tiempo
+468,2026-05-18,16:15:00,16:30:00,finalizada,00130,679770329,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,,Col ap exp sup reajustado
+467,2026-05-18,16:00:00,16:15:00,finalizada,00075,693652758,Dra. Cristina Moreno,,,col essix inf
+466,2026-05-18,15:30:00,15:45:00,cancelada,00210,,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+465,2026-05-12,19:30:00,20:00:00,sala de espera,00021,669340896,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,revi metalicos
+464,2026-05-12,19:00:00,19:30:00,sala de espera,00201,695692686,Dra. Cristina Moreno,,,rota muela
+463,2026-05-12,18:45:00,19:00:00,sala de espera,00137,676883632,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+462,2026-05-12,18:30:00,18:45:00,sala de espera,00132,695692686,Dra. Cristina Moreno,,,com est
+461,2026-05-12,18:00:00,18:30:00,confirmada,00051,663624547,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REVI METALICOS
+460,2026-05-12,17:30:00,18:00:00,sala de espera,00019,679752879,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REVI METALICOS
+459,2026-05-12,17:00:00,17:30:00,finalizada,00067,689050268,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+458,2026-05-12,17:00:00,17:30:00,finalizada,00211,689050268,Dra. Cristina Moreno,,,
+457,2026-05-12,16:30:00,16:45:00,finalizada,00116,629975225,Dra. Cristina Moreno,REVISION,,rev ret
+456,2026-05-12,16:00:00,16:30:00,finalizada,00075,693652758,Dra. Cristina Moreno,,,Hacer ret ling. Imp essix
+455,2026-05-12,13:00:00,13:30:00,finalizada,00187,675613015,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+454,2026-05-12,12:30:00,12:45:00,confirmada,00203,696838895,Dra. Cristina Moreno,REVISION,REVISION,Paciente de conservadora con muchos trabajos realizados. TOMA MUCHA MEDICACION
+453,2026-05-12,12:00:00,12:30:00,confirmada,00203,696838895,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+452,2026-05-12,11:15:00,11:45:00,confirmada,00125,69967999,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+451,2026-05-12,11:00:00,11:15:00,confirmada,00125,69967999,Dra. Cristina Moreno,,REVISION,REV RET
+450,2026-05-11,19:15:00,19:30:00,finalizada,00202,609434713,Dra. Cristina Moreno,REVISION,,REV RET
+449,2026-05-11,18:30:00,19:15:00,confirmada,00141,696837806,Dra. Cristina Moreno,OBTURACION SIMPLE (16),,
+448,2026-05-11,17:30:00,17:45:00,reprogramar,00061,626091681,Dra. Cristina Moreno,REVISION,,
+447,2026-05-11,17:00:00,17:30:00,finalizada,00209,6f56611253,Dra. Cristina Moreno,,,
+446,2026-05-11,16:30:00,16:45:00,finalizada,00192,651595430,Dra. Cristina Moreno,REVISION,,"Paciente con OM, a la espera de erupcion definitivos para OF"
+445,2026-05-11,16:15:00,16:30:00,finalizada,00193,651595430,Dra. Cristina Moreno,REVISION,,"Rev ret, madre de Oscar Bustamante"
+444,2026-05-11,16:00:00,16:00:00,finalizada,00130,679770329,Dra. Cristina Moreno,"REVISION, ORTODONCIA INTERCEPTIVA",,rev OM
+443,2026-05-11,13:00:00,13:30:00,finalizada,00026,699291158,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+442,2026-05-11,12:30:00,12:45:00,finalizada,00208,677009228,Dra. Cristina Moreno,REVISION,,
+441,2026-05-11,12:00:00,12:30:00,finalizada,00208,677009228,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+440,2026-05-08,11:30:00,12:00:00,finalizada,00207,606989886,Dra. Cristina Moreno,,,Rota muela
+439,2026-05-08,10:30:00,11:15:00,finalizada,00109,609890287,Dra. Cristina Moreno,,,HIALURONIDASA
+438,2026-05-08,10:00:00,10:30:00,finalizada,00041,680876601,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+437,2026-05-06,18:30:00,19:00:00,finalizada,00189,695098322,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+436,2026-05-06,16:15:00,16:30:00,confirmada,00071,696218201,Alicia Gonzalez Moreno,,,COL ESSIX
+435,2026-05-06,16:00:00,16:15:00,confirmada,00181,670611704,Alicia Gonzalez Moreno,,,col essix
+434,2026-05-05,19:00:00,19:30:00,confirmada,00075,693652758,Dra. Cristina Moreno,,,
+433,2026-05-05,18:30:00,19:00:00,finalizada,00050,651738221,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+432,2026-05-05,18:00:00,18:30:00,sin confirmar,00201,695692686,Dra. Cristina Moreno,,,Roto empaste
+431,2026-05-05,17:45:00,18:00:00,sin confirmar,00132,695692686,Dra. Cristina Moreno,,,com est
+430,2026-05-05,17:00:00,17:45:00,finalizada,00109,609890287,Dra. Cristina Moreno,,,
+429,2026-05-05,16:30:00,17:15:00,finalizada,00115,619537299,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,Si esta bien quitar y hacer ret ling
+428,2026-05-05,16:30:00,17:00:00,finalizada,00052,676150659,Dra. Cristina Moreno,,,
+427,2026-05-05,16:00:00,16:30:00,confirmada,00071,696218201,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES UNA ARCADA,,"quitar atache, ret ling imp essix"
+426,2026-05-05,15:30:00,16:00:00,finalizada,00104,696793806,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+425,2026-05-05,12:00:00,12:45:00,finalizada,00197,629333592,Dra. Cristina Moreno,"OBTURACION SIMPLE (46,36)",,
+424,2026-05-04,19:15:00,19:30:00,finalizada,00191,629888603,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,,Escaneado para ferula
+423,2026-05-04,18:45:00,19:15:00,finalizada,00191,629888603,Alicia Gonzalez Moreno,HIGIENE DENTAL,,IMP INF
+422,2026-05-04,18:30:00,18:45:00,finalizada,00031,651663790,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+421,2026-05-04,17:45:00,18:15:00,finalizada,00148,601114305,Dra. Cristina Moreno,OBTURACION SIMPLE (23),,
+420,2026-05-04,17:00:00,17:45:00,finalizada,00181,670611704,Dra. Cristina Moreno,,,hacer recos e imp para essix
+419,2026-05-04,16:30:00,17:00:00,finalizada,00028,617387518,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+418,2026-05-04,15:30:00,15:45:00,finalizada,00121,653856219,Alicia Gonzalez Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,,col essix
+417,2026-05-04,12:45:00,13:00:00,finalizada,00195,616623311,Dra. Cristina Moreno,,,Antigua paciente de Torrelavega en fase de retencion
+416,2026-05-04,12:30:00,12:45:00,finalizada,00194,616623311,Dra. Cristina Moreno,REVISION,,Antiguo paciente de Torrelavega en fase de retencion
+415,2026-05-04,12:00:00,12:30:00,finalizada,00174,625379674,Dra. Cristina Moreno,,,Despegada ret
+414,2026-05-04,11:30:00,12:00:00,finalizada,00033,629608351,Dra. Cristina Moreno,,,
+413,2026-05-04,11:15:00,11:30:00,finalizada,00048,606038130,Dra. Cristina Moreno,,,repetir escaneado
+412,2026-05-04,11:00:00,11:15:00,finalizada,00073,685406891,Dra. Cristina Moreno,,,
+411,2026-04-30,18:00:00,18:15:00,confirmada,00033,629608351,Alicia Gonzalez Moreno,,,molestias
+410,2026-04-30,13:30:00,14:00:00,confirmada,00026,699291158,Alicia Gonzalez Moreno,ORTODONCIA CON ALINEADORES FULL,,"retirar todos los ataches. respecto a la cita de la semana que viene, los alineadores estan pedidos, cuando lleguen hay que avisar Marta por si no llegan el dia que tiene la siguiente cita de colocar"
+409,2026-04-30,12:30:00,13:00:00,finalizada,00197,629333592,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+408,2026-04-29,16:00:00,16:15:00,finalizada,00156,686340715,Alicia Gonzalez Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,,COL ESSIX SUP
+407,2026-04-28,19:00:00,19:30:00,finalizada,00189,695098322,Dra. Cristina Moreno,REVISION,,"PACIENTE DE CONSERVADORA CON ORTODONCIA HECHA EN OTRA CLINICA
+ACUDE CON MOLESTIAS EN EL RETENEDOR FIJO INFERIOR
+Tiene IMQ para la HIG"
+406,2026-04-28,18:30:00,19:00:00,finalizada,00034,620751543,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+405,2026-04-28,18:15:00,18:30:00,confirmada,00132,695692686,Dra. Cristina Moreno,REVISION,,comentar estudio
+404,2026-04-28,18:00:00,18:15:00,finalizada,00010,667462548,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,
+403,2026-04-28,17:00:00,18:00:00,finalizada,00109,609890287,Dra. Cristina Moreno,,,hialuronidasa
+402,2026-04-28,16:30:00,17:00:00,finalizada,00144,647298496,Dra. Cristina Moreno,FERULA DE DESCARGA,,
+401,2026-04-28,15:30:00,16:15:00,finalizada,00121,653856219,Dra. Cristina Moreno,RECONSTRUCCION SECTOR ANTERIOR (1121),,imp essix inf y recos esteticas 11 y 21(tiene presu de la oferta de febrero)
+400,2026-04-28,15:00:00,15:15:00,finalizada,00200,669328040,Dra. Cristina Moreno,REVISION,,Rev ret con ret ling despegada
+399,2026-04-28,13:30:00,14:15:00,finalizada,00187,675613015,Dra. Cristina Moreno,RECONSTRUCCION SECTOR ANTERIOR (1121),,
+398,2026-04-28,12:00:00,12:30:00,finalizada,00015,699843185,Dra. Cristina Moreno,,,Ddespegada ret ling
+397,2026-04-27,19:30:00,20:00:00,confirmada,00032,600950847,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,Depegado QH y dolor en un diente
+396,2026-04-27,19:15:00,19:30:00,finalizada,00191,629888603,Dra. Cristina Moreno,REVISION,,REV RET
+395,2026-04-27,18:30:00,19:15:00,finalizada,00148,601114305,Dra. Cristina Moreno,OBTURACION SIMPLE (23),,
+394,2026-04-27,17:30:00,18:00:00,finalizada,00140,653661907,Dra. Cristina Moreno,OBTURACION SIMPLE (46),,
+393,2026-04-27,17:15:00,17:30:00,finalizada,00039,660538723,Dra. Cristina Moreno,REVISION,,
+392,2026-04-27,16:30:00,17:00:00,finalizada,00124,694428160,Dra. Cristina Moreno,FERULA DE DESCARGA,,col ferula
+391,2026-04-27,12:00:00,12:15:00,finalizada,00159,687936581,Dra. Cristina Moreno,REVISION,,Rev ret. Tiene IMQ
+390,2026-04-27,11:30:00,12:00:00,finalizada,00162,686228764,Dra. Cristina Moreno,EXTRA BLANQUEAMIENTO HOME,,entregar essix sin coste y blanqueamiento casa
+389,2026-04-27,11:00:00,11:30:00,finalizada,00038,652034661,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,Revision invisa
+388,2026-04-24,13:30:00,14:00:00,confirmada,00197,629333592,Dra. Cristina Moreno,,,
+387,2026-04-24,11:30:00,12:00:00,finalizada,00184,690950960,Dra. Cristina Moreno,REVISION,,rev ret
+386,2026-04-24,10:30:00,11:00:00,finalizada,00173,648012147,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,,
+385,2026-04-23,16:30:00,16:45:00,confirmada,00050,651738221,Alicia Gonzalez Moreno,,,DEPEGADO BRAK  HACER 3 FOTOS FRONTAL Y LAS LATERALES
+384,2026-04-23,16:00:00,16:15:00,confirmada,00019,679752879,Alicia Gonzalez Moreno,,,DESPEGADO TUBO
+383,2026-04-21,19:30:00,20:00:00,finalizada,00109,609890287,Dra. Cristina Moreno,,REVISION,
+382,2026-04-21,19:20:00,19:50:00,finalizada,00011,645809800,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+381,2026-04-21,19:00:00,19:30:00,reprogramar,00151,645809800,Dra. Cristina Moreno,,,"le hicimos una exo temporal, ver si ha recambiado alguna mas"
+380,2026-04-21,18:15:00,18:30:00,finalizada,00179,670611704,Dra. Cristina Moreno,REVISION,,REV RET
+379,2026-04-21,18:00:00,18:15:00,finalizada,00141,696837806,Dra. Cristina Moreno,,,REV BLANQ
+378,2026-04-21,18:00:00,18:15:00,finalizada,00182,,Dra. Cristina Moreno,REVISION,,REV RET
+377,2026-04-21,17:30:00,18:00:00,finalizada,00175,650 18 91 26,Dra. Cristina Moreno,REVISION,REVISION,"Revi general. Llama ella para coger cita, solo puede venir por la tarde"
+376,2026-04-21,17:00:00,17:30:00,finalizada,00147,637597895,Dra. Cristina Moreno,REVISION,,comentar estudio y problema de ATM
+375,2026-04-21,16:30:00,17:00:00,finalizada,00069,656819989,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+374,2026-04-21,15:45:00,16:00:00,finalizada,00071,696218201,Dra. Cristina Moreno,,,
+373,2026-04-21,15:00:00,15:30:00,finalizada,00187,675613015,Dra. Cristina Moreno,PRIMERA VISITA,,
+372,2026-04-21,12:00:00,12:30:00,finalizada,00162,686228764,Alicia Gonzalez Moreno,HIGIENE DENTAL,,quiere hacer blanqueamiento
+371,2026-04-20,19:15:00,19:45:00,finalizada,00085,605131529,Dra. Cristina Moreno,REVISION,,
+370,2026-04-20,18:45:00,19:15:00,finalizada,00047,605131529,Dra. Cristina Moreno,OBTURACION EN DIENTE TEMPORAL,,
+369,2026-04-20,18:30:00,18:45:00,confirmada,00173,648012147,Dra. Cristina Moreno,REVISION,,
+368,2026-04-20,18:00:00,18:30:00,confirmada,00173,648012147,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+367,2026-04-20,17:30:00,18:00:00,finalizada,00148,601114305,Dra. Cristina Moreno,RECONSTRUCCION (46),,
+366,2026-04-20,17:15:00,17:30:00,confirmada,00065,628664091,Dra. Cristina Moreno,"RETENEDOR REMOVIBLE TIPO ESSIX, RETENEDOR REMOVIBLE TIPO ESSIX",,col essix superior e inferior nuevos.
+365,2026-04-20,16:45:00,17:15:00,finalizada,00188,627567677,Dra. Cristina Moreno,PRIMERA VISITA,,
+364,2026-04-20,16:15:00,16:45:00,finalizada,00044,689057608,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,REVI ALINEADORES
+363,2026-04-20,16:00:00,16:15:00,sin confirmar,00064,627534664,Dra. Cristina Moreno,,,
+362,2026-04-20,15:30:00,16:00:00,finalizada,00064,627534664,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+361,2026-04-20,11:45:00,12:00:00,finalizada,00178,615587444,Dra. Cristina Moreno,REVISION,,
+360,2026-04-20,11:30:00,11:45:00,finalizada,00113,615587444,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES LITE,,
+359,2026-04-20,11:00:00,11:30:00,finalizada,00172,695914062,Dra. Cristina Moreno,,REVISION,revision amigo de Cristina
+358,2026-04-17,10:00:00,10:15:00,confirmada,00177,699168866,Dra. Cristina Moreno,REVISION,,REV RET
+357,2026-04-17,9:30:00,10:00:00,confirmada,00177,699168866,Alicia Gonzalez Moreno,,,
+356,2026-04-14,19:50:00,19:55:00,finalizada,00049,699009916,Dra. Cristina Moreno,,REVISION,URGENCIA
+355,2026-04-14,19:10:00,19:45:00,finalizada,00183,,Dra. Cristina Moreno,,REVISION,
+354,2026-04-14,18:30:00,19:00:00,confirmada,00051,663624547,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+353,2026-04-14,18:15:00,18:45:00,finalizada,00019,679752879,Dra. Cristina Moreno,,,
+352,2026-04-14,18:00:00,18:15:00,finalizada,00137,676883632,Dra. Cristina Moreno,REVISION,,REV RET
+351,2026-04-14,17:30:00,18:00:00,finalizada,00156,686340715,Dra. Cristina Moreno,REVISION,,rev ret
+350,2026-04-14,17:15:00,17:30:00,finalizada,00058,636986482,Dra. Cristina Moreno,REVISION,,REV RET
+349,2026-04-14,17:00:00,17:15:00,finalizada,00057,636986482,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,,
+348,2026-04-14,16:30:00,17:00:00,finalizada,00056,636986482,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+347,2026-04-14,16:00:00,16:30:00,finalizada,00115,619537299,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,rev OF
+346,2026-04-14,15:45:00,16:15:00,finalizada,00164,669773262,Dra. Cristina Moreno,REVISION,,rev ret
+345,2026-04-14,13:00:00,13:45:00,finalizada,00142,650244976,Dra. Cristina Moreno,"OBTURACION SIMPLE (4645,3537)",,
+344,2026-04-14,11:30:00,11:45:00,finalizada,00139,630942372,Dra. Cristina Moreno,,,
+343,2026-04-13,19:15:00,19:30:00,confirmada,00070,620431235,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+342,2026-04-13,18:00:00,19:00:00,finalizada,00144,647298496,Dra. Cristina Moreno,CARILLA DE COMPOSITE (12),OBTURACION,CARILLA 12
+341,2026-04-13,17:30:00,18:00:00,finalizada,00174,625379674,Dra. Cristina Moreno,REVISION,,REV RET
+340,2026-04-13,17:00:00,17:30:00,finalizada,00132,695692686,Dra. Cristina Moreno,PRIMERA VISITA,,
+339,2026-04-13,16:45:00,17:15:00,finalizada,00124,694428160,Dra. Cristina Moreno,FERULA DE DESCARGA,,Rev ret. Hacer ferula de descarga
+338,2026-04-13,16:30:00,16:45:00,finalizada,00065,628664091,Dra. Cristina Moreno,REVISION,,
+337,2026-04-13,15:45:00,16:15:00,finalizada,00071,696218201,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES UNA ARCADA,,
+336,2026-04-13,12:00:00,12:30:00,finalizada,00176,647621067,Dra. Cristina Moreno,REVISION,,"rev ret, con algo de la retencion fija despegado"
+335,2026-04-10,10:00:00,10:30:00,finalizada,00041,680876601,Alicia Gonzalez Moreno,ORTODONCIA CON ALINEADORES FULL,,"DAR ALINEADOR N 4, 5 Y 6. SEGUIMOS CAMBIO CADA 10 DIAS
+HAY QUE HACER IPR EN ESA CITA: 1415 DE 0.3; 1121 DE 0.2; 3334 DE 0.4"
+334,2026-04-07,19:00:00,19:15:00,confirmada,00148,601114305,Dra. Cristina Moreno,,,
+333,2026-04-07,18:30:00,19:00:00,finalizada,00144,647298496,Dra. Cristina Moreno,,,
+332,2026-04-07,18:00:00,18:30:00,sala de espera,00140,653661907,Dra. Cristina Moreno,OBTURACION SIMPLE (16),,
+331,2026-04-07,17:45:00,18:00:00,finalizada,00063,609127439,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,rev OM
+330,2026-04-07,17:00:00,17:30:00,finalizada,00119,646333581,Dra. Cristina Moreno,,,
+329,2026-04-07,16:30:00,16:59:00,sala de espera,00035,51461046,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,rev OM
+328,2026-04-07,12:00:00,13:00:00,cancelada,00142,650244976,Dra. Cristina Moreno,"OBTURACION SIMPLE (4645,3537)",,
+327,2026-04-07,11:00:00,12:00:00,finalizada,00031,651663790,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,firmar consentimiento
+326,2026-04-06,19:30:00,20:00:00,confirmada,00160,,Dra. Cristina Moreno,,REVISION,revi
+325,2026-04-06,19:10:00,19:40:00,finalizada,00152,637876522,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+324,2026-04-06,19:00:00,19:30:00,confirmada,00032,600950847,Dra. Cristina Moreno,,REVISION,rev metalicos
+323,2026-04-06,18:30:00,19:15:00,confirmada,00152,637876522,Dra. Cristina Moreno,OBTURACION COMPUESTA (26o),,
+322,2026-04-06,18:00:00,18:45:00,confirmada,00148,601114305,Dra. Cristina Moreno,,,TERMINAR ENDO
+321,2026-04-06,17:45:00,18:00:00,finalizada,00066,689050268,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+320,2026-04-06,17:30:00,17:45:00,finalizada,00067,689050268,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,Entregar el 4 y comienzo de elasticos
+319,2026-04-06,17:00:00,17:30:00,confirmada,00136,606437989,Dra. Cristina Moreno,,,"rev retraccion de encia, se lo ve peor"
+318,2026-04-06,16:30:00,17:00:00,finalizada,00028,617387518,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,rev OF
+317,2026-04-06,16:00:00,16:30:00,finalizada,00071,696218201,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES UNA ARCADA,REVISION,Ultimos alineadores. Quitar ataches y Ret ling
+316,2026-04-06,13:30:00,13:45:00,finalizada,00171,601277962,Dra. Cristina Moreno,REVISION,REVISION,"Conocido de Javi, en tto de Bk en otro pais, quiere presupuesto"
+315,2026-04-06,12:45:00,13:30:00,finalizada,00153,692721793,Dra. Cristina Moreno,OBTURACION COMPUESTA (17),,obt 17 y 46o
+314,2026-04-06,12:00:00,12:45:00,finalizada,00026,699291158,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,retirada de ataches escanear para ref  fotos
+313,2026-04-06,11:30:00,12:00:00,finalizada,00048,606038130,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,Hacer ret ling inf
+312,2026-04-06,11:00:00,11:30:00,finalizada,00033,629608351,Dra. Cristina Moreno,,REVISION,rev of
+311,2026-04-01,17:00:00,17:30:00,sin confirmar,00170,635108272,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+310,2026-04-01,16:30:00,17:00:00,sin confirmar,00165,659745423,Alicia Gonzalez Moreno,REVISION,,
+309,2026-03-31,18:00:00,18:30:00,confirmada,00158,647111827,Dra. Cristina Moreno,REVISION,,rev ret
+308,2026-03-31,17:30:00,18:00:00,sala de espera,00163,634823400,Dra. Cristina Moreno,REVISION,HIGIENE,"Amigo Cristina, rev y limpieza. Pedir fecha nacimiento direccion y DNI"
+307,2026-03-31,17:00:00,17:45:00,finalizada,00121,653856219,Dra. Cristina Moreno,OBTURACION COMPUESTA (15),,
+306,2026-03-31,16:00:00,17:00:00,finalizada,00118,617881379,Dra. Cristina Moreno,"RETENEDOR FIJO, RECONSTRUCCION ESTETICA (22m)",,
+305,2026-03-31,13:45:00,14:00:00,finalizada,00168,,Dra. Cristina Moreno,REVISION,,
+304,2026-03-31,13:15:00,13:45:00,finalizada,00153,692721793,Dra. Cristina Moreno,OBTURACION COMPUESTA (17),REVISION,
+303,2026-03-31,12:30:00,13:00:00,finalizada,00018,610458803,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+302,2026-03-31,12:00:00,12:30:00,finalizada,00162,686228764,Dra. Cristina Moreno,,,Rev de ret con una obt caida
+301,2026-03-31,11:30:00,12:00:00,finalizada,00139,630942372,Dra. Cristina Moreno,,,
+300,2026-03-31,11:00:00,11:30:00,finalizada,00019,679752879,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,rev OF
+299,2026-03-30,18:00:00,19:00:00,finalizada,00148,601114305,Dra. Cristina Moreno,ENDODONCIA MULTIRRADICULAR (46),,endodoncia con Ali 46
+298,2026-03-30,17:30:00,18:00:00,finalizada,00140,653661907,Dra. Cristina Moreno,OBTURACION SIMPLE,OBTURACION,
+297,2026-03-30,17:15:00,17:30:00,reprogramar,00155,653661907,Dra. Cristina Moreno,REVISION,,
+296,2026-03-30,17:00:00,17:15:00,finalizada,00140,653661907,Alicia Gonzalez Moreno,,HIGIENE,limpieza perio sup
+295,2026-03-30,16:30:00,17:00:00,finalizada,00147,637597895,Dra. Cristina Moreno,REVISION,,"Rev ret. 
+Pedir DNI, telefono y correo"
+294,2026-03-30,16:00:00,16:30:00,finalizada,00065,628664091,Dra. Cristina Moreno,REVISION,,
+293,2026-03-30,15:30:00,16:00:00,finalizada,00165,659745423,Dra. Cristina Moreno,REVISION,,"REV RET, ROTO ESSIX INF, IMPRESION"
+292,2026-03-30,13:00:00,13:15:00,finalizada,00166,601158566,Dra. Cristina Moreno,REVISION,,
+291,2026-03-30,12:30:00,13:00:00,finalizada,00009,625461704,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+290,2026-03-30,11:30:00,12:00:00,finalizada,00050,651738221,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,Revi metalicos
+289,2026-03-25,16:00:00,16:30:00,confirmada,00112,692168577,Alicia Gonzalez Moreno,,,hacer ret ling
+288,2026-03-24,19:15:00,19:45:00,sala de espera,00021,669340896,Dra. Cristina Moreno,REVISION,,
+287,2026-03-24,18:30:00,19:00:00,finalizada,00034,620751543,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,rev OF
+286,2026-03-24,18:00:00,18:30:00,finalizada,00010,667462548,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,rev OM
+285,2026-03-24,17:00:00,17:30:00,finalizada,00146,608519908,Dra. Cristina Moreno,REVISION,,
+284,2026-03-24,16:30:00,17:00:00,finalizada,00146,608519908,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+283,2026-03-24,16:00:00,16:30:00,finalizada,00052,676150659,Dra. Cristina Moreno,,REVISION,REV INV
+282,2026-03-24,15:30:00,16:30:00,finalizada,00104,696793806,Dra. Cristina Moreno,"OBTURACION SIMPLE (44), OBTURACION SIMPLE (46), OBTURACION SIMPLE (26)",OBTURACION,
+281,2026-03-24,13:45:00,14:30:00,finalizada,00153,692721793,Dra. Cristina Moreno,HIGIENE DENTAL,REVISION,REVISION CARIES
+280,2026-03-24,13:15:00,13:45:00,finalizada,00153,692721793,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+279,2026-03-24,12:00:00,12:45:00,finalizada,00020,691496248,Dra. Cristina Moreno,,,"revisar reco, sigue con molestias y hablar del tto de INVISA"
+278,2026-03-23,19:00:00,19:30:00,confirmada,00032,600950847,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,Revi ortodoncia
+277,2026-03-23,18:15:00,18:30:00,confirmada,00124,694428160,Dra. Cristina Moreno,REVISION,,Rev ret
+276,2026-03-23,17:45:00,18:14:00,confirmada,00047,605131529,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,Revi ortodoncia
+275,2026-03-23,17:30:00,17:45:00,confirmada,00061,626091681,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+274,2026-03-23,17:15:00,17:30:00,confirmada,00144,647298496,Dra. Cristina Moreno,,REVISION,"rev ret, quiere hacer carilla"
+273,2026-03-23,17:00:00,17:15:00,confirmada,00144,647298496,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+272,2026-03-23,16:30:00,17:00:00,finalizada,00064,627534664,Dra. Cristina Moreno,REVISION,REVISION,Rev ret. Quiere hacer una carilla
+271,2026-03-23,16:00:00,16:30:00,finalizada,00075,693652758,Dra. Cristina Moreno,REVISION,REVISION,rev inv
+270,2026-03-23,15:30:00,15:45:00,sala de espera,00143,678870742,Dra. Cristina Moreno,REVISION,,
+269,2026-03-23,12:30:00,13:15:00,finalizada,00113,615587444,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES LITE,,colocar ataches y alineadores
+268,2026-03-23,12:00:00,12:30:00,confirmada,00148,601114305,Dra. Cristina Moreno,REVISION,,Rev conservadora
+267,2026-03-23,11:30:00,12:00:00,finalizada,00077,625998816,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+266,2026-03-20,13:30:00,14:15:00,finalizada,00152,637876522,Dra. Cristina Moreno,OBTURACION COMPUESTA (26o),,Paciente de orto en ret. Acude con una obtutacion caida
+265,2026-03-20,11:30:00,12:00:00,finalizada,00154,626924900,Dra. Cristina Moreno,,,
+264,2026-03-20,11:00:00,11:30:00,finalizada,00145,717120852,Dra. Cristina Moreno,,,"amigo de Cristina, Revision"
+263,2026-03-20,10:10:00,10:25:00,finalizada,00141,696837806,Dra. Cristina Moreno,,,
+262,2026-03-20,9:30:00,10:00:00,confirmada,00048,606038130,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,Hacer ret ling
+261,2026-03-19,18:00:00,18:30:00,confirmada,00134,633783842,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,LP
+260,2026-03-18,17:00:00,17:30:00,finalizada,00149,681217465,Alicia Gonzalez Moreno,REVISION,,DESPEGADA RET FIJA
+259,2026-03-18,16:00:00,16:15:00,finalizada,00139,630942372,Alicia Gonzalez Moreno,,,"Pulir essix, le roza"
+258,2026-03-17,19:00:00,19:15:00,finalizada,00151,645809800,Dra. Cristina Moreno,,,
+257,2026-03-17,18:45:00,19:00:00,confirmada,00019,679752879,Alicia Gonzalez Moreno,,,caido bk
+256,2026-03-17,18:30:00,18:45:00,sala de espera,00011,645809800,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+255,2026-03-17,18:00:00,18:30:00,confirmada,00051,663624547,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,
+254,2026-03-17,17:30:00,18:00:00,confirmada,00112,692168577,Dra. Cristina Moreno,REVISION,REVISION,revisar essix y despegada ret
+253,2026-03-17,17:30:00,18:00:00,finalizada,00140,653661907,Alicia Gonzalez Moreno,,HIGIENE,
+252,2026-03-17,17:00:00,17:30:00,finalizada,00140,653661907,Dra. Cristina Moreno,REVISION,REVISION,
+251,2026-03-17,16:00:00,16:30:00,confirmada,00135,636088238,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+250,2026-03-17,13:00:00,13:30:00,finalizada,00142,650244976,Dra. Cristina Moreno,REVISION,,
+249,2026-03-17,12:30:00,13:00:00,finalizada,00110,658911179,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+248,2026-03-17,12:00:00,12:30:00,finalizada,00110,658911179,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+247,2026-03-17,11:30:00,12:00:00,finalizada,00141,696837806,Dra. Cristina Moreno,REVISION,,
+246,2026-03-16,17:45:00,18:30:00,confirmada,00067,689050268,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,colocar ataches  ipr
+245,2026-03-16,17:00:00,17:45:00,finalizada,00039,660538723,Dra. Cristina Moreno,CORONA DE ZIRCONIO (15),OBTURACION,col corona 15 reco
+244,2026-03-16,16:30:00,17:00:00,confirmada,00130,679770329,Dra. Cristina Moreno,,REVISION,"Rev OM, con presupuesto sin cerrar, paga mensualidades de 70;00"
+243,2026-03-16,16:00:00,16:30:00,finalizada,00129,609777003,Dra. Cristina Moreno,REVISION,REVISION,"rev ret ,pedir DNI"
+242,2026-03-16,15:30:00,16:00:00,reprogramar,00059,677039195,Dra. Cristina Moreno,,REVISION,rev OM
+241,2026-03-16,12:00:00,12:30:00,finalizada,00139,630942372,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,,
+240,2026-03-16,11:30:00,12:00:00,finalizada,00143,678870742,Dra. Cristina Moreno,REVISION,,
+239,2026-03-11,17:00:00,17:15:00,finalizada,00139,630942372,Dra. Cristina Moreno,,,IMP ESSIX INF
+238,2026-03-10,19:00:00,19:30:00,reprogramar,00021,669340896,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,REVISION OF
+237,2026-03-10,18:30:00,19:00:00,confirmada,00137,676883632,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+236,2026-03-10,17:30:00,18:15:00,finalizada,00015,699843185,Dra. Cristina Moreno,,OBTURACION,hacer aletas y reco
+235,2026-03-10,17:00:00,17:30:00,reprogramar,00132,695692686,Dra. Cristina Moreno,PRIMERA VISITA,REVISION,"1a visita para orto, hija de antigua paciente"
+234,2026-03-10,16:30:00,17:00:00,finalizada,00056,636986482,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,rev OF
+233,2026-03-10,16:00:00,16:30:00,finalizada,00115,619537299,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,rev OF
+232,2026-03-10,15:30:00,16:15:00,finalizada,00104,696793806,Dra. Cristina Moreno,,OBTURACION,
+231,2026-03-09,19:15:00,19:45:00,finalizada,00084,653661907,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,rev OF
+230,2026-03-09,18:30:00,19:15:00,confirmada,00139,630942372,Dra. Cristina Moreno,REVISION,REVISION,Rev ret. Quiere cambiar ret fijo inf
+229,2026-03-09,18:00:00,18:30:00,confirmada,00134,633783842,Dra. Cristina Moreno,REVISION,,REV RET
+228,2026-03-09,17:15:00,18:00:00,confirmada,00044,689057608,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,,
+227,2026-03-09,16:45:00,17:15:00,confirmada,00018,610458803,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,,REV OF. 20x20
+226,2026-03-09,16:30:00,16:45:00,confirmada,00065,628664091,Dra. Cristina Moreno,,REVISION,REV RET
+225,2026-03-09,11:30:00,12:00:00,finalizada,00133,601367891,Dra. Cristina Moreno,,REVISION,rev ret y ver para hacer blanqueamiento
+224,2026-03-09,11:00:00,11:30:00,finalizada,00125,69967999,Dra. Cristina Moreno,,REVISION,rev ret
+223,2026-03-06,13:00:00,13:30:00,finalizada,00138,696218201,Dra. Cristina Moreno,,REVISION,Despegado ret fijo inf
+222,2026-03-06,12:30:00,12:45:00,finalizada,00096,638703587,Dra. Cristina Moreno,,REVISION,rev blanq
+221,2026-03-06,11:30:00,12:00:00,finalizada,00136,606437989,Dra. Cristina Moreno,,REVISION,
+220,2026-03-06,11:00:00,11:30:00,finalizada,00136,606437989,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,Pedir correo
+219,2026-03-06,10:00:00,10:45:00,finalizada,00041,680876601,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,COL REFINAMIENTO INVISA CON ATTACHMENT
+218,2026-03-06,9:30:00,10:00:00,finalizada,00073,685406891,Dra. Cristina Moreno,,,Caido atache
+217,2026-03-05,18:00:00,18:30:00,finalizada,00019,679752879,Alicia Gonzalez Moreno,,,despegado braket
+216,2026-03-05,17:00:00,17:15:00,finalizada,00009,625461704,Alicia Gonzalez Moreno,,,despegado brak
+215,2026-03-03,18:30:00,19:00:00,finalizada,00114,607407832,Dra. Cristina Moreno,,OBTURACION,reco 26
+214,2026-03-03,17:45:00,18:30:00,finalizada,00073,685406891,Dra. Cristina Moreno,,REVISION,rev blanq
+213,2026-03-03,17:15:00,17:45:00,sala de espera,00035,51461046,Dra. Cristina Moreno,,REVISION,REV OM
+212,2026-03-03,17:00:00,17:29:00,finalizada,00063,609127439,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,REV OM
+211,2026-03-03,16:45:00,17:00:00,confirmada,00019,679752879,Alicia Gonzalez Moreno,,REVISION,despegado brak
+210,2026-03-03,16:30:00,16:45:00,finalizada,00071,696218201,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES UNA ARCADA,,colocar el n5
+209,2026-03-03,15:45:00,16:30:00,finalizada,00104,696793806,Dra. Cristina Moreno,,REVISION,COL ESSIX   2 RECOS
+208,2026-03-03,12:30:00,12:45:00,finalizada,00067,689050268,Dra. Cristina Moreno,,REVISION,comentar presupuesto
+207,2026-03-03,12:15:00,12:45:00,finalizada,00120,626340562,Alicia Gonzalez Moreno,,HIGIENE,
+206,2026-03-03,12:00:00,12:15:00,finalizada,00120,626340562,Dra. Cristina Moreno,,REVISION,COL ESSIX comentar PANO
+205,2026-03-02,19:00:00,19:15:00,confirmada,00117,681165752,Alicia Gonzalez Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,REVISION,Entregar Essix
+204,2026-03-02,18:45:00,19:15:00,confirmada,00031,651663790,Dra. Cristina Moreno,,REVISION,VER SIMULACION. Comentar estudio
+203,2026-03-02,18:00:00,18:45:00,finalizada,00039,660538723,Dra. Cristina Moreno,OBTURACION COMPUESTA (23d),OBTURACION,
+202,2026-03-02,17:30:00,18:00:00,finalizada,00046,669582870,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+201,2026-03-02,17:00:00,17:30:00,finalizada,00060,609642197,Dra. Cristina Moreno,,REVISION,col essix sin coste
+200,2026-03-02,16:30:00,17:00:00,finalizada,00028,617387518,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,rev OF
+199,2026-03-02,14:00:00,14:30:00,finalizada,00082,607407833,Dra. Cristina Moreno,,REVISION,Revi essix y retocar recos
+198,2026-03-02,12:00:00,12:30:00,finalizada,00111,601273410,Dra. Cristina Moreno,,REVISION,REV RET
+197,2026-03-02,11:30:00,12:00:00,finalizada,00113,615587444,Alicia Gonzalez Moreno,,HIGIENE,
+196,2026-03-02,11:00:00,11:30:00,finalizada,00033,629608351,Dra. Cristina Moreno,,REVISION,quitar puntos y rev OF
+195,2026-02-27,12:00:00,12:30:00,finalizada,00044,689057608,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,
+194,2026-02-27,11:00:00,11:30:00,finalizada,00128,646207118,Dra. Cristina Moreno,HIGIENE DENTAL,REVISION,REV RET
+193,2026-02-27,10:30:00,11:00:00,finalizada,00027,649151125,Dra. Cristina Moreno,RETENEDOR FIJO,,HIGIENE PREVIA
+192,2026-02-27,10:00:00,10:30:00,finalizada,00027,649151125,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,"HIGIENE  FIJA INFERIOR
+recordar traer aparatos"
+191,2026-02-27,9:30:00,10:00:00,finalizada,00048,606038130,Dra. Cristina Moreno,,REVISION,Colocar essix sup para blanqueamiento e inferior activado
+190,2026-02-25,18:30:00,19:00:00,sin confirmar,00021,669340896,Alicia Gonzalez Moreno,,REVISION,despegado
+189,2026-02-25,18:00:00,18:30:00,finalizada,00009,625461704,Alicia Gonzalez Moreno,,REVISION,Despegado braket
+188,2026-02-24,19:45:00,20:00:00,confirmada,00082,607407833,Dra. Cristina Moreno,,REVISION,COL ESSIX SUP INF
+187,2026-02-24,19:15:00,19:45:00,confirmada,00114,607407832,Alicia Gonzalez Moreno,,HIGIENE,
+186,2026-02-24,19:00:00,19:15:00,confirmada,00114,607407832,Dra. Cristina Moreno,,REVISION,
+185,2026-02-24,18:50:00,19:05:00,confirmada,00051,663624547,Alicia Gonzalez Moreno,,REVISION,despegado tubo
+184,2026-02-24,18:30:00,18:45:00,sin confirmar,00050,651738221,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,rev OF
+183,2026-02-24,18:00:00,18:30:00,confirmada,00009,625461704,Dra. Cristina Moreno,,REVISION,despegado braket
+182,2026-02-24,16:30:00,17:00:00,confirmada,00067,689050268,Dra. Cristina Moreno,,MEDIDAS PARA ESTUDIO,
+181,2026-02-24,16:00:00,16:30:00,sala de espera,00113,615587444,Dra. Cristina Moreno,,REVISION,COMENTAR ESTUDIO
+180,2026-02-24,12:15:00,12:45:00,confirmada,00120,626340562,Dra. Cristina Moreno,,REVISION,ROTO ESSIX
+179,2026-02-24,11:00:00,11:50:00,finalizada,00121,653856219,Dra. Cristina Moreno,,OBTURACION,DOS RECOS ENDODONCIADAS
+178,2026-02-23,19:30:00,19:45:00,finalizada,00108,649355436,Dra. Cristina Moreno,PRIMERA VISITA,REVISION,rev ret
+177,2026-02-23,19:15:00,19:45:00,confirmada,00032,600950847,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,
+176,2026-02-23,19:00:00,19:15:00,confirmada,00085,605131529,Dra. Cristina Moreno,REVISION,REVISION,rev ret
+175,2026-02-23,18:45:00,19:00:00,confirmada,00047,605131529,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,rev om
+174,2026-02-23,18:15:00,18:45:00,sala de espera,00038,652034661,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,rev inv
+173,2026-02-23,18:00:00,18:15:00,sala de espera,00117,681165752,Dra. Cristina Moreno,,REVISION,rev ret
+172,2026-02-23,17:30:00,18:00:00,finalizada,00060,609642197,Dra. Cristina Moreno,,REVISION,REV RET. QUIERE INFORMACION SOBRE RECORTE DE ENCIAS
+171,2026-02-23,17:00:00,17:30:00,sala de espera,00075,693652758,Dra. Cristina Moreno,,REVISION,COL REFINAMIENTO INVISA
+170,2026-02-23,16:00:00,17:00:00,sala de espera,00039,660538723,Dra. Cristina Moreno,,OBTURACION,obt o corona
+169,2026-02-23,15:45:00,16:15:00,sala de espera,00104,696793806,Dra. Cristina Moreno,,REVISION,REV RET
+168,2026-02-23,13:30:00,14:00:00,finalizada,00100,675552042,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,REVISION,col essix sup
+167,2026-02-23,13:30:00,13:45:00,confirmada,00126,611153252,Dra. Cristina Moreno,REVISION,,
+166,2026-02-23,13:00:00,13:15:00,confirmada,00122,660780742,Dra. Cristina Moreno,REVISION,,rota reco incisivo
+165,2026-02-23,12:30:00,13:00:00,confirmada,00042,608871960,Dra. Cristina Moreno,,REVISION,col  placa Hawley reparada
+164,2026-02-23,12:00:00,13:00:00,finalizada,00004,653812211,Dra. Cristina Moreno,BLANQUEAMIENTO CLINICO (18),BLANQUEAMIENTO,
+163,2026-02-23,11:00:00,12:00:00,finalizada,00033,629608351,Dra. Cristina Moreno,EXTRACCION DE CORDAL SEMIINCLUIDO (48),EXTRACCION,Exo cordal
+162,2026-02-20,14:30:00,15:00:00,finalizada,00081,636508602,Dra. Cristina Moreno,OBTURACION COMPUESTA (26d),OBTURACION,RECO 26
+161,2026-02-20,13:00:00,13:30:00,confirmada,00119,646333581,Dra. Cristina Moreno,,REVISION,REV RET
+160,2026-02-20,12:30:00,13:00:00,finalizada,00096,638703587,Dra. Cristina Moreno,EXTRA BLANQUEAMIENTO HOME,BLANQUEAMIENTO,
+159,2026-02-20,12:15:00,12:30:00,finalizada,00105,629352076,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,REVISION,col essix sup
+158,2026-02-20,12:00:00,12:15:00,finalizada,00112,692168577,Dra. Cristina Moreno,,REVISION,col essix sup
+157,2026-02-20,11:30:00,12:00:00,confirmada,00118,617881379,Dra. Cristina Moreno,,REVISION,REV RET
+156,2026-02-20,9:30:00,10:30:00,finalizada,00082,607407833,Dra. Cristina Moreno,"CARILLA DE COMPOSITE (12,22)",REVISION,quitar ret sup y carillas composite 12 y 22
+155,2026-02-19,18:15:00,19:00:00,confirmada,00106,6158878718,Alicia Gonzalez Moreno,,HIGIENE,QUITAR RET  HIG
+154,2026-02-17,19:15:00,19:45:00,finalizada,00031,651663790,Dra. Cristina Moreno,,REVISION,ESCANEADO
+153,2026-02-17,19:00:00,19:15:00,finalizada,00100,675552042,Dra. Cristina Moreno,,REVISION,roto essix
+152,2026-02-17,18:30:00,19:00:00,finalizada,00034,620751543,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+151,2026-02-17,18:00:00,18:30:00,finalizada,00106,6158878718,Dra. Cristina Moreno,,REVISION,RETENEDOR FIJO
+150,2026-02-17,17:30:00,18:15:00,finalizada,00020,691496248,Dra. Cristina Moreno,,REVISION,molestias reco (rehacer)
+149,2026-02-17,17:00:00,17:30:00,finalizada,00109,609890287,Dra. Cristina Moreno,,MEDIDAS PARA ESTUDIO,ESCANEADO Y FOTOS
+148,2026-02-17,16:30:00,17:00:00,finalizada,00021,669340896,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+147,2026-02-17,16:00:00,16:30:00,finalizada,00115,619537299,Dra. Cristina Moreno,,REVISION,rev OF con canino de leche y hecha exo de 23 incluido
+146,2026-02-17,13:45:00,14:15:00,finalizada,00056,636986482,Dra. Cristina Moreno,,REVISION,DESPEGADOS BRAQUETS
+145,2026-02-17,13:15:00,13:30:00,finalizada,00112,692168577,Alicia Gonzalez Moreno,,REVISION,ROTOS ESSIX
+144,2026-02-17,13:00:00,13:15:00,finalizada,00019,679752879,Dra. Cristina Moreno,,REVISION,DESPEGADO TUBO
+143,2026-02-17,12:30:00,13:00:00,finalizada,00018,610458803,Dra. Cristina Moreno,,REVISION,despegados brakets
+142,2026-02-17,12:00:00,12:30:00,finalizada,00090,643198876,Dra. Cristina Moreno,HIGIENE DENTAL,HIGIENE,limpieza
+141,2026-02-16,19:00:00,19:15:00,finalizada,00106,6158878718,Dra. Cristina Moreno,,REVISION,1a visita para orto
+140,2026-02-16,18:30:00,19:00:00,finalizada,00103,629608351,Dra. Cristina Moreno,PRIMERA VISITA,REVISION,1a visita con caries diagnosticadas por Adeslas (madre de Lara Rdguez
+139,2026-02-16,17:45:00,18:30:00,finalizada,00033,629608351,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,OBTURACION,rev OF reco ver si las exos de 8s se pueden hacer en SCS
+138,2026-02-16,17:30:00,17:45:00,finalizada,00055,611416006,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+137,2026-02-16,17:30:00,18:00:00,finalizada,00011,645809800,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+136,2026-02-16,17:00:00,17:30:00,finalizada,00102,616459601,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+135,2026-02-16,16:30:00,17:00:00,finalizada,00102,616459601,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+134,2026-02-16,16:00:00,16:30:00,finalizada,00026,699291158,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,REV INV
+133,2026-02-16,13:00:00,13:30:00,finalizada,00067,689050268,Dra. Cristina Moreno,,REVISION,molestias essix inf
+132,2026-02-16,12:30:00,13:00:00,finalizada,00059,677039195,Dra. Cristina Moreno,,REVISION,REV OM. PACIENTE AMIGO DE SUSANA SIN PRESUPUESTO
+131,2026-02-16,12:00:00,12:30:00,finalizada,00105,629352076,Dra. Cristina Moreno,,REVISION,ROTO ESSIX
+130,2026-02-16,11:30:00,12:00:00,finalizada,00082,607407833,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+129,2026-02-16,11:00:00,11:29:00,finalizada,00113,615587444,Dra. Cristina Moreno,ESTUDIO DE ORTODONCIA,,1oVISITA ORTO
+128,2026-02-13,11:00:00,11:15:00,finalizada,00042,608871960,Alicia Gonzalez Moreno,,REVISION,AJUSTAR RET
+127,2026-02-10,19:30:00,19:45:00,finalizada,00073,685406891,Dra. Cristina Moreno,EXTRA BLANQUEAMIENTO HOME,BLANQUEAMIENTO,
+126,2026-02-10,19:00:00,19:30:00,finalizada,00051,663624547,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,rev OF
+125,2026-02-10,18:00:00,18:45:00,finalizada,00009,625461704,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+124,2026-02-10,17:30:00,18:00:00,finalizada,00079,679403050,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+123,2026-02-10,17:00:00,18:15:00,finalizada,00079,679403050,Dra. Cristina Moreno,"HIGIENE DENTAL, OBTURACION COMPUESTA (24m, 25d)",OBTURACION,
+122,2026-02-10,16:30:00,16:45:00,finalizada,00083,629964185,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,REVISION,entegar essix superior
+121,2026-02-10,16:00:00,16:30:00,reprogramar,00062,669823835,Dra. Cristina Moreno,,REVISION,"REV RET. NO ESTA CONTENTA CON EL RESULTADO FINAL, VEN LOS DIENTES EN ABANICO"
+120,2026-02-10,12:15:00,13:00:00,finalizada,00007,660114673,Dra. Cristina Moreno,OBTURACION COMPUESTA (14d),,
+119,2026-02-10,11:00:00,12:00:00,finalizada,00004,653812211,Alicia Gonzalez Moreno,,BLANQUEAMIENTO,
+118,2026-02-09,18:30:00,19:00:00,confirmada,00031,651663790,Alicia Gonzalez Moreno,,MEDIDAS PARA ESTUDIO,IMP EST  FOTOS
+117,2026-02-09,16:15:00,16:30:00,finalizada,00019,679752879,Dra. Cristina Moreno,,REVISION,clavado arco
+116,2026-02-09,16:00:00,16:15:00,finalizada,00096,638703587,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+115,2026-02-09,11:30:00,11:45:00,finalizada,00095,659958450,Dra. Cristina Moreno,REVISION,REVISION,rev ret
+114,2026-02-09,11:00:00,11:30:00,finalizada,00095,659958450,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+113,2026-02-06,12:00:00,12:45:00,finalizada,00007,660114673,Dra. Cristina Moreno,,OBTURACION,RECOS COL ESSIX
+112,2026-02-06,11:30:00,11:45:00,confirmada,00094,684118919,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,,col essix sup
+111,2026-02-06,11:00:00,11:30:00,confirmada,00098,646691934,Dra. Cristina Moreno,,OBTURACION,Fracturada muela
+110,2026-02-06,10:30:00,10:45:00,finalizada,00042,608871960,Dra. Cristina Moreno,REPARACION APARATO ORTODONCIA,REVISION,"ajustar OM, lo nota"
+109,2026-02-06,10:00:00,10:15:00,finalizada,00004,653812211,Dra. Cristina Moreno,REVISION,,rev blanq 21
+108,2026-02-06,10:00:00,10:30:00,finalizada,00072,675410360,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+107,2026-02-04,16:00:00,16:45:00,sin confirmar,00073,685406891,Alicia Gonzalez Moreno,,REVISION,IMP INV QUITAR ATACHES
+106,2026-02-03,18:30:00,18:45:00,finalizada,00086,6087784364,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+105,2026-02-03,18:00:00,18:30:00,confirmada,00037,696148297,Dra. Cristina Moreno,OBTURACION COMPUESTA (26m),OBTURACION,obt 26m
+104,2026-02-03,17:30:00,18:00:00,confirmada,00037,696148297,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+103,2026-02-03,17:00:00,17:30:00,finalizada,00083,629964185,Dra. Cristina Moreno,REVISION,REVISION,REVISION DE RET CON MOLESTIAS ATM
+102,2026-02-03,16:30:00,17:00:00,finalizada,00056,636986482,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+101,2026-02-03,16:30:00,17:00:00,finalizada,00057,636986482,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,REV OM
+100,2026-02-03,16:15:00,16:30:00,finalizada,00094,684118919,Dra. Cristina Moreno,,REVISION,REV RET
+99,2026-02-03,16:00:00,16:15:00,finalizada,00089,696126322,Dra. Cristina Moreno,REVISION,REVISION,rev ret
+98,2026-02-03,15:30:00,16:00:00,cancelada,00090,643198876,Dra. Cristina Moreno,HIGIENE DENTAL,HIGIENE,
+97,2026-02-03,15:00:00,15:30:00,finalizada,00020,691496248,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,Llama para ver como continuar tratamiento Invisa y por dolor en la reco del 26
+96,2026-02-02,18:45:00,19:30:00,cancelada,00039,660538723,Dra. Cristina Moreno,,OBTURACION,
+95,2026-02-02,18:00:00,18:30:00,finalizada,00029,686559351,Dra. Cristina Moreno,OBTURACION COMPUESTA (26d),OBTURACION,reco 26
+94,2026-02-02,17:30:00,18:00:00,finalizada,00054,686198126,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+93,2026-02-02,17:15:00,17:30:00,finalizada,00093,601123342,Dra. Cristina Moreno,REVISION,REVISION,
+92,2026-02-02,17:00:00,17:30:00,cancelada,00053,686198126,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+91,2026-02-02,17:00:00,17:15:00,confirmada,00054,686198126,Dra. Cristina Moreno,REVISION,REVISION,REV RET. VER PANO
+90,2026-02-02,16:30:00,17:00:00,confirmada,00018,610458803,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,DESPEGADO TUBO
+89,2026-02-02,16:00:00,16:30:00,finalizada,00052,676150659,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,REV INV
+88,2026-02-02,13:00:00,13:30:00,finalizada,00092,690823347,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+87,2026-02-02,12:15:00,12:45:00,finalizada,00091,678865202,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,REVISION,COL ESSIX SUP
+86,2026-02-02,11:30:00,12:15:00,finalizada,00045,667976742,Dra. Cristina Moreno,OBTURACION COMPUESTA (24d),OBTURACION,reco 24
+85,2026-02-02,11:00:00,11:30:00,finalizada,00045,667976742,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+84,2026-01-30,13:00:00,13:15:00,finalizada,00081,636508602,Dra. Cristina Moreno,,REVISION,COL ESSIX INF
+83,2026-01-30,12:00:00,12:15:00,finalizada,00090,643198876,Dra. Cristina Moreno,REVISION,,Retraccion encia 43
+82,2026-01-30,11:30:00,11:45:00,finalizada,00087,,Dra. Cristina Moreno,REVISION,REVISION,
+81,2026-01-30,11:00:00,11:20:00,finalizada,00091,678865202,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,REVISION,ROTO ESSIX SUP
+80,2026-01-30,10:15:00,10:45:00,confirmada,00041,680876601,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+79,2026-01-30,9:00:00,9:30:00,finalizada,00046,669582870,Dra. Cristina Moreno,,REVISION,COLOCAR ESSIX SUPINF  FOTOS
+78,2026-01-28,17:00:00,17:30:00,confirmada,00019,679752879,Alicia Gonzalez Moreno,,,"se le ha despegado un bk inferior
+(ha pasado mala noche le he dicho a la madre que puede darle ibuprofeno o paracetamol, pero que los primeros dias es normal)"
+77,2026-01-28,16:30:00,17:00:00,sin confirmar,00076,669129211,Alicia Gonzalez Moreno,,HIGIENE,
+76,2026-01-27,19:30:00,19:45:00,confirmada,00021,669340896,Alicia Gonzalez Moreno,,REVISION,despegado aparato
+75,2026-01-27,19:00:00,19:30:00,finalizada,00084,653661907,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF ( solo tiene cementado sup de 14 a 24)
+74,2026-01-27,18:30:00,19:00:00,finalizada,00050,651738221,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+73,2026-01-27,18:00:00,18:30:00,finalizada,00079,679403050,Dra. Cristina Moreno,,REVISION,REV RET. REVISAR CHIMENEA DE IMPLANTE
+72,2026-01-27,17:00:00,17:45:00,finalizada,00019,679752879,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,COLOCAR OF
+71,2026-01-27,16:45:00,17:00:00,finalizada,00051,663624547,Dra. Cristina Moreno,,,Salido arco
+70,2026-01-27,16:30:00,16:45:00,finalizada,00049,699009916,Dra. Cristina Moreno,,REVISION,rev ret
+69,2026-01-27,16:15:00,16:30:00,finalizada,00002,646862645,Dra. Cristina Moreno,,REVISION,col essix  sup e inf
+68,2026-01-27,15:35:00,15:50:00,confirmada,00025,646447627,Dra. Cristina Moreno,,REVISION,REV BLANQ
+67,2026-01-27,13:00:00,13:15:00,finalizada,00081,636508602,Alicia Gonzalez Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,REVISION,IMPRESION ROTO ESSIX INF
+66,2026-01-26,19:15:00,19:45:00,finalizada,00032,600950847,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,
+65,2026-01-26,19:00:00,19:15:00,finalizada,00047,605131529,Dra. Cristina Moreno,,REVISION,REV OM
+64,2026-01-26,18:30:00,18:59:00,finalizada,00010,667462548,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,REV OM
+63,2026-01-26,18:00:00,18:30:00,finalizada,00076,669129211,Dra. Cristina Moreno,REVISION,REVISION,REV CARIES
+62,2026-01-26,17:30:00,18:00:00,finalizada,00046,669582870,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,"ULTIMO ALINEADOR DE INV, POSIBLE HIG O RET LING"
+61,2026-01-26,17:00:00,17:30:00,finalizada,00073,685406891,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,"REV INV.  Esta con ultimos alineadores. Arriba quiere cambiar carilla de 22, abajo se valoro en su dia terminar espacio de molar con OF"
+60,2026-01-26,16:30:00,17:00:00,sin confirmar,00078,653915152,Dra. Cristina Moreno,,OBTURACION,OBTURACION 14D
+59,2026-01-26,16:00:00,16:30:00,finalizada,00045,667976742,Dra. Cristina Moreno,,REVISION,REV RET
+58,2026-01-23,13:00:00,13:30:00,finalizada,00044,689057608,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,REVISION INV
+57,2026-01-23,12:00:00,12:45:00,finalizada,00007,660114673,Dra. Cristina Moreno,,OBTURACION,Obturacion
+56,2026-01-23,11:15:00,11:45:00,finalizada,00080,636443858,Dra. Cristina Moreno,,REVISION,LLevo ortodoncia y quiere una nueva valoracion
+55,2026-01-23,11:00:00,11:15:00,cancelada,00008,942270188,Dra. Cristina Moreno,REVISION,OBTURACION,cancela nos llamara otro dia
+54,2026-01-23,10:30:00,11:00:00,finalizada,00005,647486772,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,REVISION,COL ESSIX SUP
+53,2026-01-23,10:30:00,11:00:00,finalizada,00042,608871960,Dra. Cristina Moreno,,REVISION,Colocar placa hawley reparada (AV)
+52,2026-01-23,10:00:00,10:30:00,finalizada,00041,680876601,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,
+51,2026-01-23,9:30:00,10:00:00,finalizada,00048,606038130,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,"Tiene ferula de descarga arriba y ultimo alineador abajo. Quiere hacer blanqueamiento al terminar por lo que habra que hacer essix sup, el producto ya lo tiene.
+Vive en Madrid, por ajustar agendas"
+50,2026-01-21,19:15:00,19:30:00,confirmada,00021,669340896,Alicia Gonzalez Moreno,,REVISION,despegado tubo
+49,2026-01-21,17:00:00,17:30:00,confirmada,00040,601371429,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+48,2026-01-20,19:30:00,19:45:00,finalizada,00021,669340896,Alicia Gonzalez Moreno,,REVISION,molestias arco
+47,2026-01-20,19:00:00,19:30:00,finalizada,00051,663624547,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+46,2026-01-20,18:00:00,18:30:00,finalizada,00033,629608351,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+45,2026-01-20,17:30:00,18:00:00,confirmada,00039,660538723,Dra. Cristina Moreno,,REVISION,"Paciente de conservadora, posible muela rota"
+44,2026-01-20,17:00:00,17:30:00,confirmada,00039,660538723,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,Paciente de conservadora para HIG y rev posible muela rota
+43,2026-01-20,16:30:00,16:45:00,finalizada,00002,646862645,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+42,2026-01-20,16:00:00,16:15:00,finalizada,00075,693652758,Dra. Cristina Moreno,REVISION,REVISION,Ha perdido el retenedor inferior
+41,2026-01-20,15:30:00,15:45:00,sin confirmar,00003,600277141,Dra. Cristina Moreno,REVISION,REVISION,REV RET. POSIBLE FERULA DE DESCARGA
+40,2026-01-20,12:30:00,13:00:00,confirmada,00034,620751543,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+39,2026-01-20,12:00:00,12:30:00,finalizada,00043,630146128,Dra. Cristina Moreno,RETENEDOR FIJO,REVISION,rota ret fija inf
+38,2026-01-19,19:00:00,19:30:00,cancelada,00032,600950847,Dra. Cristina Moreno,,REVISION,REV OF
+37,2026-01-19,19:00:00,19:45:00,sin confirmar,00031,651663790,Dra. Cristina Moreno,OBTURACION COMPUESTA,,reco 16m VER PANO
+36,2026-01-19,18:45:00,19:14:00,finalizada,00035,51461046,Dra. Cristina Moreno,ORTODONCIA INTERCEPTIVA,REVISION,COLOCAR OM reparado
+35,2026-01-19,18:30:00,19:00:00,finalizada,00038,652034661,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,REV INV
+34,2026-01-19,18:29:00,18:44:00,finalizada,00031,651663790,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,HIG RECO 16M
+33,2026-01-19,18:15:00,18:45:00,finalizada,00071,696218201,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES UNA ARCADA,REVISION,REFINAMIENTO INV. COL ATACHE EN 13
+32,2026-01-19,18:00:00,18:15:00,cancelada,00030,665335693,Dra. Cristina Moreno,RETENEDOR REMOVIBLE TIPO ESSIX,REVISION,"REV RET. Anula la cita por enfermedad, llamara"
+31,2026-01-19,17:30:00,17:45:00,finalizada,00029,686559351,Dra. Cristina Moreno,,REVISION,HIG REV RET
+30,2026-01-19,17:00:00,17:30:00,finalizada,00028,617387518,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+29,2026-01-19,17:00:00,17:15:00,finalizada,00015,699843185,Dra. Cristina Moreno,,REVISION,colocar essix sup
+28,2026-01-19,16:30:00,16:45:00,finalizada,00037,696148297,Dra. Cristina Moreno,REVISION,REVISION,REVISION DE RET
+27,2026-01-19,16:15:00,16:30:00,finalizada,00027,649151125,Dra. Cristina Moreno,REVISION,REVISION,REV RET
+26,2026-01-19,15:30:00,16:00:00,finalizada,00025,646447627,Dra. Cristina Moreno,OBTURACION COMPUESTA (37om),OBTURACION,RECO 37 M
+25,2026-01-19,14:00:00,14:30:00,finalizada,00026,699291158,Dra. Cristina Moreno,ORTODONCIA CON ALINEADORES FULL,REVISION,REV INV
+24,2026-01-19,13:30:00,13:45:00,finalizada,00074,942056179,Dra. Cristina Moreno,REVISION,REVISION,MOLESTIAS CON RETENEDOR
+23,2026-01-16,11:00:00,11:30:00,sin confirmar,00043,630146128,Alicia Gonzalez Moreno,RETENEDOR FIJO,REVISION,molestias en el ret fijo
+22,2026-01-14,17:30:00,18:30:00,finalizada,00024,651663790,Alicia Gonzalez Moreno,HIGIENE DENTAL,,
+21,2026-01-14,17:00:00,17:15:00,finalizada,00023,651663790,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+20,2026-01-13,18:30:00,19:00:00,finalizada,00021,669340896,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REV OF
+19,2026-01-13,18:00:00,18:30:00,finalizada,00020,691496248,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,REV INV Y CARIES
+18,2026-01-13,17:00:00,17:45:00,finalizada,00018,610458803,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,"REV OF,COLOCAR INF"
+17,2026-01-13,17:00:00,17:45:00,finalizada,00019,679752879,Dra. Cristina Moreno,OBTURACION COMPUESTA (26o),OBTURACION,
+16,2026-01-13,16:00:00,16:30:00,finalizada,00014,630581093,Alicia Gonzalez Moreno,HIGIENE DENTAL,HIGIENE,
+15,2026-01-13,16:00:00,16:45:00,finalizada,00013,630581093,Dra. Cristina Moreno,"OBTURACION COMPUESTA (24d,25om)",,
+14,2026-01-13,11:00:00,11:45:00,finalizada,00022,,Dra. Cristina Moreno,,,
+13,2026-01-12,18:45:00,19:15:00,finalizada,00011,645809800,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,REVISION OF
+12,2026-01-12,18:45:00,19:15:00,confirmada,00017,605358412,Dra. Cristina Moreno,PRIMERA VISITA,REVISION,1V ORTODONCIA
+11,2026-01-12,18:30:00,18:45:00,finalizada,00035,51461046,Dra. Cristina Moreno,,REVISION,ROTO OM
+10,2026-01-12,18:00:00,18:30:00,finalizada,00009,625461704,Dra. Cristina Moreno,ORTODONCIA CON APARATOLOGIA FIJA  BRACKETS,REVISION,COLOCAR OF
+9,2026-01-12,17:00:00,17:30:00,finalizada,00012,635063615,Alicia Gonzalez Moreno,"RETENEDOR REMOVIBLE TIPO ESSIX, HIGIENE DENTAL",HIGIENE,colocar sv  HIGIENE
+8,2026-01-12,16:00:00,17:00:00,finalizada,00015,699843185,Dra. Cristina Moreno,OBTURACION COMPUESTA (12m),OBTURACION,QUITAR APARATOS RECO 12 Y RET LING 22
+7,2026-01-09,12:45:00,13:00:00,finalizada,00008,942270188,Dra. Cristina Moreno,REVISION,REVISION,REV FERULA
+6,2026-01-09,12:00:00,12:15:00,finalizada,00007,660114673,Alicia Gonzalez Moreno,,HIGIENE,REVISION  HIG
+5,2026-01-09,11:00:00,11:15:00,finalizada,00005,647486772,Dra. Cristina Moreno,REVISION,REVISION,
+4,2026-01-09,11:00:00,11:15:00,finalizada,00006,687023374,Alicia Gonzalez Moreno,,HIGIENE,REVISION CONSERVADORA E HIGIENE
+3,2026-01-09,10:00:00,10:15:00,finalizada,00004,653812211,Dra. Cristina Moreno,,REVISION,
+2,2026-01-07,10:00:00,10:30:00,confirmada,00001,635156729,Dra. Cristina Moreno,HIGIENE DENTAL,REVISION,
+1,2026-01-02,10:45:00,11:00:00,sin confirmar,00003,600277141,Alicia Gonzalez Moreno,,REVISION,
