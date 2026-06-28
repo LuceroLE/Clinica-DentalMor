@@ -253,6 +253,7 @@
             <li><i class="bi bi-question-circle-fill"></i> ¿Qué porcentaje de presupuestos se acepta en gabinete?</li>
             <li><i class="bi bi-question-circle-fill"></i> ¿Qué volumen de citas se pierde por cancelaciones o no-shows?</li>
             <li><i class="bi bi-question-circle-fill"></i> ¿Estamos logrando captar nuevos pacientes de forma constante?</li>
+            <li><i class="bi bi-question-circle-fill"></i> ¿Cuánto tardamos en facturar los tratamientos realizados?</li>
         </ul>
     </div>
 
@@ -327,41 +328,73 @@
                 <div class="kpi-val">31,1 K€</div>
                 <div class="kpi-label">Facturación Total</div>
             </div>
-            <div class="kpi-card" onclick="switchKpi(this, 'f-ticket')">
-                <div class="kpi-val">131,70 €</div>
-                <div class="kpi-label">Ticket Medio</div>
+            <div class="kpi-card" onclick="switchKpi(this, 'f-tratamientos')">
+                <div class="kpi-val">59,7%</div>
+                <div class="kpi-label">Ingresos: Ortodoncia + Higiene</div>
             </div>
             <div class="kpi-card" onclick="switchKpi(this, 'f-conversion')">
                 <div class="kpi-val">54,0%</div>
                 <div class="kpi-label">Aceptación Presupuestos</div>
             </div>
             <div class="kpi-card alert" onclick="switchKpi(this, 'f-alerta')">
-                <div class="kpi-val" style="color: var(--accent);">Alerta</div>
-                <div class="kpi-label" style="color: var(--accent); font-weight:600;">Captación / No-shows</div>
+                <div class="kpi-val" style="color: var(--accent);">4,37%</div>
+                <div class="kpi-label" style="color: var(--accent); font-weight:600;">Citas Perdidas (No-shows)</div>
+            </div>
+            <div class="kpi-card" onclick="switchKpi(this, 'f-captacion')">
+                <div class="kpi-val">194</div>
+                <div class="kpi-label">Pacientes Captados</div>
+            </div>
+            <div class="kpi-card" onclick="switchKpi(this, 'f-facturacion-dias')">
+                <div class="kpi-val">3,50</div>
+                <div class="kpi-label">Días hasta Facturación</div>
             </div>
         </div>
 
         <div class="mint-panel" style="margin-top:20px; padding: 25px;">
             <div id="f-ingresos" class="console-pane active">
                 <h4>Evolución y Crecimiento</h4>
-                <p>La clínica muestra una tendencia financiera al alza en el corto plazo, registrando su pico de ingresos más alto en el mes de mayo debido al cierre efectivo de tratamientos complejos.</p>
+                <p>La clínica muestra una tendencia financiera al alza en el corto plazo, registrando su pico de ingresos más alto en el mes de mayo debido al cierre efectivo de tratamientos complejos. El ticket medio general se situó en <strong>131,70 €</strong> por paciente, con una facturación total de <strong>31.100 €</strong> en el periodo analizado.</p>
             </div>
-
-        <div id="f-ticket" class="console-pane">
-            <h4>Análisis Estadístico de la Facturación</h4>
-            <p>El ticket medio general se situó en <strong>131,70 €</strong>. Al ejecutar análisis descriptivos en Python, descubrimos un fuerte sesgo a la derecha (asimetría positiva) en la distribución de ingresos: la media supera notablemente a la mediana (100,00 €) debido a un volumen pequeño de tratamientos de alto valor económico (entre 390 € y 1600 €) que elevan la facturación general.</p>
-            <img src="INFORME/IMAGENES/regresion_lineal_simple.png" alt="Regresión lineal simple: Ingreso vs Edad" style="width:100%; border-radius:10px; margin-top:15px; border:1px solid var(--border-color);">
-        </div>
-
-
+            <div id="f-tratamientos" class="console-pane">
+                <h4>Tratamientos más rentables</h4>
+                <p>El top de tratamientos por ingresos lo encabezan los <strong>Estudios de Ortodoncia</strong> (la especialidad de la doctora, con el precio más alto) y la <strong>Higiene Dental</strong> (de bajo coste pero muy contratada). Entre ambos suponen casi un <strong>60% de los ingresos totales</strong> de la clínica.</p>
+            </div>
             <div id="f-conversion" class="console-pane">
                 <h4>Rendimiento Clínico</h4>
                 <p>La tasa de aceptación de presupuestos se estabilizó en un saludable <strong>53,97%</strong>, lo que demuestra un diagnóstico clínico inicial sólido en el gabinete de la Dra. Moreno.</p>
             </div>
             <div id="f-alerta" class="console-pane">
                 <h4 style="color: var(--accent);">Riesgos Estratégicos Detectados</h4>
-                <p>El análisis desveló que, a pesar del aumento en los ingresos mensuales, la clínica está sufriendo una preocupante <strong>desaceleración en la captación de nuevos pacientes</strong> y se enfrenta al impacto operativo de las ausencias imprevistas (no-shows), un factor crítico que vacía agendas y debilita la rentabilidad a largo plazo.</p>
+                <p>La tasa de asistencia es de un <strong>95,63%</strong>, lo que implica que un <strong>4,37% de las citas</strong> se pierden por cancelaciones o no-shows: de cada 100 citas agendadas, entre 4 y 5 no se llegan a completar. Además, la clínica está sufriendo una preocupante <strong>desaceleración en la captación de nuevos pacientes</strong>, un factor crítico que vacía agendas y debilita la rentabilidad a largo plazo.</p>
             </div>
+            <div id="f-captacion" class="console-pane">
+                <h4>Captación de Pacientes</h4>
+                <p>En total se han captado <strong>194 pacientes</strong> en el periodo, con una media de <strong>38,8 pacientes/mes</strong>. Sin embargo, la tendencia es decreciente: de 62 captaciones en enero a solo 23 en mayo. El grupo predominante son los pacientes <strong>menores de 30 años</strong>, edad habitual para iniciar tratamientos de ortodoncia.</p>
+            </div>
+            <div id="f-facturacion-dias" class="console-pane">
+                <h4>Eficiencia del Ciclo de Facturación</h4>
+                <p>De media, transcurren <strong>3,50 días</strong> entre la realización de un tratamiento y su facturación efectiva. Este plazo se considera dentro de la normalidad y refleja un buen control del flujo de caja de la clínica.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="story-section">
+        <div class="section-tag">Modelo Predictivo</div>
+        <h2 class="section-title">¿Influye la edad en el ingreso por tratamiento?</h2>
+
+        <p style="text-align: center; max-width: 650px; margin: 0 auto 25px auto; font-size: 1.05rem;">
+            Para responder a esta pregunta se construyó, a través de <strong>Google Colab y Python</strong>, un modelo de <strong>regresión lineal simple</strong> que relaciona la variable edad del paciente con el ingreso generado por venta.
+        </p>
+
+        <img src="INFORME/IMAGENES/regresion_lineal_simple.png" alt="Regresión lineal simple: Ingreso vs Edad" style="width:100%; border-radius:10px; margin: 10px 0 30px 0; border:1px solid var(--border-color);">
+
+        <div class="mint-panel">
+            <p>
+                El rango de pacientes se concentra entre los 10 y los 50 años, con algún outlier puntual. La mayoría de ingresos por tratamiento no supera los 100 €, aunque a partir de los 30 años comienzan a contratarse tratamientos de entre 200 € y 500 €.
+            </p>
+            <p style="margin-bottom:0;">
+                Sin embargo, el modelo arroja un <strong>R² de 0,0063</strong>: solo el <strong>0,63% de la variabilidad del ingreso</strong> se explica por la edad. Este valor ínfimo confirma que <strong>la edad, por sí sola, no es un predictor fiable del ingreso</strong>. El enfoque de futuras estrategias debería dirigirse a otras variables, como el nivel de ingresos del paciente, el tipo de tratamiento elegido o el plan de pago acordado.
+            </p>
         </div>
     </div>
 
