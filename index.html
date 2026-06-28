@@ -421,11 +421,15 @@
 
     <div class="story-section">
         <div class="section-tag">Conclusión Ejecutiva</div>
-        <h2 class="section-title">¿Qué debería hacer ahora la clínica?</h2>
+        <h2 class="section-title">Conclusiones y Recomendaciones</h2>
 
-        <div style="background: var(--bg-light); border: 1px dashed var(--primary); border-radius: 12px; padding: 25px; margin-bottom: 30px; text-align: center;">
-            <span style="font-size: 0.75rem; uppercase; letter-spacing: 1px; color: #64748b; display: block; margin-bottom: 15px; font-weight: 600;">
-                <i class="bi bi-bar-chart-steps"></i> MONITOREO DE INDICADORES CRÍTICOS (CIERRE MAYO 2026)
+        <p style="text-align: center; max-width: 650px; margin: 0 auto 30px auto; font-size: 1.05rem;">
+            Resumen de los principales hallazgos del análisis y propuestas de mejora para incrementar ingresos, captación y eficiencia operativa.
+        </p>
+
+        <div style="background: var(--bg-light); border: 1px dashed var(--primary); border-radius: 12px; padding: 25px; margin-bottom: 35px; text-align: center;">
+            <span style="font-size: 0.75rem; letter-spacing: 1px; color: #64748b; display: block; margin-bottom: 15px; font-weight: 600; text-transform: uppercase;">
+                <i class="bi bi-bar-chart-steps"></i> Monitoreo de indicadores críticos (cierre mayo 2026)
             </span>
             
             <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 15px;">
@@ -449,15 +453,54 @@
             </div>
         </div>
 
-        <div class="mint-panel" style="margin-bottom: 0;">
-            <p>
-                El negocio muestra indicadores financieros saludables en el corto plazo, especialmente gracias al incremento de tratamientos cerrados durante mayo.
-            </p>
-            <p>
-                Sin embargo, la reducción progresiva de nuevos pacientes representa el principal riesgo estratégico detectado durante el análisis.
-            </p>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab(event, 'con-economico')">Rendimiento Económico</button>
+            <button class="tab-btn" onclick="switchTab(event, 'con-captacion')">Captación y Perfil</button>
+            <button class="tab-btn" onclick="switchTab(event, 'con-acciones')">Acciones Prioritarias</button>
+        </div>
+
+        <div id="con-economico" class="tab-content active">
+            <ul class="objectives-box" style="margin-bottom: 25px;">
+                <li><i class="bi bi-check-circle-fill"></i> La clínica ha generado <strong>31,1 K€</strong> entre enero y mayo.</li>
+                <li><i class="bi bi-check-circle-fill"></i> La facturación muestra una tendencia positiva, alcanzando su mejor resultado en mayo: <strong>8.097 €</strong>.</li>
+                <li><i class="bi bi-check-circle-fill"></i> El ticket medio de facturación por tratamiento se mantiene estable en <strong>131,70 €</strong>.</li>
+            </ul>
+            <div class="mint-panel" style="margin: 0;">
+                <h4 style="margin-top:0; color: var(--primary-dark);"><i class="bi bi-lightbulb-fill"></i> Recomendación</h4>
+                <p style="margin-bottom:0;">Potenciar los tratamientos de mayor valor económico (Ortodoncia e Higiene Dental), ya que concentran cerca del <strong>58-60% de los ingresos generados</strong>.</p>
+            </div>
+        </div>
+
+        <div id="con-captacion" class="tab-content">
+            <ul class="objectives-box" style="margin-bottom: 25px;">
+                <li><i class="bi bi-check-circle-fill"></i> Se captaron <strong>194 pacientes nuevos</strong> durante el periodo.</li>
+                <li><i class="bi bi-check-circle-fill"></i> El grupo predominante son los pacientes <strong>menores de 30 años</strong>.</li>
+                <li><i class="bi bi-check-circle-fill"></i> La captación mensual desciende progresivamente de <strong>62 pacientes en enero a 23 en mayo</strong>.</li>
+            </ul>
+            <div class="mint-panel" style="margin: 0;">
+                <h4 style="margin-top:0; color: var(--primary-dark);"><i class="bi bi-lightbulb-fill"></i> Recomendación</h4>
+                <p style="margin-bottom:0;">Implementar campañas de marketing segmentadas: una en redes sociales para captar pacientes menores de 35 años y otra orientada a pacientes mayores de 35 años para promover tratamientos de mayor valor, optimizando así la inversión y la captación de nuevos pacientes.</p>
+            </div>
+        </div>
+
+        <div id="con-acciones" class="tab-content">
+            <h4 style="color: var(--primary-dark); margin-top:0;"><i class="bi bi-clock-fill"></i> Corto plazo (1-3 meses)</h4>
+            <ul class="objectives-box" style="margin-bottom: 25px; text-align:left;">
+                <li><i class="bi bi-arrow-right-circle-fill"></i> Lanzar campaña de captación en redes sociales dirigida a menores de 30 años.</li>
+                <li><i class="bi bi-arrow-right-circle-fill"></i> Promocionar los tratamientos más rentables (Ortodoncia e Higiene Dental).</li>
+                <li><i class="bi bi-arrow-right-circle-fill"></i> Implementar un programa de fidelización para pacientes recurrentes.</li>
+            </ul>
+            <h4 style="color: var(--primary-dark);"><i class="bi bi-calendar-range-fill"></i> Medio plazo (3-6 meses)</h4>
+            <ul class="objectives-box" style="margin-bottom: 0; text-align:left;">
+                <li><i class="bi bi-arrow-right-circle-fill"></i> Analizar las causas de la caída en la captación mensual.</li>
+                <li><i class="bi bi-arrow-right-circle-fill"></i> Medir el rendimiento de las campañas mediante KPIs de conversión.</li>
+                <li><i class="bi bi-arrow-right-circle-fill"></i> Incrementar la recurrencia de pacientes mediante revisiones programadas.</li>
+            </ul>
+        </div>
+
+        <div class="mint-panel" style="margin-top: 35px; margin-bottom: 0;">
             <p style="margin-bottom: 0;">
-                La prioridad para los próximos meses debería centrarse en <strong>reforzar la captación comercial</strong>, <strong>mejorar la conversión de presupuestos</strong> y continuar monitorizando la evolución de la demanda mediante el dashboard interactivo de Power BI.
+                En definitiva, la prioridad para los próximos meses debería centrarse en <strong>reforzar la captación comercial</strong>, <strong>mejorar la conversión de presupuestos</strong> y continuar monitorizando la evolución de la demanda mediante el dashboard interactivo de Power BI.
             </p>
         </div>
     </div>
