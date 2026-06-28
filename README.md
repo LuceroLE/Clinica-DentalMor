@@ -1,35 +1,59 @@
-Análisis de Rendimiento Operativo y Financiero: Clínica Dental (Q1 2026)
-Objetivo del Proyecto
-Evaluación del primer cuatrimestre de apertura de la clínica para identificar cuellos de botella operativos, medir la receptividad comercial de los pacientes y optimizar el flujo de caja. El fin último es transformar datos de gestión en decisiones estratégicas que aceleren el crecimiento del negocio.
+Objetivo del análisis: 
+Analizar el rendimiento de una clínica dental recién abierta para identificar oportunidades de mejora en ingresos, gestión de pacientes y eficiencia operativa.
+Preguntas de negocio + Posibles KPIs:
 
-Pilares del Análisis y KPIs Desarrollados
-1. Mix de Facturación y Rentabilidad de Tratamientos
-Enfoque: Identificar qué servicios sostienen el negocio y cuáles tienen baja rotación.
+-¿Cómo ha evolucionado la facturación en el primer cuatrimestre?
+Facturación total del cuatrimestre
+Facturación mensual
+Crecimiento de ingresos mes a mes
+Ingreso medio por cita
+Ingreso medio por paciente
 
-Métricas: Volumen e ingresos por tipo de tratamiento, porcentaje de aportación al total de la facturación y matriz de tratamientos más/menos vendidos.
 
-2. Conversión Comercial (Presupuestos)
-Enfoque: Medir la efectividad del equipo a la hora de cerrar planes de tratamiento y el impacto económico de las oportunidades perdidas.
+-¿Qué tratamientos generan más ingresos?
+Número de tratamientos realizados por tipo
+Ingresos generados por tratamiento
+Porcentaje de ingresos por tratamiento
+Ranking de tratamientos más vendidos
+Ranking de tratamientos menos vendidos
 
-Métricas: Tasa de aceptación de presupuestos (%), volumen total emitido y ticket medio de presupuestos aprobados vs. rechazados.
 
-3. Optimización de Agenda y Captación de Pacientes
-Enfoque: Evaluar el absentismo y el ritmo de crecimiento de la cartera de clientes.
+-¿Qué porcentaje de presupuestos se acepta?
+Número total de presupuestos
+Número de presupuestos aceptados
+Número de presupuestos rechazados
+Tasa de aceptación de presupuestos (%)
+Precio medio de presupuestos aceptados
+Precio medio de presupuestos rechazados
 
-Métricas: Ratio de ocupación real (citas realizadas vs. no-shows y cancelaciones), volumen mensual de pacientes nuevos y el balance porcentual entre pacientes nuevos y recurrentes.
+-¿Qué porcentaje de citas se pierde por cancelaciones o no-shows?
+Número total de citas programadas
+Número de citas realizadas
+Número de cancelaciones
+Número de no-shows
+% de citas realizadas
+% de cancelaciones
+% de no-shows
 
-4. Eficiencia Operativa y Ciclo de Facturación
-Enfoque: Auditar la velocidad con la que los tratamientos realizados se convierten en ingresos reales (flujo de caja).
+-¿Estamos captando pacientes nuevos?
+Número de pacientes nuevos por mes
+Número total de pacientes atendidos
+Porcentaje de pacientes nuevos vs recurrentes
+Evolución mensual de nuevos pacientes
 
-Métricas: Días promedio y mediana transcurridos entre el tratamiento y su facturación, porcentaje de facturación inmediata (mismo día) y detección de retrasos críticos (>30 días).
+-¿Cuánto tardamos en facturar los tratamientos?
+Días promedio entre tratamiento y facturación
+Mediana de días hasta facturación
+Número de tratamientos facturados el mismo día
+% de tratamientos facturados el mismo día
+Número de tratamientos facturados con retraso (>30 días)
 
-Pipeline Técnico y Metodología
-El proyecto se estructuró en un flujo de trabajo de datos de extremo a extremo (End-to-End):
+-Fuentes de datos
+Los datos utilizados en este análisis proceden del sistema de gestión de la clínica (VeviClinic) e incluyen información sobre facturación, cobros, presupuestos, tratamientos y citas realizadas durante el primer trimestre de 2026.
 
-Origen de Datos: Extracción de datos transaccionales del software de gestión médica VeviClinic (módulos de citas, presupuestos, tratamientos y facturación del primer cuatrimestre de 2026).
-
-Limpieza y Preparación: Tratamiento preliminar en Excel para la corrección de inconsistencias, gestión de nulos y anonimización de datos sensibles de pacientes bajo normativas de privacidad.
-
-Modelado de Datos: Almacenamiento y estructuración en SQL mediante el diseño de un modelo en estrella (tablas de hechos y dimensiones) para optimizar el rendimiento de las consultas.
-
-Visualización e Insights: Desarrollo de un cuadro de mando interactivo en Power BI enfocado en el negocio, facilitando la detección de anomalías y la toma de decisiones directivas.
+-Herramientas utilizadas y proceso de trabajo
+Extracción de datos desde el sistema de gestión de la clínica
+Limpieza y anonimización en Excel
+Transformación y modelado en SQL (tablas de hechos y dimensiones)
+Construcción de dashboards en Power BI
+Análisis de resultados e insights de negocio
